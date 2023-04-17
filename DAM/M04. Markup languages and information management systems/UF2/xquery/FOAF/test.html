@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="http://localhost:8984/BaseXHTTPClient.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <table>
+      <thead>
+        <tr><th>Nombre</th></tr>
+      </thead>
+      <tbody id="resultado">
+      </tbody>
+    </table>
+  
+    <script>
+      // Cree un objeto de cliente BaseX y envíe la consulta XQuery
+      var client = new BaseXClient("localhost", 8984, "admin", "admin");
+      var query = 'for $p in //foaf:Person return <tr><td>{$p/foaf:name/text()}</td></tr>';
+      var result = client.execute(query);
+  
+      // Parsear el resultado XML y agregarlo a la tabla HTML
+      var parser = new DOMParser();
+      var xmlDoc = parser.parseFromString(result, "text/xml");
+      document.getElementById("resultado").innerHTML = xmlDoc.getElementsByTagName("tr").innerHTML;
+    </script>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+# Tags
+<feed>: This tag contains information about the feed itself, including the title, author, and updated time.
+<entry>: This tag represents a single item or post in the feed.
+<title>: This tag contains the title of the feed item.
+<link>: This tag contains the URL for the item.
+<id>: This tag provides a unique identifier for the item.
+<updated>: This tag indicates the date and time the item was last updated.
+<author>: This tag specifies the author of the item.
+<content>: This tag contains the content of the item, including text, HTML, or other formats.
+<summary>: This tag provides a brief summary or excerpt of the item's content.

@@ -1,0 +1,48 @@
+<!-- La codificación que usaremos en el XML -->
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Raíz y versión del RSS -->
+<!-- <rss version="2.0" xmlns:atom="www.atom.com"> -->
+<rss version="2.0">
+    <!-- Canal -->
+    <channel>
+        <!-- Propiedades del canal -->
+        <!-- Titulo de la web o sección -->
+        <title>John is dead</title>
+        <!-- Pequeño resumen de lo que vamos a retransmitir-->
+        <description> Johnisdead.com was the main site used in Johnisdead from the Dead Arc onward.
+            The site is a Portal used by the Lunar Children to house ascended souls, most of which
+            are deviums. </description>
+        <!-- Enlace de la página principal -->
+        <!-- <atom:link href="" rel="self" type="application/rss+xml"></link> -->
+        <link>https://johnisdead.fandom.com/wiki/Johnisdead.com</link>
+        <copyright>2023 johnisdead.fandom.com All rights reserved</copyright>
+        <!-- La útlima fecha en la que se generó el RSS -->
+        <lastBuildDate>Mon, 6 Sep 2010 00:01:00 +0000</lastBuildDate>
+        <!-- Fecha de publicación -->
+        <pubDate>Mon, 6 Sep 2010 00:01:00 +0000</pubDate>
+        <!-- Cuanto tiempo tiene que pasar para refrescar la entrada, por si ha habido cambios o si
+        se ha borrado (tiempo de vida) -->
+        <ttl>1800</ttl>
+
+        <!-- Tantos elementos <item> como queramos -->
+
+        <!-- Entrada nueva para nuestro feed -->
+        <item>
+            <!-- Contenido de cada entrada -->
+            <!-- Título del artículo -->
+            <title>5/14/15</title>
+            <!-- Podemos incluir el artículo completo o un pequeño resumen -->
+            <description> Page - johnisdead.com Title of page - "WAKE UP" Audio - "background.mp3" -
+                A slow, distorted song. Loudly corrupts at a few points. Images -
+                "Foggyworld248.jpg" - A foggy street at night. </description>
+            <!-- Enlace del destino -->
+            <link>https://johnisdead.fandom.com/wiki/Johnisdead.com#5/14/15</link>
+            <!-- Identificador para la entrada -->
+            <!-- Si quitamos el isPermaLink="" tenemos que introducir un enlace diferente al de
+            arriba -->
+            <guid isPermaLink="false">7bd204c6-1655-4c27-aeee-53f933c5395f</guid>
+            <!-- Fecha de publicación de la entrada (para ordenar nuestras entradas dentro del feed) -->
+            <pubDate>Sun, 6 Sep 2009 16:20:00 +0000</pubDate>
+        </item>
+    </channel>
+</rss>

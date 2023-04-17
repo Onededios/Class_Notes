@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="yes" ?>
+
+<Persons>
+	<Person nodeID="1">
+		<givenname>Joan Anton</givenname>
+		<surname>Perez i Braña</surname>
+		<nick>Udyat</nick>
+		<gender>home</gender>
+
+		<!--Altres dades de la persona....-->
+		<homepage resource="http://elpuig.xeill.net/Members/joan"/>
+		<phone resource="931234567"/>
+		<mbox_sha1sum>75e7702347baf6222eeee007f63e890b716a7d4a</mbox_sha1sum>
+		<schoolHomepage resource="http://elpuig.xeill.net"/>
+
+		<!-- Aqui hi hauria la relació de temes d'interes de la persona....-->
+		<topic_interest>BBDD</topic_interest>
+		<topic_interest>Java</topic_interest>
+		<topic_interest>XML</topic_interest>
+
+		<!-- Aqui faig la descripció de la feina actual de la persona....-->
+		<currentProject>
+			<name>Professor</name>
+			<Agent>
+				<name>Institut Puig Castellar</name>
+				<workplaceHomepage resource="http://elpuig.xeill.net"/>
+				<phone resource="t931111111"/>
+				<Person>
+					<title>Directora</title>
+					<name>Dori Cañal</name>
+				</Person>
+			</Agent>
+		</currentProject>
+
+		<!-- Aqui faig la descripció de la feina anterior de la persona ( inventat) ....-->
+		<pastProject>
+			<name>Desenvolupador Java</name>
+			<Agent>
+				<name>Web Services S.L.</name>
+				<workplaceHomepage resource="www.ws.es"/>
+				<phone resource=":9344444444"/>
+				<Person>
+					<title>gerent</title>
+					<name>Jairo Cano</name>
+				</Person>
+			</Agent>
+		</pastProject>
+
+		<!-- Aqui faig la relació de coneguts de la persona....-->
+		<knows>
+			<Person>
+				<givenname>Guillermo</givenname>
+				<surname>Escribà Martínez</surname>
+				<mbox_sha1sum>e9b49bc8beeaa0651aba37aa675b4d</mbox_sha1sum>
+			</Person>
+			<Person>
+				<givenname>Antonio</givenname>
+				<surname>Martínez Martínez</surname>
+				<mbox_sha1sum>d7860cdfdc80e970ee3b1cc</mbox_sha1sum>
+			</Person>		
+		</knows>
+	</Person>
+	<Person nodeID="2">
+		<givenname>Fernando</givenname>
+		<surname>Porrino Serrano</surname>
+		<nick>Fher</nick>
+		<gender>home</gender>
+
+		<!--Altres dades de la persona....-->
+		<homepage resource="www.linkedin.com/in/fernando-porrino-serrano"/>
+		<phone resource="600600600"/>
+		<mbox_sha1sum>67m6956697cac9674eeef010d66q360a332t9m7m</mbox_sha1sum>
+		<schoolHomepage resource="http://elpuig.xeill.net"/>
+
+		<!-- Aqui hi hauria la relació de temes d'interes de la persona....-->
+		<topic_interest>C#</topic_interest>
+		<topic_interest>HTML</topic_interest>
+		<topic_interest>MVC</topic_interest>
+
+		<!-- Aqui faig la descripció de la feina actual de la persona....-->
+		<currentProject>
+			<name>Professor</name>
+			<Agent>
+				<name>Institut Puig Castellar</name>
+				<workplaceHomepage resource="http://elpuig.xeill.net"/>
+				<phone resource="t931111111"/>
+				<Person>
+					<title>Directora</title>
+					<name>Dori Cañal</name>
+				</Person>
+			</Agent>
+		</currentProject>
+
+		<!-- Aqui faig la descripció de la feina anterior de la persona ....-->
+		<pastProject>
+			<name>Software Engineer</name>
+			<Agent>
+				<name>Multinacional</name>
+				<workplaceHomepage resource="www.multinacional.com"/>
+				<phone resource=":9344444444"/>
+				<Person>
+					<title>Gerent</title>
+					<name>Jefe Sombrero de Copa</name>
+				</Person>
+			</Agent>
+		</pastProject>
+
+		<!-- Aqui faig la relació de coneguts de la persona (inventat)....-->
+		<knows>
+			<Person>
+				<givenname>Maria</givenname>
+				<surname>González Guiterrez</surname>
+				<mbox_sha1sum>e9b49bc8beeaa0651aba37aa675b4d</mbox_sha1sum>
+			</Person>
+			<Person>
+				<givenname>Juan José</givenname>
+				<surname>Torrevieja Girauta</surname>
+				<mbox_sha1sum>d7860cdfdc80e970ee3b1cc</mbox_sha1sum>
+			</Person>		
+		</knows>
+	</Person>
+</Persons>

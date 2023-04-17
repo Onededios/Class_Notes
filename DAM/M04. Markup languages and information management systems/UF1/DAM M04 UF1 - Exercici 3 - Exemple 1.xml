@@ -1,0 +1,21 @@
+<!DOCTYPE esdeveniments SYSTEM "UF1Exercici3Exemple1.dtd"> 
+<esdeveniments>
+	<esdeveniment>
+		<grup>Oques Grasses</grup>
+		<lloc>El moll de la fusta</lloc>
+		<data>2017-09-12 22:30</data>
+		<entrada gratuita="si"/>
+	</esdeveniment>
+	<esdeveniment>
+		<grup>Zoo</grup>
+		<lloc>Sala Apolo</lloc>
+		<data>2018-01-03 02:45</data>
+		<entrada gratuita="no">25</entrada>
+	</esdeveniment>
+	<esdeveniment>
+		<grup>Txarango</grup>
+		<lloc>El Poble Espanyol</lloc>
+		<data>2018-06-24</data>
+		<entrada gratuita="no">17.5</entrada>
+	</esdeveniment>
+</esdeveniments>

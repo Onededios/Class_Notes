@@ -1,0 +1,25 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+ <foaf:Person rdf:ID="peter">
+   <foaf:name>Peter Parker</foaf:name>
+   <foaf:depicts rdf:resource="http://www.peterparker.com/peter.jpg"/>
+ </foaf:Person>
+
+ <foaf:Person rdf:ID="spiderman">
+   <foaf:name>Spiderman</foaf:name>
+ </foaf:Person>
+
+ <foaf:Person rdf:ID="green-goblin">
+   <foaf:name>Green Goblin</foaf:name>
+ </foaf:Person>
+
+ <!-- codepiction -->
+ <foaf:Image rdf:about="http://www.peterparker.com/photos/spiderman/statue.jpg">
+   <dc:title>Battle on the Statue Of Liberty</dc:title>
+   <foaf:depicts rdf:resource="#spiderman"/>
+   <foaf:depicts rdf:resource="#green-goblin"/>
+   <foaf:maker rdf:resource="#peter"/>   
+ </foaf:Image>
+</rdf:RDF>

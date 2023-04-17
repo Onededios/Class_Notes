@@ -1,0 +1,1309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" 
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:media="http://search.yahoo.com/mrss/"
+	xmlns:meneame="http://meneame.net/faq-es.php"
+ >
+<channel>
+	<title>Menéame: publicadas</title>
+	<atom:link href="http://www.meneame.net/rss" rel="self" type="application/rss+xml" />
+	<link>http://www.meneame.net</link>
+	<image><title>Menéame: publicadas</title><link>http://www.meneame.net</link><url>http://cdn.mnmstatic.net/img/mnm/eli-rss.png</url></image>
+	<description>Sitio colaborativo de publicación y comunicación entre blogs</description>
+	<pubDate>Thu, 23 Mar 2023 17:30:03 +0000</pubDate>
+	<generator>http://blog.meneame.net/</generator>
+	<language>es</language>
+	<atom:link rel="hub" href="http://pubsubhubbub.appspot.com/"/>
+	<item>
+		<meneame:link_id>3794455</meneame:link_id>
+		<meneame:sub>actualidad</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>Thornton</meneame:user>
+		<meneame:clicks>152</meneame:clicks>
+		<meneame:votes>29</meneame:votes>
+		<meneame:negatives>0</meneame:negatives>
+		<meneame:karma>434</meneame:karma>
+		<meneame:comments>13</meneame:comments>
+		<meneame:url>https://www.meneame.net/story/claves-caos-nuevo-bicimad-almeida-no-funciona-hay-tantas-bicis?utm_source=meneame_rss</meneame:url>
+		<title>Claves del caos del nuevo Bicimad de Almeida: ¿por qué no funciona?, ¿por qué hay tantas bicis abandonadas?</title>
+		<link>https://www.meneame.net/story/claves-caos-nuevo-bicimad-almeida-no-funciona-hay-tantas-bicis</link>
+		<comments>https://www.meneame.net/story/claves-caos-nuevo-bicimad-almeida-no-funciona-hay-tantas-bicis</comments>
+		<pubDate>Thu, 23 Mar 2023 17:30:37 +0000</pubDate>
+		<dc:creator>Thornton</dc:creator>
+		<category><![CDATA[actualidad]]></category>
+		<category><![CDATA[bicimad]]></category>
+		<category><![CDATA[madrid]]></category>
+		<category><![CDATA[pp. almeida]]></category>
+		<category><![CDATA[corrupción]]></category>
+		<guid>https://www.meneame.net/story/claves-caos-nuevo-bicimad-almeida-no-funciona-hay-tantas-bicis</guid>
+		<description><![CDATA[<img src='https://cdn.mnmstatic.net/cache/39/e6/media_thumb-link-3794455.jpeg?1679580426' width='155' height='155' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>Dos semanas después, las críticas de los usuarios al nuevo sistema de bicicletas públicas de Madrid continúan en aumento. Todo comenzó el 7 de marzo, cuando  José Luis Martínez-Almeida puso en marcha el nuevo sistema de bicicletas públicas de la capital con un mensaje potentísimo para los madrileños a menos de 80 días de las elecciones: todos los usuarios podrán utilizar el servicio de manera gratuita desde el 7 marzo y hasta el 31 de julio. Una medida sin precedentes. El coste de este anuncio es de 1,7 millones de euros.</p><p><strong>etiquetas</strong>: bicimad, madrid, pp. almeida, corrupción</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=3794455" >noticia original</a> (elpais.com)</p>]]></description>
+		<media:thumbnail url="https://cdn.mnmstatic.net/cache/39/e6/media_thumb-link-3794455.jpeg?1679580426" width='155' height='155' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=3794455</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>3794450</meneame:link_id>
+		<meneame:sub>politica</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>Ratoncolorao</meneame:user>
+		<meneame:clicks>781</meneame:clicks>
+		<meneame:votes>142</meneame:votes>
+		<meneame:negatives>1</meneame:negatives>
+		<meneame:karma>992</meneame:karma>
+		<meneame:comments>46</meneame:comments>
+		<meneame:url>https://www.meneame.net/story/ayuso-desea-exconsejero-reyero-sea-imputado-tras-confirmar?utm_source=meneame_rss</meneame:url>
+		<title>Ayuso le desea a su exconsejero Reyero que sea imputado tras confirmar el 'Protocolo de la Vergüenza'</title>
+		<link>https://www.meneame.net/story/ayuso-desea-exconsejero-reyero-sea-imputado-tras-confirmar</link>
+		<comments>https://www.meneame.net/story/ayuso-desea-exconsejero-reyero-sea-imputado-tras-confirmar</comments>
+		<pubDate>Thu, 23 Mar 2023 16:50:03 +0000</pubDate>
+		<dc:creator>Ratoncolorao</dc:creator>
+		<category><![CDATA[politica]]></category>
+		<category><![CDATA[ayuso]]></category>
+		<category><![CDATA[protocolo de la vergüenza]]></category>
+		<category><![CDATA[reyero]]></category>
+		<category><![CDATA[imputación]]></category>
+		<guid>https://www.meneame.net/story/ayuso-desea-exconsejero-reyero-sea-imputado-tras-confirmar</guid>
+		<description><![CDATA[<img src='https://cdn.mnmstatic.net/cache/39/e6/media_thumb-link-3794450.jpeg?1679579826' width='155' height='155' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>La presidenta de la Comunidad de Madrid, Isabel Díaz Ayuso, ha espetado este jueves que espera que el exconsejero de Políticas Sociales de su Gobierno durante dos años, Alberto Reyero, (Ciudadanos) &quot;salga hoy imputado de sus declaraciones&quot; ante el juez.</p><p><strong>etiquetas</strong>: ayuso, protocolo de la vergüenza, reyero, imputación</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=3794450" >noticia original</a> (www.infolibre.es)</p>]]></description>
+		<media:thumbnail url="https://cdn.mnmstatic.net/cache/39/e6/media_thumb-link-3794450.jpeg?1679579826" width='155' height='155' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=3794450</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>3794471</meneame:link_id>
+		<meneame:sub>actualidad</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>rojo_separatista</meneame:user>
+		<meneame:clicks>1168</meneame:clicks>
+		<meneame:votes>58</meneame:votes>
+		<meneame:negatives>0</meneame:negatives>
+		<meneame:karma>759</meneame:karma>
+		<meneame:comments>110</meneame:comments>
+		<meneame:url>https://www.meneame.net/story/destellos-inteligencia-artificial-general-primeros-experimentos?utm_source=meneame_rss</meneame:url>
+		<title>Destellos de Inteligencia Artificial General: Primeros experimentos con GPT-4</title>
+		<link>https://www.meneame.net/story/destellos-inteligencia-artificial-general-primeros-experimentos</link>
+		<comments>https://www.meneame.net/story/destellos-inteligencia-artificial-general-primeros-experimentos</comments>
+		<pubDate>Thu, 23 Mar 2023 16:25:35 +0000</pubDate>
+		<dc:creator>rojo_separatista</dc:creator>
+		<category><![CDATA[actualidad]]></category>
+		<category><![CDATA[ai]]></category>
+		<category><![CDATA[ia]]></category>
+		<category><![CDATA[agi]]></category>
+		<category><![CDATA[microsoft]]></category>
+		<guid>https://www.meneame.net/story/destellos-inteligencia-artificial-general-primeros-experimentos</guid>
+		<description><![CDATA[<p>En este paper, presentamos nuestra investigación sobre GPT-4. Sostenemos que esta versión es parte de una nueva cohorte de LLM que exhiben algunas características propias de una inteligencia más general que los modelos de IA anteriores. Discutimos las crecientes capacidades e implicaciones de estos modelos. Demostramos que, más allá de su dominio del lenguaje, GPT-4 puede resolver tareas novedosas y difíciles sin necesidad de indicaciones especiales. Además, en todas estas tareas, el rendimiento de GPT-4 es sorprendentemente cercano al humano.</p><p><strong>etiquetas</strong>: ai, ia, agi, microsoft</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=3794471" >noticia original</a> (arxiv.org)</p>]]></description>
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=3794471</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>3794413</meneame:link_id>
+		<meneame:sub>actualidad</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>RGr8888</meneame:user>
+		<meneame:clicks>629</meneame:clicks>
+		<meneame:votes>170</meneame:votes>
+		<meneame:negatives>1</meneame:negatives>
+		<meneame:karma>1172</meneame:karma>
+		<meneame:comments>56</meneame:comments>
+		<meneame:url>https://www.meneame.net/story/condenados-torturas-seis-mossos-dieron-paliza-conductor?utm_source=meneame_rss</meneame:url>
+		<title>Condenados por torturas seis mossos que dieron una paliza a un conductor y a su acompañante</title>
+		<link>https://www.meneame.net/story/condenados-torturas-seis-mossos-dieron-paliza-conductor</link>
+		<comments>https://www.meneame.net/story/condenados-torturas-seis-mossos-dieron-paliza-conductor</comments>
+		<pubDate>Thu, 23 Mar 2023 16:05:03 +0000</pubDate>
+		<dc:creator>RGr8888</dc:creator>
+		<category><![CDATA[actualidad]]></category>
+		<category><![CDATA[mossos]]></category>
+		<category><![CDATA[tortura]]></category>
+		<guid>https://www.meneame.net/story/condenados-torturas-seis-mossos-dieron-paliza-conductor</guid>
+		<description><![CDATA[<img src='https://cdn.mnmstatic.net/cache/39/e5/media_thumb-link-3794413.jpeg?1679575026' width='155' height='155' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>La Audiencia Barcelona ha condenado a penas que oscilan entre los dos años y medio y los cinco años y un mes de prisión para seis mossos d'esquadra por los presuntos delitos de lesiones y otro de torturas por agredir brutalmente al conductor de un vehículo y a su acompañante para &quot;castigarles&quot; por haber huido...</p><p><strong>etiquetas</strong>: mossos, tortura</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=3794413" >noticia original</a> (www.elperiodico.com)</p>]]></description>
+		<media:thumbnail url="https://cdn.mnmstatic.net/cache/39/e5/media_thumb-link-3794413.jpeg?1679575026" width='155' height='155' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=3794413</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>3794400</meneame:link_id>
+		<meneame:sub>actualidad</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>rambla</meneame:user>
+		<meneame:clicks>1270</meneame:clicks>
+		<meneame:votes>82</meneame:votes>
+		<meneame:negatives>1</meneame:negatives>
+		<meneame:karma>790</meneame:karma>
+		<meneame:comments>28</meneame:comments>
+		<meneame:url>https://www.meneame.net/story/vulcanologos-alertan-presencia-corazon-caliente-magma-bajo-teide?utm_source=meneame_rss</meneame:url>
+		<title>Vulcanólogos alertan de la presencia de un corazón caliente de magma bajo el Teide</title>
+		<link>https://www.meneame.net/story/vulcanologos-alertan-presencia-corazon-caliente-magma-bajo-teide</link>
+		<comments>https://www.meneame.net/story/vulcanologos-alertan-presencia-corazon-caliente-magma-bajo-teide</comments>
+		<pubDate>Thu, 23 Mar 2023 15:50:03 +0000</pubDate>
+		<dc:creator>rambla</dc:creator>
+		<category><![CDATA[actualidad]]></category>
+		<category><![CDATA[ciencia]]></category>
+		<category><![CDATA[sociedad]]></category>
+		<guid>https://www.meneame.net/story/vulcanologos-alertan-presencia-corazon-caliente-magma-bajo-teide</guid>
+		<description><![CDATA[<img src='https://cdn.mnmstatic.net/cache/39/e5/media_thumb-link-3794400.jpeg?1679573586' width='155' height='155' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>El volcán de la Palma no empezó de un día para otro. Hace tres años los vulcanólogos empezaron a anotar movimientos,”precursores” que ellos llaman que indican que una erupción está en marcha. Para tener controlada la evolución de un volcán hay que tener controlada la ubicación del magma, eso es lo que han hecho los científicos del Trofimuk Institute of Petroleum Geology and Geophysics de Novosibirsk en Rusia, el Instituto Volcanológico de Canarias (INVOLCAN) y la Universidad de Granada (UGR): han localizado el magma del volcán del Teide en Tene</p><p><strong>etiquetas</strong>: ciencia, sociedad</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=3794400" >noticia original</a> (www.elindependiente.com)</p>]]></description>
+		<media:thumbnail url="https://cdn.mnmstatic.net/cache/39/e5/media_thumb-link-3794400.jpeg?1679573586" width='155' height='155' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=3794400</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>3794446</meneame:link_id>
+		<meneame:sub>ciencia</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>Constante</meneame:user>
+		<meneame:clicks>456</meneame:clicks>
+		<meneame:votes>92</meneame:votes>
+		<meneame:negatives>1</meneame:negatives>
+		<meneame:karma>869</meneame:karma>
+		<meneame:comments>31</meneame:comments>
+		<meneame:url>https://www.meneame.net/story/filo-de-la-eternidad?utm_source=meneame_rss</meneame:url>
+		<title>El filo de la eternidad</title>
+		<link>https://www.meneame.net/story/filo-de-la-eternidad</link>
+		<comments>https://www.meneame.net/story/filo-de-la-eternidad</comments>
+		<pubDate>Thu, 23 Mar 2023 15:20:02 +0000</pubDate>
+		<dc:creator>Constante</dc:creator>
+		<category><![CDATA[ciencia]]></category>
+		<category><![CDATA[universo]]></category>
+		<category><![CDATA[carl sagan]]></category>
+		<category><![CDATA[documentales]]></category>
+		<category><![CDATA[cosmos]]></category>
+		<guid>https://www.meneame.net/story/filo-de-la-eternidad</guid>
+		<description><![CDATA[<img src='https://cdn.mnmstatic.net/cache/39/e6/media_thumb-link-3794446.jpeg?1679579346' width='155' height='155' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>Cosmos: un viaje personal, por Carl Sagan.<br />
+Los orígenes del universo, la teoría del Big Bang.<br />
+Tipos de galaxias, colisiones galácticas y quasars.<br />
+Efecto Doppler, vida y obra de Milton Humason.<br />
+El universo cuatridimensional.<br />
+Dios contra un universo infinito; mitos de la creación, cosmología hindú.<br />
+Contracción y reexpansión contra expansión eterna.<br />
+El Very Large Array de Nuevo México, materia oscura, la hipótesis del multiverso.</p><p><strong>etiquetas</strong>: universo, carl sagan, documentales, cosmos</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=3794446" >noticia original</a> (www.youtube.com)</p>]]></description>
+		<media:thumbnail url="https://cdn.mnmstatic.net/cache/39/e6/media_thumb-link-3794446.jpeg?1679579346" width='155' height='155' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=3794446</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>3794278</meneame:link_id>
+		<meneame:sub>actualidad</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>manifa33</meneame:user>
+		<meneame:clicks>303</meneame:clicks>
+		<meneame:votes>300</meneame:votes>
+		<meneame:negatives>0</meneame:negatives>
+		<meneame:karma>2053</meneame:karma>
+		<meneame:comments>43</meneame:comments>
+		<meneame:url>https://www.meneame.net/story/ministerio-interior-pp-espio-periodistas-busca-filtraciones?utm_source=meneame_rss</meneame:url>
+		<title>El Ministerio del Interior con el PP espió a periodistas en busca de filtraciones</title>
+		<link>https://www.meneame.net/story/ministerio-interior-pp-espio-periodistas-busca-filtraciones</link>
+		<comments>https://www.meneame.net/story/ministerio-interior-pp-espio-periodistas-busca-filtraciones</comments>
+		<pubDate>Thu, 23 Mar 2023 14:50:02 +0000</pubDate>
+		<dc:creator>manifa33</dc:creator>
+		<category><![CDATA[actualidad]]></category>
+		<category><![CDATA[pp]]></category>
+		<category><![CDATA[espía]]></category>
+		<category><![CDATA[periodistas]]></category>
+		<guid>https://www.meneame.net/story/ministerio-interior-pp-espio-periodistas-busca-filtraciones</guid>
+		<description><![CDATA[<img src='https://cdn.mnmstatic.net/cache/39/e5/media_thumb-link-3794278.jpeg?1679555826' width='155' height='155' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>“No hay más que mirar las llamadas”. “El lunes sabré el número que se lo envía a su wasap”. El secretario de Estado de Seguridad, Francisco Martínez, permitió en 2015 que un alto mando policial rastrease sin supervisión judicial alguna los teléfonos móviles de al menos dos periodistas en busca de filtraciones, según los chats de WhatsApp del propio Martínez, incorporados al caso Kitchen. El exsecretario de Estado, Francisco Martínez, niega ilegalidad alguna y alega que “no recuerda” las conversaciones</p><p><strong>etiquetas</strong>: pp, espía, periodistas</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=3794278" >noticia original</a> (cadenaser.com)</p>]]></description>
+		<media:thumbnail url="https://cdn.mnmstatic.net/cache/39/e5/media_thumb-link-3794278.jpeg?1679555826" width='155' height='155' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=3794278</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>3794354</meneame:link_id>
+		<meneame:sub>cultura</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>WorkOutFine444</meneame:user>
+		<meneame:clicks>1501</meneame:clicks>
+		<meneame:votes>49</meneame:votes>
+		<meneame:negatives>2</meneame:negatives>
+		<meneame:karma>354</meneame:karma>
+		<meneame:comments>24</meneame:comments>
+		<meneame:url>https://www.meneame.net/story/cuando-quema-camiseta-seleccion-nacional?utm_source=meneame_rss</meneame:url>
+		<title>Cuando quema la camiseta de la selección nacional</title>
+		<link>https://www.meneame.net/story/cuando-quema-camiseta-seleccion-nacional</link>
+		<comments>https://www.meneame.net/story/cuando-quema-camiseta-seleccion-nacional</comments>
+		<pubDate>Thu, 23 Mar 2023 14:25:02 +0000</pubDate>
+		<dc:creator>WorkOutFine444</dc:creator>
+		<category><![CDATA[cultura]]></category>
+		<category><![CDATA[seleccion]]></category>
+		<category><![CDATA[nacional]]></category>
+		<guid>https://www.meneame.net/story/cuando-quema-camiseta-seleccion-nacional</guid>
+		<description><![CDATA[<img src='https://cdn.mnmstatic.net/cache/39/e5/media_thumb-link-3794354.jpeg?1679568186' width='155' height='155' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>A lo largo de los años muchos futbolistas han renunciado a sus selecciones por las más variopintas razones, sea para salvar la vida (o perderla), por el racismo que sufrieron, la falta de ambición o por el amor (o desamor) hacia un país. De Sindelar a Oleguer y pasando por Zidane, Özil o Kortabarria, estas son solo algunas de esas historias. Hasta ahora, Kortabarría es el único vasco que ha renunciado pública y abiertamente a jugar con la Selección a causa de sus ideas independentistas»</p><p><strong>etiquetas</strong>: seleccion, nacional</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=3794354" >noticia original</a> (sport.jotdown.es)</p>]]></description>
+		<media:thumbnail url="https://cdn.mnmstatic.net/cache/39/e5/media_thumb-link-3794354.jpeg?1679568186" width='155' height='155' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=3794354</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>3794261</meneame:link_id>
+		<meneame:sub>politica</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>Javier_Lothbrok</meneame:user>
+		<meneame:clicks>1188</meneame:clicks>
+		<meneame:votes>154</meneame:votes>
+		<meneame:negatives>1</meneame:negatives>
+		<meneame:karma>1178</meneame:karma>
+		<meneame:comments>47</meneame:comments>
+		<meneame:url>https://www.meneame.net/story/ramon-tamames-paso-activo-seced-carrero-blanco-comite-central?utm_source=meneame_rss</meneame:url>
+		<title>Ramón Tamames pasó de activo del SECED de Carrero Blanco al comité central del PCE</title>
+		<link>https://www.meneame.net/story/ramon-tamames-paso-activo-seced-carrero-blanco-comite-central</link>
+		<comments>https://www.meneame.net/story/ramon-tamames-paso-activo-seced-carrero-blanco-comite-central</comments>
+		<pubDate>Thu, 23 Mar 2023 14:15:36 +0000</pubDate>
+		<dc:creator>Javier_Lothbrok</dc:creator>
+		<category><![CDATA[politica]]></category>
+		<category><![CDATA[tamames]]></category>
+		<category><![CDATA[pce]]></category>
+		<category><![CDATA[carrero blanco]]></category>
+		<category><![CDATA[política]]></category>
+		<category><![CDATA[vox]]></category>
+		<guid>https://www.meneame.net/story/ramon-tamames-paso-activo-seced-carrero-blanco-comite-central</guid>
+		<description><![CDATA[<img src='https://cdn.mnmstatic.net/cache/39/e5/media_thumb-link-3794261.jpeg?1679553966' width='155' height='155' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>Ramón Tamames ha cerrado su poco glorioso minuto de gloria postrero en el Congreso de los Diputados, después de que la mayoría del Parlamento desechara su candidatura a presidente del Gobierno. El es último paso, a la tardía edad de 90 años, de una carrera que ha estado más cerca de la derecha que representa Vox de lo que pudiera pensarse. Un proclamado comunista, paradójicamente con una carrera empresarial larga, pero desigual en fortuna y polémica. Comunista, activo del SECED del almirante Carrero Blanco, político de mil partidos, empresario:</p><p><strong>etiquetas</strong>: tamames, pce, carrero blanco, política, vox</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=3794261" >noticia original</a> (www.moncloa.com)</p>]]></description>
+		<media:thumbnail url="https://cdn.mnmstatic.net/cache/39/e5/media_thumb-link-3794261.jpeg?1679553966" width='155' height='155' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=3794261</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>3794402</meneame:link_id>
+		<meneame:sub>actualidad</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>Álvaro91</meneame:user>
+		<meneame:clicks>2326</meneame:clicks>
+		<meneame:votes>344</meneame:votes>
+		<meneame:negatives>1</meneame:negatives>
+		<meneame:karma>2474</meneame:karma>
+		<meneame:comments>49</meneame:comments>
+		<meneame:url>https://www.meneame.net/story/pp-dice-esta-peineta-manueco-rosa-rubio-psoe-gesto-natural?utm_source=meneame_rss</meneame:url>
+		<title>El PP dice que esta peineta de Mañueco a Rosa Rubio, del PSOE, es un gesto natural y casual</title>
+		<link>https://www.meneame.net/story/pp-dice-esta-peineta-manueco-rosa-rubio-psoe-gesto-natural</link>
+		<comments>https://www.meneame.net/story/pp-dice-esta-peineta-manueco-rosa-rubio-psoe-gesto-natural</comments>
+		<pubDate>Thu, 23 Mar 2023 13:50:36 +0000</pubDate>
+		<dc:creator>Álvaro91</dc:creator>
+		<category><![CDATA[actualidad]]></category>
+		<category><![CDATA[mañueco]]></category>
+		<category><![CDATA[peineta]]></category>
+		<category><![CDATA[dedo de palabrotas]]></category>
+		<category><![CDATA[psoe]]></category>
+		<guid>https://www.meneame.net/story/pp-dice-esta-peineta-manueco-rosa-rubio-psoe-gesto-natural</guid>
+		<description><![CDATA[<p>Más información; La peineta de Mañueco a una parlamentaria del PSOE en las Cortes crispa la política en Castilla y León: <a href="https://elpais.com/espana/2023-03-23/el-pp-de-castilla-y-leon-niega-que-manueco-le-hiciese-una-peineta-a-una-parlamentaria-socialista-en-las-cortes.html" title="elpais.com/espana/2023-03-23/el-pp-de-castilla-y-leon-niega-que-manueco-le-hiciese-una-peineta-a-una-parlamentaria-socialista-en-las-cortes.html" rel="nofollow">elpais.com/espana/2023-03-23/el-pp-de-castilla-y-leon-niega-que-manuec</a> Relacionada: <a href="https://www.meneame.net/story/psoe-denuncia-manueco-hizo-peineta-procuradoras" title="www.meneame.net/story/psoe-denuncia-manueco-hizo-peineta-procuradoras" rel="nofollow">www.meneame.net/story/psoe-denuncia-manueco-hizo-peineta-procuradoras</a></p><p><strong>etiquetas</strong>: mañueco, peineta, dedo de palabrotas, psoe</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=3794402" >noticia original</a> (twitter.com)</p>]]></description>
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=3794402</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>3794303</meneame:link_id>
+		<meneame:sub>actualidad</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>Chabelitaenanita</meneame:user>
+		<meneame:clicks>1020</meneame:clicks>
+		<meneame:votes>201</meneame:votes>
+		<meneame:negatives>0</meneame:negatives>
+		<meneame:karma>1376</meneame:karma>
+		<meneame:comments>57</meneame:comments>
+		<meneame:url>https://www.meneame.net/story/vuelve-lobo-iberico-extremadura-tras-varias-decadas-sin-ellos?utm_source=meneame_rss</meneame:url>
+		<title>Vuelve el lobo ibérico a Extremadura tras varias décadas sin ellos: estos son los municipios donde han aparecido</title>
+		<link>https://www.meneame.net/story/vuelve-lobo-iberico-extremadura-tras-varias-decadas-sin-ellos</link>
+		<comments>https://www.meneame.net/story/vuelve-lobo-iberico-extremadura-tras-varias-decadas-sin-ellos</comments>
+		<pubDate>Thu, 23 Mar 2023 13:30:36 +0000</pubDate>
+		<dc:creator>Chabelitaenanita</dc:creator>
+		<category><![CDATA[actualidad]]></category>
+		<category><![CDATA[lobo]]></category>
+		<category><![CDATA[extremadura]]></category>
+		<category><![CDATA[tietar]]></category>
+		<category><![CDATA[fauna]]></category>
+		<guid>https://www.meneame.net/story/vuelve-lobo-iberico-extremadura-tras-varias-decadas-sin-ellos</guid>
+		<description><![CDATA[<img src='https://cdn.mnmstatic.net/cache/39/e5/media_thumb-link-3794303.jpeg?1679559186' width='155' height='155' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>El rastro de al menos cuatro ejemplares de lobo ibérico se han detectado en Extremadura recientemente tras varias décadas sin la presencia de esta especie en la</p><p><strong>etiquetas</strong>: lobo, extremadura, tietar, fauna</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=3794303" >noticia original</a> (www.20minutos.es)</p>]]></description>
+		<media:thumbnail url="https://cdn.mnmstatic.net/cache/39/e5/media_thumb-link-3794303.jpeg?1679559186" width='155' height='155' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=3794303</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>3794381</meneame:link_id>
+		<meneame:sub>actualidad</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>Costorrico</meneame:user>
+		<meneame:clicks>3345</meneame:clicks>
+		<meneame:votes>352</meneame:votes>
+		<meneame:negatives>0</meneame:negatives>
+		<meneame:karma>2576</meneame:karma>
+		<meneame:comments>78</meneame:comments>
+		<meneame:url>https://www.meneame.net/story/ya-hablo-maricon-levanta-sesion?utm_source=meneame_rss</meneame:url>
+		<title>“Ya habló el maricón, se levanta la sesión”</title>
+		<link>https://www.meneame.net/story/ya-hablo-maricon-levanta-sesion</link>
+		<comments>https://www.meneame.net/story/ya-hablo-maricon-levanta-sesion</comments>
+		<pubDate>Thu, 23 Mar 2023 13:00:37 +0000</pubDate>
+		<dc:creator>Costorrico</dc:creator>
+		<category><![CDATA[actualidad]]></category>
+		<category><![CDATA[laciana]]></category>
+		<category><![CDATA[gay]]></category>
+		<category><![CDATA[maricón]]></category>
+		<category><![CDATA[ganadero]]></category>
+		<guid>https://www.meneame.net/story/ya-hablo-maricon-levanta-sesion</guid>
+		<description><![CDATA[<img src='https://cdn.mnmstatic.net/cache/39/e5/media_thumb-link-3794381.jpeg?1679570226' width='155' height='155' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>&quot;No me avergüenzo de lo que soy. Me acuesto con quien me da la gana, estaría bueno, así ha sido y así va a seguir siendo, pero aquí es obvio que por ser homosexual no me tratan ni siquiera como a una persona. Cuando hablo en los concejos, miran para otro lado, como si no me escuchasen, y cuando termino tengo que soportar que digan: ‘Bueno, pues como ya habló el maricón, se levanta la sesión’.</p><p><strong>etiquetas</strong>: laciana, gay, maricón, ganadero</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=3794381" >noticia original</a> (www.lanuevacronica.com)</p>]]></description>
+		<media:thumbnail url="https://cdn.mnmstatic.net/cache/39/e5/media_thumb-link-3794381.jpeg?1679570226" width='155' height='155' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=3794381</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>3794329</meneame:link_id>
+		<meneame:sub>politica</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>Ratoncolorao</meneame:user>
+		<meneame:clicks>995</meneame:clicks>
+		<meneame:votes>202</meneame:votes>
+		<meneame:negatives>1</meneame:negatives>
+		<meneame:karma>1332</meneame:karma>
+		<meneame:comments>82</meneame:comments>
+		<meneame:url>https://www.meneame.net/story/fiasco-censura-debilita-derechas-dos-meses-elecciones?utm_source=meneame_rss</meneame:url>
+		<title>El fiasco de la censura debilita a las derechas a dos meses de las elecciones</title>
+		<link>https://www.meneame.net/story/fiasco-censura-debilita-derechas-dos-meses-elecciones</link>
+		<comments>https://www.meneame.net/story/fiasco-censura-debilita-derechas-dos-meses-elecciones</comments>
+		<pubDate>Thu, 23 Mar 2023 12:55:37 +0000</pubDate>
+		<dc:creator>Ratoncolorao</dc:creator>
+		<category><![CDATA[politica]]></category>
+		<category><![CDATA[moción de censura]]></category>
+		<category><![CDATA[tamames]]></category>
+		<category><![CDATA[vox]]></category>
+		<guid>https://www.meneame.net/story/fiasco-censura-debilita-derechas-dos-meses-elecciones</guid>
+		<description><![CDATA[<img src='https://cdn.mnmstatic.net/cache/39/e5/media_thumb-link-3794329.jpeg?1679562786' width='155' height='155' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>En la Moncloa mostraron su satisfacción porque entendieron logrados todos sus objetivos. En primer lugar, por poder resaltar la acción del Gobierno –“siempre es bueno, porque las noticias se amortizan en 24 horas”, alegan ante la lista de medidas aprobadas en las que apenas pueden recrearse–, y además plasmar una imagen de cohesión interna gracias a la alianza entre Pedro Sánchez y Yolanda Díaz.</p><p><strong>etiquetas</strong>: moción de censura, tamames, vox</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=3794329" >noticia original</a> (www.lavanguardia.com)</p>]]></description>
+		<media:thumbnail url="https://cdn.mnmstatic.net/cache/39/e5/media_thumb-link-3794329.jpeg?1679562786" width='155' height='155' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=3794329</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>3794286</meneame:link_id>
+		<meneame:sub>actualidad</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>Beltenebros</meneame:user>
+		<meneame:clicks>920</meneame:clicks>
+		<meneame:votes>201</meneame:votes>
+		<meneame:negatives>6</meneame:negatives>
+		<meneame:karma>1495</meneame:karma>
+		<meneame:comments>56</meneame:comments>
+		<meneame:url>https://www.meneame.net/story/espiral-precios-salarios-refutada?utm_source=meneame_rss</meneame:url>
+		<title>La espiral de precios de los salarios refutada</title>
+		<link>https://www.meneame.net/story/espiral-precios-salarios-refutada</link>
+		<comments>https://www.meneame.net/story/espiral-precios-salarios-refutada</comments>
+		<pubDate>Thu, 23 Mar 2023 12:30:37 +0000</pubDate>
+		<dc:creator>Beltenebros</dc:creator>
+		<category><![CDATA[actualidad]]></category>
+		<category><![CDATA[salarios]]></category>
+		<category><![CDATA[precios]]></category>
+		<category><![CDATA[valor]]></category>
+		<category><![CDATA[inflación]]></category>
+		<category><![CDATA[marx]]></category>
+		<guid>https://www.meneame.net/story/espiral-precios-salarios-refutada</guid>
+		<description><![CDATA[<img src='https://cdn.mnmstatic.net/cache/39/e5/media_thumb-link-3794286.jpeg?1679565002' width='155' height='155' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>La generalizada idea de que en un proceso inflacionario aumentar los salarios comporta automáticamente un aumento de los precios es radicalmente falsa. En primer lugar, “los aumentos salariales generalmente suceden tras los aumentos de precios anteriores”: es una respuesta de recuperación, no debido a demandas “excesivas” y poco realistas de salarios más altos por parte de los trabajadores. En segundo lugar, no son los aumentos de salarios los que causan el aumento de la inflación. Muchas otras cosas afectan los cambios de precios, argumentó...</p><p><strong>etiquetas</strong>: salarios, precios, valor, inflación, marx</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=3794286" >noticia original</a> (www.elviejotopo.com)</p>]]></description>
+		<media:thumbnail url="https://cdn.mnmstatic.net/cache/39/e5/media_thumb-link-3794286.jpeg?1679565002" width='155' height='155' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=3794286</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>3794281</meneame:link_id>
+		<meneame:sub>actualidad</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>Javier_Lothbrok</meneame:user>
+		<meneame:clicks>1848</meneame:clicks>
+		<meneame:votes>214</meneame:votes>
+		<meneame:negatives>4</meneame:negatives>
+		<meneame:karma>1495</meneame:karma>
+		<meneame:comments>64</meneame:comments>
+		<meneame:url>https://www.meneame.net/story/dgt-enfada-pilotos-pegasus-tras-hacerles-brutales-controles?utm_source=meneame_rss</meneame:url>
+		<title>La DGT enfada a los pilotos del Pegasus tras hacerles &#34;brutales&#34; controles antidrogas</title>
+		<link>https://www.meneame.net/story/dgt-enfada-pilotos-pegasus-tras-hacerles-brutales-controles</link>
+		<comments>https://www.meneame.net/story/dgt-enfada-pilotos-pegasus-tras-hacerles-brutales-controles</comments>
+		<pubDate>Thu, 23 Mar 2023 12:10:02 +0000</pubDate>
+		<dc:creator>Javier_Lothbrok</dc:creator>
+		<category><![CDATA[actualidad]]></category>
+		<category><![CDATA[dgt]]></category>
+		<category><![CDATA[pegasus]]></category>
+		<category><![CDATA[controles antidrogas]]></category>
+		<guid>https://www.meneame.net/story/dgt-enfada-pilotos-pegasus-tras-hacerles-brutales-controles</guid>
+		<description><![CDATA[<img src='https://cdn.mnmstatic.net/cache/39/e5/media_thumb-link-3794281.jpeg?1679556066' width='155' height='155' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>La Dirección General de Tráfico, aunque parezca que no, es bastante sensible a todo lo que se publica. La reciente noticia de que uno de los pilotos de sus queridos helicópteros Pegasus, esos que te multan con una cámara y desde el aire siempre que hace buen tiempo, dio positivo en cocaína y metanfetaminas tras estrellar el aparato ha dado que hablar. Pero la DGT no se ha quedado de brazos cruzados y se ha puesto manos a la obra para ver qué ocurre entre quienes llevan unos helicópteros tan caros y de los que tan solo hay dos.</p><p><strong>etiquetas</strong>: dgt, pegasus, controles antidrogas</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=3794281" >noticia original</a> (www.chasiscero.com)</p>]]></description>
+		<media:thumbnail url="https://cdn.mnmstatic.net/cache/39/e5/media_thumb-link-3794281.jpeg?1679556066" width='155' height='155' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=3794281</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>3794351</meneame:link_id>
+		<meneame:sub>cultura</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>RGr8888</meneame:user>
+		<meneame:clicks>6005</meneame:clicks>
+		<meneame:votes>156</meneame:votes>
+		<meneame:negatives>24</meneame:negatives>
+		<meneame:karma>28</meneame:karma>
+		<meneame:comments>220</meneame:comments>
+		<meneame:url>https://www.meneame.net/story/cuanto-gusta-poblacion-cada-comunidad-autonoma-espana-gente-eng?utm_source=meneame_rss</meneame:url>
+		<title>¿Cuánto le gusta a la población de cada comunidad autónoma de España a la gente de otras? (Eng)</title>
+		<link>https://www.meneame.net/story/cuanto-gusta-poblacion-cada-comunidad-autonoma-espana-gente-eng</link>
+		<comments>https://www.meneame.net/story/cuanto-gusta-poblacion-cada-comunidad-autonoma-espana-gente-eng</comments>
+		<pubDate>Thu, 23 Mar 2023 11:50:36 +0000</pubDate>
+		<dc:creator>RGr8888</dc:creator>
+		<category><![CDATA[cultura]]></category>
+		<category><![CDATA[catalanofobia]]></category>
+		<guid>https://www.meneame.net/story/cuanto-gusta-poblacion-cada-comunidad-autonoma-espana-gente-eng</guid>
+		<description><![CDATA[<p>¿Cuánto le gusta a la población de cada comunidad autónoma de España a la gente de otras?  La línea roja es la representación gráfica de la Catalanofobia.</p><p><strong>etiquetas</strong>: catalanofobia</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=3794351" >noticia original</a> (mobile.twitter.com)</p>]]></description>
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=3794351</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>3794370</meneame:link_id>
+		<meneame:sub>actualidad</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>Ratoncolorao</meneame:user>
+		<meneame:clicks>1057</meneame:clicks>
+		<meneame:votes>418</meneame:votes>
+		<meneame:negatives>4</meneame:negatives>
+		<meneame:karma>2762</meneame:karma>
+		<meneame:comments>118</meneame:comments>
+		<meneame:url>https://www.meneame.net/story/jubilado-jaen-obligado-pagarse-operacion-toda-vida-cotizando-no?utm_source=meneame_rss</meneame:url>
+		<title>Un jubilado de Jaén obligado a pagarse una operación: “Toda mi vida cotizando y ahora no tengo sanidad pública”</title>
+		<link>https://www.meneame.net/story/jubilado-jaen-obligado-pagarse-operacion-toda-vida-cotizando-no</link>
+		<comments>https://www.meneame.net/story/jubilado-jaen-obligado-pagarse-operacion-toda-vida-cotizando-no</comments>
+		<pubDate>Thu, 23 Mar 2023 11:50:02 +0000</pubDate>
+		<dc:creator>Ratoncolorao</dc:creator>
+		<category><![CDATA[actualidad]]></category>
+		<category><![CDATA[jubilado]]></category>
+		<category><![CDATA[jaén]]></category>
+		<category><![CDATA[sanidad privada]]></category>
+		<category><![CDATA[operación]]></category>
+		<guid>https://www.meneame.net/story/jubilado-jaen-obligado-pagarse-operacion-toda-vida-cotizando-no</guid>
+		<description><![CDATA[<img src='https://cdn.mnmstatic.net/cache/39/e5/media_thumb-link-3794370.jpeg?1679569206' width='155' height='155' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>Este paciente de 74 años ha acudido a una clínica privada tras 15 meses esperando a ser intervenido de una hiperplasia de próstata, casi un año por encima del plazo máximo establecido.</p><p><strong>etiquetas</strong>: jubilado, jaén, sanidad privada, operación</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=3794370" >noticia original</a> (elpais.com)</p>]]></description>
+		<media:thumbnail url="https://cdn.mnmstatic.net/cache/39/e5/media_thumb-link-3794370.jpeg?1679569206" width='155' height='155' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=3794370</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>3794384</meneame:link_id>
+		<meneame:sub>actualidad</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>Elnuberu</meneame:user>
+		<meneame:clicks>3322</meneame:clicks>
+		<meneame:votes>195</meneame:votes>
+		<meneame:negatives>3</meneame:negatives>
+		<meneame:karma>1552</meneame:karma>
+		<meneame:comments>53</meneame:comments>
+		<meneame:url>https://www.meneame.net/story/carmen-jorda-denunciada-atropello-intencionado-piloto-queria-sin?utm_source=meneame_rss</meneame:url>
+		<title>Carmen Jordá, denunciada por atropello intencionado: la piloto quería irse sin pagar de una clínica estética</title>
+		<link>https://www.meneame.net/story/carmen-jorda-denunciada-atropello-intencionado-piloto-queria-sin</link>
+		<comments>https://www.meneame.net/story/carmen-jorda-denunciada-atropello-intencionado-piloto-queria-sin</comments>
+		<pubDate>Thu, 23 Mar 2023 11:40:02 +0000</pubDate>
+		<dc:creator>Elnuberu</dc:creator>
+		<category><![CDATA[actualidad]]></category>
+		<category><![CDATA[carmen jordá]]></category>
+		<category><![CDATA[denunciada]]></category>
+		<category><![CDATA[atropello]]></category>
+		<guid>https://www.meneame.net/story/carmen-jorda-denunciada-atropello-intencionado-piloto-queria-sin</guid>
+		<description><![CDATA[<img src='https://cdn.mnmstatic.net/cache/39/e5/media_thumb-link-3794384.jpeg?1679570406' width='155' height='155' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>Los hechos habrían ocurrido, supuestamente, el pasado 9 de marzo a las puertas de una clínica estética situada en la localidad madrileña de Pozuelo. Carmen Jordá habría supuestamente atropellado en varias ocasiones a esta trabajadora con el Maserati con el que acudió al centro y después habría huido &quot;a gran velocidad&quot;.</p><p><strong>etiquetas</strong>: carmen jordá, denunciada, atropello</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=3794384" >noticia original</a> (www.cuatro.com)</p>]]></description>
+		<media:thumbnail url="https://cdn.mnmstatic.net/cache/39/e5/media_thumb-link-3794384.jpeg?1679570406" width='155' height='155' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=3794384</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>3794290</meneame:link_id>
+		<meneame:sub>actualidad</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>tontorron</meneame:user>
+		<meneame:clicks>795</meneame:clicks>
+		<meneame:votes>443</meneame:votes>
+		<meneame:negatives>0</meneame:negatives>
+		<meneame:karma>2811</meneame:karma>
+		<meneame:comments>65</meneame:comments>
+		<meneame:url>https://www.meneame.net/story/restaurante-ilegal-antidisturbios-lleva-contabilidad-b-gestiona?utm_source=meneame_rss</meneame:url>
+		<title>El restaurante ilegal de los antidisturbios lleva una contabilidad B que gestiona su jefe</title>
+		<link>https://www.meneame.net/story/restaurante-ilegal-antidisturbios-lleva-contabilidad-b-gestiona</link>
+		<comments>https://www.meneame.net/story/restaurante-ilegal-antidisturbios-lleva-contabilidad-b-gestiona</comments>
+		<pubDate>Thu, 23 Mar 2023 11:20:03 +0000</pubDate>
+		<dc:creator>tontorron</dc:creator>
+		<category><![CDATA[actualidad]]></category>
+		<category><![CDATA[policías]]></category>
+		<category><![CDATA[antidisturbios]]></category>
+		<category><![CDATA[comedor]]></category>
+		<category><![CDATA[contabilidad b]]></category>
+		<guid>https://www.meneame.net/story/restaurante-ilegal-antidisturbios-lleva-contabilidad-b-gestiona</guid>
+		<description><![CDATA[<img src='https://cdn.mnmstatic.net/cache/39/e5/media_thumb-link-3794290.jpeg?1679557206' width='155' height='155' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>El restaurante ilegal de la sede de la Unidad de Intervención Policial (UIP) del complejo de Moratalaz (Madrid) funciona a través de una contabilidad paralela gestionada directamente por la jefatura de los antidisturbios, en este caso por el comisario Francisco López Gordo. Y antes de él, por sus predecesores, entre ellos, el comisario José Miguel Ruiz Igusquiza, destinado ahora como consejero de Interior de la Embajada de España en Moscú. Así lo atestiguan tanto las fuentes policiales consultadas como los documentos.</p><p><strong>etiquetas</strong>: policías, antidisturbios, comedor, contabilidad b</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=3794290" >noticia original</a> (theobjective.com)</p>]]></description>
+		<media:thumbnail url="https://cdn.mnmstatic.net/cache/39/e5/media_thumb-link-3794290.jpeg?1679557206" width='155' height='155' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=3794290</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>3794207</meneame:link_id>
+		<meneame:sub>politica</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>HackerRuso</meneame:user>
+		<meneame:clicks>917</meneame:clicks>
+		<meneame:votes>218</meneame:votes>
+		<meneame:negatives>9</meneame:negatives>
+		<meneame:karma>1282</meneame:karma>
+		<meneame:comments>190</meneame:comments>
+		<meneame:url>https://www.meneame.net/story/kirby-uranio-empobrecido-municion-comun-rusia-esta-preocupada?utm_source=meneame_rss</meneame:url>
+		<title>Kirby: el uranio empobrecido es &#34;munición común&#34;, si Rusia está preocupada por sus tanques, que los saque de Ucrania (EN)</title>
+		<link>https://www.meneame.net/story/kirby-uranio-empobrecido-municion-comun-rusia-esta-preocupada</link>
+		<comments>https://www.meneame.net/story/kirby-uranio-empobrecido-municion-comun-rusia-esta-preocupada</comments>
+		<pubDate>Thu, 23 Mar 2023 10:40:36 +0000</pubDate>
+		<dc:creator>HackerRuso</dc:creator>
+		<category><![CDATA[politica]]></category>
+		<category><![CDATA[kirby]]></category>
+		<category><![CDATA[eeuu]]></category>
+		<category><![CDATA[uranio]]></category>
+		<category><![CDATA[ruisia]]></category>
+		<category><![CDATA[ucrania]]></category>
+		<category><![CDATA[reino unido]]></category>
+		<guid>https://www.meneame.net/story/kirby-uranio-empobrecido-municion-comun-rusia-esta-preocupada</guid>
+		<description><![CDATA[<p>&quot;Se trata de un tipo común de munición que se utiliza normalmente por su capacidad de perforar blindajes&quot;, dijo Kirby. &quot;Si Rusia está profundamente preocupada por el bienestar de sus tanques y soldados de tanques, lo más seguro para ellos es moverlos a través de la frontera, sacarlos de Ucrania&quot;.</p><p><strong>etiquetas</strong>: kirby, eeuu, uranio, ruisia, ucrania, reino unido</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=3794207" >noticia original</a> (www.realclearpolitics.com)</p>]]></description>
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=3794207</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>3794282</meneame:link_id>
+		<meneame:sub>actualidad</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>Beltenebros</meneame:user>
+		<meneame:clicks>504</meneame:clicks>
+		<meneame:votes>469</meneame:votes>
+		<meneame:negatives>2</meneame:negatives>
+		<meneame:karma>3016</meneame:karma>
+		<meneame:comments>59</meneame:comments>
+		<meneame:url>https://www.meneame.net/story/responsables-protocolos-verguenza-residencias-madrid-declaran?utm_source=meneame_rss</meneame:url>
+		<title>Los responsables de los &#34;protocolos de la vergüenza&#34; en las residencias de Madrid declaran por primera vez en un juzgado</title>
+		<link>https://www.meneame.net/story/responsables-protocolos-verguenza-residencias-madrid-declaran</link>
+		<comments>https://www.meneame.net/story/responsables-protocolos-verguenza-residencias-madrid-declaran</comments>
+		<pubDate>Thu, 23 Mar 2023 10:20:02 +0000</pubDate>
+		<dc:creator>Beltenebros</dc:creator>
+		<category><![CDATA[actualidad]]></category>
+		<category><![CDATA[ayuso]]></category>
+		<category><![CDATA[reyero]]></category>
+		<category><![CDATA[residencias]]></category>
+		<category><![CDATA[protocolos]]></category>
+		<category><![CDATA[covid]]></category>
+		<guid>https://www.meneame.net/story/responsables-protocolos-verguenza-residencias-madrid-declaran</guid>
+		<description><![CDATA[<img src='https://cdn.mnmstatic.net/cache/39/e5/media_thumb-link-3794282.jpeg?1679556426' width='155' height='155' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>El exdirector de Coordinación Sociosanitaria, Carlos Mur, y el exconsejero de Políticas Sociales, Alberto Reyero, declaran como testigos en una investigación sobre las muertes en los centros de mayores durante la primera ola de la covid. La comparecencia tiene lugar este jueves 23 de marzo a partir de las 10.00 horas en los juzgados de Plaza de Castilla. El primero en testificar será, previsiblemente, Mur, como firmante de los documentos, y sobre las 11.00 horas lo hará Reyero.</p><p><strong>etiquetas</strong>: ayuso, reyero, residencias, protocolos, covid</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=3794282" >noticia original</a> (www.publico.es)</p>]]></description>
+		<media:thumbnail url="https://cdn.mnmstatic.net/cache/39/e5/media_thumb-link-3794282.jpeg?1679556426" width='155' height='155' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=3794282</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>3793836</meneame:link_id>
+		<meneame:sub>Artículos</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>IanCutris</meneame:user>
+		<meneame:clicks>2931</meneame:clicks>
+		<meneame:votes>347</meneame:votes>
+		<meneame:negatives>4</meneame:negatives>
+		<meneame:karma>2391</meneame:karma>
+		<meneame:comments>44</meneame:comments>
+		<meneame:url>https://www.meneame.net/story/mocion-censura-agitese-antes-usar?utm_source=meneame_rss</meneame:url>
+		<title>Moción de censura: agítese antes de usar</title>
+		<link>https://www.meneame.net/story/mocion-censura-agitese-antes-usar</link>
+		<comments>https://www.meneame.net/story/mocion-censura-agitese-antes-usar</comments>
+		<pubDate>Thu, 23 Mar 2023 10:00:02 +0000</pubDate>
+		<dc:creator>IanCutris</dc:creator>
+		<category><![CDATA[Artículos]]></category>
+		<category><![CDATA[artículo]]></category>
+		<guid>https://www.meneame.net/story/mocion-censura-agitese-antes-usar</guid>
+		<description><![CDATA[<img src='https://cdn.mnmstatic.net/cache/39/e3/media_thumb-link-3793836.png?1679438354' width='155' height='155' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p><p>Hay que hacerlo tremendamente mal para que un trepa pedante malvado y sin escr&uacute;pulos como Tamames te acabe dando pena.</p><p>Hoy este pobre se&ntilde;or ha convertido el Parlamento en una pel&iacute;cula de Pajares y Esteso, porque decir que esto ha sido berlanguiano ser&iacute;a una falta de respeto. Solo faltaba Ozores persiguiendo a alguna bedel en biquini para acabar de darle el toque final a esta verg&uuml;enza nacional. El esperpento ha sido de tal calibre que hasta El Mundo ha escrito un editorial catacl&iacute;smico criticando ferozmente la moci&oacute;n y advirtiendo que esto aumenta las posibilidades electorales de Podemos y PSOE. Incluso se ha podido escuchar a Federico J&iacute;menez Losantos comparar la moci&oacute;n con una de las peores pel&iacute;culas del destape espa&ntilde;ol "Ag&iacute;tese antes de usar" y al candidato con "una gaseosa pocha".</p><p><img src="https://www.meneame.net/backend/media?type=link&amp;id=3793836&amp;version=0&amp;ts=0&amp;image.png">.</p><p>Qu&eacute; inmenso apuro daba ver a este pobre hombre, que de haber tenido 30 a&ntilde;os menos lo habr&iacute;a hecho igual de mal o peor, porque lo tremebundo de este peinabombillas, de esta veleta oxidada, es que ha tenido los sant&iacute;simos cojones de venir con doble pa&ntilde;al geri&aacute;trico pero sin el discurso preparado. El espect&aacute;culo ha sido tan absolutamente bochornoso que hasta he sentido l&aacute;stima por esa pandilla de malvados sin sesos ni coraz&oacute;n que lo escoltaban en el hemiciclo. Abascal y el autor ideol&oacute;gico de este esperpento, Espinosa de los Monteros, que tuvo la feliz ocurrencia de decirle s&iacute; al delirio de borracho que tuvo S&aacute;nchez Drag&oacute; con Tamames, no pod&iacute;an disimular la cara de pasmo cada vez que el ex comunista y ex ucedista abr&iacute;a la boca.</p><p>Cabr&iacute;a preguntarse c&oacute;mo se justifica que, esta gente, que luego se erige en defensora de la moral de los ni&ntilde;os y bloquea la educaci&oacute;n sexual, se tome en serio los delirios de un abuelo que dice tener orgasmos de media hora "como los cerdos" y afirma haberse acostado con ni&ntilde;as, pero bueno, eso dar&iacute;a para otro post.</p><p>Al final de este teatrillo, peri&oacute;dicos como el Financial Times o el Washington Post hablaban de "esperpento" y de "peligrosas reminiscencias a tiempos pasados" e incluso el economista Paul Krugman comparaba lo de hoy con Bananas de Woody Allen.</p><p>Comunistas que ahora son de derechas, promilitares que no hicieron la mili, cat&oacute;licos que se divorciaron, arquitectos sin t&iacute;tulo de arquitectos, antipaguitas que cobraban paguitas y una moci&oacute;n de censura que ha acabado censurando al que hac&iacute;a la moci&oacute;n hecha por un partido democr&aacute;tico que nunca crey&oacute; en la democracia.</p><p>En lo &uacute;nico que es coherente esta mafia de lamebotas, es en que son el partido que votan los mentecatos. Falta por ver cuanto necesita un mentecato para darse cuenta de que lo es.</p></p><p><strong>etiquetas</strong>: artículo</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=3793836" >noticia original</a> ()</p>]]></description>
+		<media:thumbnail url="https://cdn.mnmstatic.net/cache/39/e3/media_thumb-link-3793836.png?1679438354" width='155' height='155' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=3793836</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>3793905</meneame:link_id>
+		<meneame:sub>cultura</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>Ripio</meneame:user>
+		<meneame:clicks>1215</meneame:clicks>
+		<meneame:votes>88</meneame:votes>
+		<meneame:negatives>2</meneame:negatives>
+		<meneame:karma>653</meneame:karma>
+		<meneame:comments>13</meneame:comments>
+		<meneame:url>https://www.meneame.net/story/limes-arabicus-cadena-fortificaciones-protegia-territorio-romano?utm_source=meneame_rss</meneame:url>
+		<title>Limes Arabicus, la cadena de fortificaciones que protegía el territorio romano de las tribus del desierto</title>
+		<link>https://www.meneame.net/story/limes-arabicus-cadena-fortificaciones-protegia-territorio-romano</link>
+		<comments>https://www.meneame.net/story/limes-arabicus-cadena-fortificaciones-protegia-territorio-romano</comments>
+		<pubDate>Thu, 23 Mar 2023 12:00:14 +0000</pubDate>
+		<dc:creator>Ripio</dc:creator>
+		<category><![CDATA[cultura]]></category>
+		<category><![CDATA[limes arabicus]]></category>
+		<category><![CDATA[historia]]></category>
+		<category><![CDATA[fortificaciones]]></category>
+		<guid>https://www.meneame.net/story/limes-arabicus-cadena-fortificaciones-protegia-territorio-romano</guid>
+		<description><![CDATA[<img src='https://cdn.mnmstatic.net/cache/39/e3/media_thumb-link-3793905.jpeg?1679474106' width='155' height='155' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>Al hablar de limes suelen venírsenos a la cabeza los límites del Imperio Romano en el norte de Europa, en Germania o Gran Bretaña, pero esa palabra significa frontera y se aplicaba a los lindes de todos los puntos cardinales, de manera que si el Rin marcaba el Limes Germanicus y el Muro de Adriano el britano, también había limes Alutanus y Transalutanus (en el Danubio), un Limes Moesiae (entre las actuales Rumanía y Moldavia), un Limes Tripolitanus (en el norte de África, ampliado con el Fossatum Africae) y un Limes oriental (en el Éufrates).</p><p><strong>etiquetas</strong>: limes arabicus, historia, fortificaciones</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=3793905" >noticia original</a> (www.labrujulaverde.com)</p>]]></description>
+		<media:thumbnail url="https://cdn.mnmstatic.net/cache/39/e3/media_thumb-link-3793905.jpeg?1679474106" width='155' height='155' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=3793905</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>3794241</meneame:link_id>
+		<meneame:sub>actualidad</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>blodhemn</meneame:user>
+		<meneame:clicks>620</meneame:clicks>
+		<meneame:votes>619</meneame:votes>
+		<meneame:negatives>6</meneame:negatives>
+		<meneame:karma>4021</meneame:karma>
+		<meneame:comments>160</meneame:comments>
+		<meneame:url>https://www.meneame.net/story/patronal-resiste-subir-salarios-mientras-beneficios-no-paran?utm_source=meneame_rss</meneame:url>
+		<title>La patronal se resiste a subir salarios mientras los beneficios empresariales no paran de crecer</title>
+		<link>https://www.meneame.net/story/patronal-resiste-subir-salarios-mientras-beneficios-no-paran</link>
+		<comments>https://www.meneame.net/story/patronal-resiste-subir-salarios-mientras-beneficios-no-paran</comments>
+		<pubDate>Thu, 23 Mar 2023 09:20:38 +0000</pubDate>
+		<dc:creator>blodhemn</dc:creator>
+		<category><![CDATA[actualidad]]></category>
+		<category><![CDATA[españa]]></category>
+		<category><![CDATA[patronal]]></category>
+		<category><![CDATA[salarios]]></category>
+		<category><![CDATA[beneficios empresariales]]></category>
+		<guid>https://www.meneame.net/story/patronal-resiste-subir-salarios-mientras-beneficios-no-paran</guid>
+		<description><![CDATA[<img src='https://cdn.mnmstatic.net/cache/39/e5/media_thumb-link-3794241.jpeg?1679549526' width='155' height='155' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>Los empresarios demoran una negociación clave y cuya “urgencia” reiteran los sindicatos ante la pérdida de poder adquisitivo de los trabajadores. Las patronales y los sindicatos mayoritarios se habían emplazado este miércoles, 20 de marzo, para reiniciar el debate para un gran pacto de salarios. CCOO y UGT acudían con su propuesta de alzas bajo el brazo, que habían dado a conocer a comienzos de mes, y había máxima expectación por la oferta de la CEOE y Cepyme. Sin embargo, los empresarios han acudido a la mesa de negociación sin propuesta.</p><p><strong>etiquetas</strong>: españa, patronal, salarios, beneficios empresariales</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=3794241" >noticia original</a> (www.eldiario.es)</p>]]></description>
+		<media:thumbnail url="https://cdn.mnmstatic.net/cache/39/e5/media_thumb-link-3794241.jpeg?1679549526" width='155' height='155' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=3794241</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>3794240</meneame:link_id>
+		<meneame:sub>tecnología</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>ccguy</meneame:user>
+		<meneame:clicks>2050</meneame:clicks>
+		<meneame:votes>174</meneame:votes>
+		<meneame:negatives>1</meneame:negatives>
+		<meneame:karma>863</meneame:karma>
+		<meneame:comments>18</meneame:comments>
+		<meneame:url>https://www.meneame.net/story/dron-capaz-localizar-minas-antipersonas-volando-sobre-terreno?utm_source=meneame_rss</meneame:url>
+		<title>Un dron capaz de localizar minas antipersonas volando sobre el terreno con un detector de metales</title>
+		<link>https://www.meneame.net/story/dron-capaz-localizar-minas-antipersonas-volando-sobre-terreno</link>
+		<comments>https://www.meneame.net/story/dron-capaz-localizar-minas-antipersonas-volando-sobre-terreno</comments>
+		<pubDate>Thu, 23 Mar 2023 11:10:11 +0000</pubDate>
+		<dc:creator>ccguy</dc:creator>
+		<category><![CDATA[tecnología]]></category>
+		<category><![CDATA[dron]]></category>
+		<category><![CDATA[minas]]></category>
+		<category><![CDATA[detector]]></category>
+		<category><![CDATA[metales]]></category>
+		<guid>https://www.meneame.net/story/dron-capaz-localizar-minas-antipersonas-volando-sobre-terreno</guid>
+		<description><![CDATA[<img src='https://cdn.mnmstatic.net/cache/39/e5/media_thumb-link-3794240.jpeg?1679547486' width='155' height='155' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>Dado que las minas antipersonas que hay enterradas en diversas partes del mundo siguen siendo un problema, este invento parece una gran idea: un dron volador capaz de localizarlas sin riesgo de activación usando un detector que se sitúa muy cerca del terreno. En el vídeo puede verse cómo el curioso dron vuela trazando movimientos de barrido sobre el terreno, inclinándose cuando es necesario y evitando los obstáculos. El resultado es una cartografía donde las minas –objetos metálicos de prueba en este caso– aparecen en un color resaltado (...)</p><p><strong>etiquetas</strong>: dron, minas,  detector, metales</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=3794240" >noticia original</a> (www.microsiervos.com)</p>]]></description>
+		<media:thumbnail url="https://cdn.mnmstatic.net/cache/39/e5/media_thumb-link-3794240.jpeg?1679547486" width='155' height='155' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=3794240</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>3794291</meneame:link_id>
+		<meneame:sub>tecnología</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>blodhemn</meneame:user>
+		<meneame:clicks>428</meneame:clicks>
+		<meneame:votes>430</meneame:votes>
+		<meneame:negatives>0</meneame:negatives>
+		<meneame:karma>2142</meneame:karma>
+		<meneame:comments>131</meneame:comments>
+		<meneame:url>https://www.meneame.net/story/union-europea-quiere-fabricantes-reparen-tus-electrodomesticos?utm_source=meneame_rss</meneame:url>
+		<title>La Unión Europea quiere que los fabricantes te reparen tus electrodomésticos hasta 10 años después de comprarlos</title>
+		<link>https://www.meneame.net/story/union-europea-quiere-fabricantes-reparen-tus-electrodomesticos</link>
+		<comments>https://www.meneame.net/story/union-europea-quiere-fabricantes-reparen-tus-electrodomesticos</comments>
+		<pubDate>Thu, 23 Mar 2023 09:45:11 +0000</pubDate>
+		<dc:creator>blodhemn</dc:creator>
+		<category><![CDATA[tecnología]]></category>
+		<category><![CDATA[unión europea]]></category>
+		<category><![CDATA[fabricantes]]></category>
+		<category><![CDATA[electrodomésticos]]></category>
+		<category><![CDATA[obligación reparar]]></category>
+		<category><![CDATA[10 años]]></category>
+		<guid>https://www.meneame.net/story/union-europea-quiere-fabricantes-reparen-tus-electrodomesticos</guid>
+		<description><![CDATA[<img src='https://cdn.mnmstatic.net/cache/39/e5/media_thumb-link-3794291.jpeg?1679557146' width='155' height='155' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>Hasta ahora, la ley dictaba que los aparatos tuvieran piezas de recambio disponibles durante una década. La UE también quiere que los fabricantes tengan la obligación de repararlos. Bruselas sostiene que deben priorizarse las reparaciones siempre que sea posible no sólo porque se rebajarán costes, sino también por coherencia con el reto del Pacto Verde, porque permitirá reducir residuos y también el uso de materiales para nuevas producciones.</p><p><strong>etiquetas</strong>: unión europea, fabricantes, electrodomésticos, obligación reparar, 10 años</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=3794291" >noticia original</a> (www.20minutos.es)</p>]]></description>
+		<media:thumbnail url="https://cdn.mnmstatic.net/cache/39/e5/media_thumb-link-3794291.jpeg?1679557146" width='155' height='155' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=3794291</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>3794294</meneame:link_id>
+		<meneame:sub>politica</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>tontorron</meneame:user>
+		<meneame:clicks>795</meneame:clicks>
+		<meneame:votes>504</meneame:votes>
+		<meneame:negatives>3</meneame:negatives>
+		<meneame:karma>3173</meneame:karma>
+		<meneame:comments>50</meneame:comments>
+		<meneame:url>https://www.meneame.net/story/exdirectora-guardia-civil-compro-atico-millon-malaga-ano-marido?utm_source=meneame_rss</meneame:url>
+		<title>La exdirectora de la Guardia Civil se compró un ático de un millón en Málaga el año que su marido cobró de los ERE</title>
+		<link>https://www.meneame.net/story/exdirectora-guardia-civil-compro-atico-millon-malaga-ano-marido</link>
+		<comments>https://www.meneame.net/story/exdirectora-guardia-civil-compro-atico-millon-malaga-ano-marido</comments>
+		<pubDate>Thu, 23 Mar 2023 08:50:36 +0000</pubDate>
+		<dc:creator>tontorron</dc:creator>
+		<category><![CDATA[politica]]></category>
+		<category><![CDATA[guardia civil]]></category>
+		<category><![CDATA[maría gámez]]></category>
+		<category><![CDATA[caso ere]]></category>
+		<category><![CDATA[ático]]></category>
+		<category><![CDATA[corrupción]]></category>
+		<guid>https://www.meneame.net/story/exdirectora-guardia-civil-compro-atico-millon-malaga-ano-marido</guid>
+		<description><![CDATA[<img src='https://cdn.mnmstatic.net/cache/39/e5/media_thumb-link-3794294.jpeg?1679557686' width='155' height='155' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>La directora de la Guardia Civil hasta este miércoles, María Gámez, adquirió un ático dúplex valorado en un millón de euros en una playa de Málaga junto a su marido el año que éste cobró ayudas públicas irregulares. En la actualidad, el marido de Gámez está siendo investigado en una causa judicial derivada de la trama de corrupción de los ERE de Andalucía donde la Policía busca el rastro de 1,3 millones de euros desviados ilegalmente, cantidad que se acerca al valor del inmueble.</p><p><strong>etiquetas</strong>: guardia civil, maría gámez, caso ere, ático, corrupción</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=3794294" >noticia original</a> (www.eldebate.com)</p>]]></description>
+		<media:thumbnail url="https://cdn.mnmstatic.net/cache/39/e5/media_thumb-link-3794294.jpeg?1679557686" width='155' height='155' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=3794294</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>3794271</meneame:link_id>
+		<meneame:sub>actualidad</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>ccguy</meneame:user>
+		<meneame:clicks>5833</meneame:clicks>
+		<meneame:votes>218</meneame:votes>
+		<meneame:negatives>0</meneame:negatives>
+		<meneame:karma>1623</meneame:karma>
+		<meneame:comments>82</meneame:comments>
+		<meneame:url>https://www.meneame.net/story/cuando-presentas-baja-voluntaria-empresa-pide-trabajes-unos-dias?utm_source=meneame_rss</meneame:url>
+		<title>Cuando presentas la baja voluntaria y la empresa te pide que trabajes unos días más</title>
+		<link>https://www.meneame.net/story/cuando-presentas-baja-voluntaria-empresa-pide-trabajes-unos-dias</link>
+		<comments>https://www.meneame.net/story/cuando-presentas-baja-voluntaria-empresa-pide-trabajes-unos-dias</comments>
+		<pubDate>Thu, 23 Mar 2023 08:20:02 +0000</pubDate>
+		<dc:creator>ccguy</dc:creator>
+		<category><![CDATA[actualidad]]></category>
+		<category><![CDATA[empresa]]></category>
+		<guid>https://www.meneame.net/story/cuando-presentas-baja-voluntaria-empresa-pide-trabajes-unos-dias</guid>
+		<description><![CDATA[<p>Esta es una situación típica que los trabajadores no aprovechan, pudiendo hacerlo. Toñi la camarera le presenta la famosa carta de “baja voluntaria” a Manolo el del bar, porque quiere cambiar de empleo o por cualquier otra razón. Le da el preaviso de 15 días o el que diga su convenio; pero Manolo le pide, por favor, que retrasase su marcha una semana, un mes, dos meses, porque le vienen tres bodas y dos comuniones, la temporada de verano, porque no encuentra personal, o por lo que sea. Esto es bastante habitual en las (...)</p><p><strong>etiquetas</strong>: empresa</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=3794271" >noticia original</a> (laboro-spain.blogspot.com)</p>]]></description>
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=3794271</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>3794259</meneame:link_id>
+		<meneame:sub>tecnología</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>blodhemn</meneame:user>
+		<meneame:clicks>1619</meneame:clicks>
+		<meneame:votes>194</meneame:votes>
+		<meneame:negatives>1</meneame:negatives>
+		<meneame:karma>1513</meneame:karma>
+		<meneame:comments>59</meneame:comments>
+		<meneame:url>https://www.meneame.net/story/revolucionario-panel-canamo-aisla-tu-casa-ahorrar-hasta-60?utm_source=meneame_rss</meneame:url>
+		<title>El revolucionario panel de cáñamo que aísla tu casa para ahorrar hasta un 60% en climatización</title>
+		<link>https://www.meneame.net/story/revolucionario-panel-canamo-aisla-tu-casa-ahorrar-hasta-60</link>
+		<comments>https://www.meneame.net/story/revolucionario-panel-canamo-aisla-tu-casa-ahorrar-hasta-60</comments>
+		<pubDate>Thu, 23 Mar 2023 08:30:09 +0000</pubDate>
+		<dc:creator>blodhemn</dc:creator>
+		<category><![CDATA[tecnología]]></category>
+		<category><![CDATA[arquitectura]]></category>
+		<category><![CDATA[ekolution]]></category>
+		<category><![CDATA[paneles de fibra de cañamo]]></category>
+		<category><![CDATA[aislante térmico]]></category>
+		<guid>https://www.meneame.net/story/revolucionario-panel-canamo-aisla-tu-casa-ahorrar-hasta-60</guid>
+		<description><![CDATA[<img src='https://cdn.mnmstatic.net/cache/39/e5/media_thumb-link-3794259.jpeg?1679553786' width='155' height='155' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>Los aislantes más comunes como la fibra de vidrio, la lana de roca, la espuma de poliuretano o la celulosa tienen sus inconvenientes, como el alto consumo energético que implica su producción o la compleja manipulación de los materiales. Frente a ellos van ganando terreno alternativas ecológicas como el cáñamo industrial que, gracias a sus propiedades de aislamiento térmico y acústico se postula como uno de los materiales del futuro en la industria de la construcción.</p><p><strong>etiquetas</strong>: arquitectura, ekolution, paneles de fibra de cañamo, aislante térmico</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=3794259" >noticia original</a> (www.elespanol.com)</p>]]></description>
+		<media:thumbnail url="https://cdn.mnmstatic.net/cache/39/e5/media_thumb-link-3794259.jpeg?1679553786" width='155' height='155' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=3794259</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>3794222</meneame:link_id>
+		<meneame:sub>ocio</meneame:sub>
+		<meneame:status>queued</meneame:status>
+		<meneame:user>Pacofrutos</meneame:user>
+		<meneame:clicks>4955</meneame:clicks>
+		<meneame:votes>194</meneame:votes>
+		<meneame:negatives>36</meneame:negatives>
+		<meneame:karma>81</meneame:karma>
+		<meneame:comments>100</meneame:comments>
+		<meneame:url>https://www.meneame.net/story/tiktoker-recibe-cientos-burlas-despues-revelar-razon-rinoplastia?utm_source=meneame_rss</meneame:url>
+		<title>Una 'tiktoker' recibe cientos de burlas después de revelar la razón de su rinoplastia: &#34;Para que mis hijos nazcan con linda nariz&#34;</title>
+		<link>https://www.meneame.net/story/tiktoker-recibe-cientos-burlas-despues-revelar-razon-rinoplastia</link>
+		<comments>https://www.meneame.net/story/tiktoker-recibe-cientos-burlas-despues-revelar-razon-rinoplastia</comments>
+		<pubDate>Wed, 22 Mar 2023 21:32:47 +0000</pubDate>
+		<dc:creator>Pacofrutos</dc:creator>
+		<category><![CDATA[ocio]]></category>
+		<category><![CDATA[tiktoker]]></category>
+		<category><![CDATA[recibe burlas]]></category>
+		<category><![CDATA[rinoplastia]]></category>
+		<category><![CDATA[argentina]]></category>
+		<guid>https://www.meneame.net/story/tiktoker-recibe-cientos-burlas-despues-revelar-razon-rinoplastia</guid>
+		<description><![CDATA[<p>Cada vez es más habitual compartir las operaciones estéticas en redes sociales. Las rinoplastias han dejado de ser un tabú y, por eso, una tiktoker argentina ha querido mostrar orgullosa su cambio de nariz. Sin embargo, ha recibido cientos de comentarios de burla.</p><p><strong>etiquetas</strong>: tiktoker, recibe burlas, rinoplastia, argentina</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=3794222" rel="nofollow">noticia original</a> (www.20minutos.es)</p>]]></description>
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=3794222</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>3794211</meneame:link_id>
+		<meneame:sub>actualidad</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>Tunguska08Chelyabinsk13</meneame:user>
+		<meneame:clicks>1119</meneame:clicks>
+		<meneame:votes>162</meneame:votes>
+		<meneame:negatives>5</meneame:negatives>
+		<meneame:karma>1139</meneame:karma>
+		<meneame:comments>88</meneame:comments>
+		<meneame:url>https://www.meneame.net/story/libertad-uno-detenidos-violacion-nina-tras-encontrar-relato?utm_source=meneame_rss</meneame:url>
+		<title>Libertad para uno de los detenidos por la violación a una niña tras encontrar incongruencias en el relato de los hechos</title>
+		<link>https://www.meneame.net/story/libertad-uno-detenidos-violacion-nina-tras-encontrar-relato</link>
+		<comments>https://www.meneame.net/story/libertad-uno-detenidos-violacion-nina-tras-encontrar-relato</comments>
+		<pubDate>Thu, 23 Mar 2023 07:10:02 +0000</pubDate>
+		<dc:creator>Tunguska08Chelyabinsk13</dc:creator>
+		<category><![CDATA[actualidad]]></category>
+		<category><![CDATA[alicante]]></category>
+		<category><![CDATA[menor]]></category>
+		<category><![CDATA[agresión sexual]]></category>
+		<guid>https://www.meneame.net/story/libertad-uno-detenidos-violacion-nina-tras-encontrar-relato</guid>
+		<description><![CDATA[<img src='https://cdn.mnmstatic.net/cache/39/e5/media_thumb-link-3794211.jpeg?1679518746' width='155' height='155' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>Uno de los dos detenidos en Alicante en la tarde-noche del martes por la supuesta violación a una niña de 14 años ha quedado en libertad 24 horas después tras detectar los investigadores incongruencias que siembran dudas sobre el relato de los hechos que provocaron su arresto. El otro continúa en los calabozos de la Comisaría provincial de Alicante, desde donde será trasladado probablemente el viernes hasta los juzgados de Benalúa para ser puesto a disposición judicial por un delito de agresión sexual a menor de 16 años.</p><p><strong>etiquetas</strong>: alicante, menor, agresión sexual</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=3794211" >noticia original</a> (www.informacion.es)</p>]]></description>
+		<media:thumbnail url="https://cdn.mnmstatic.net/cache/39/e5/media_thumb-link-3794211.jpeg?1679518746" width='155' height='155' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=3794211</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>3794236</meneame:link_id>
+		<meneame:sub>cultura</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>Constante</meneame:user>
+		<meneame:clicks>1814</meneame:clicks>
+		<meneame:votes>121</meneame:votes>
+		<meneame:negatives>2</meneame:negatives>
+		<meneame:karma>803</meneame:karma>
+		<meneame:comments>60</meneame:comments>
+		<meneame:url>https://www.meneame.net/story/personajes-manchegos-marcial-lafuente-estefania?utm_source=meneame_rss</meneame:url>
+		<title>Personajes manchegos : &#34;Marcial Lafuente Estefanía&#34;</title>
+		<link>https://www.meneame.net/story/personajes-manchegos-marcial-lafuente-estefania</link>
+		<comments>https://www.meneame.net/story/personajes-manchegos-marcial-lafuente-estefania</comments>
+		<pubDate>Thu, 23 Mar 2023 08:00:08 +0000</pubDate>
+		<dc:creator>Constante</dc:creator>
+		<category><![CDATA[cultura]]></category>
+		<category><![CDATA[marcial lafuente estefanía]]></category>
+		<category><![CDATA[oeste americano]]></category>
+		<guid>https://www.meneame.net/story/personajes-manchegos-marcial-lafuente-estefania</guid>
+		<description><![CDATA[<img src='https://cdn.mnmstatic.net/cache/39/e5/media_thumb-link-3794236.jpeg?1679528466' width='155' height='155' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>La biografía de Marcial es cuando menos interesante. Nació en Toledo capital en el año 1903 y falleció en Madrid en 1984 y enterrado en Arenas de San pedro en Ávila. Estudió Ingeniero de Caminos y recorrió distintos países ejerciendo su profesión y entre ellos recorrió parte de Estados Unidos en su demarcación sur como Arizona y Texas, adquiriendo gran conocimiento de la zona y sus características. Comenzó a escribir estando confinado  y preso por haberse entregado a los nacionales después de nuestra Guerra Civil…</p><p><strong>etiquetas</strong>: marcial lafuente estefanía, oeste americano</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=3794236" >noticia original</a> (www.cuadernosmanchegos.com)</p>]]></description>
+		<media:thumbnail url="https://cdn.mnmstatic.net/cache/39/e5/media_thumb-link-3794236.jpeg?1679528466" width='155' height='155' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=3794236</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>3794235</meneame:link_id>
+		<meneame:sub>actualidad</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>Octaviano</meneame:user>
+		<meneame:clicks>2631</meneame:clicks>
+		<meneame:votes>159</meneame:votes>
+		<meneame:negatives>2</meneame:negatives>
+		<meneame:karma>1179</meneame:karma>
+		<meneame:comments>92</meneame:comments>
+		<meneame:url>https://www.meneame.net/story/valencia-tercera-ciudad-espana-mas-cocaina-consume?utm_source=meneame_rss</meneame:url>
+		<title>València es la tercera ciudad de España que más cocaína consume</title>
+		<link>https://www.meneame.net/story/valencia-tercera-ciudad-espana-mas-cocaina-consume</link>
+		<comments>https://www.meneame.net/story/valencia-tercera-ciudad-espana-mas-cocaina-consume</comments>
+		<pubDate>Thu, 23 Mar 2023 05:05:43 +0000</pubDate>
+		<dc:creator>Octaviano</dc:creator>
+		<category><![CDATA[actualidad]]></category>
+		<category><![CDATA[ciudades con más consumo de cocaína]]></category>
+		<category><![CDATA[cocaína en valencia]]></category>
+		<guid>https://www.meneame.net/story/valencia-tercera-ciudad-espana-mas-cocaina-consume</guid>
+		<description><![CDATA[<img src='https://cdn.mnmstatic.net/cache/39/e5/media_thumb-link-3794235.jpeg?1679528046' width='155' height='155' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>Las aguas residuales de Valencia revelan un consumo récord de cocaína. Un estudio indica que en ellas hay 724,12 miligramos de la droga por cada mil personas, por lo que sitúa a la capital del Turia como la séptima metrópoli europea donde más se usa esta droga en días laborables.  Relacionada: <a href="https://www.meneame.net/story/aguas-residuales-revelan-drogas-consume-ciudad-cocaina-sur-este" title="www.meneame.net/story/aguas-residuales-revelan-drogas-consume-ciudad-cocaina-sur-este" rel="nofollow">www.meneame.net/story/aguas-residuales-revelan-drogas-consume-ciudad-c</a></p><p><strong>etiquetas</strong>: ciudades con más consumo de cocaína, cocaína en valencia</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=3794235" >noticia original</a> (www.levante-emv.com)</p>]]></description>
+		<media:thumbnail url="https://cdn.mnmstatic.net/cache/39/e5/media_thumb-link-3794235.jpeg?1679528046" width='155' height='155' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=3794235</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>3794173</meneame:link_id>
+		<meneame:sub>cultura</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>Skar2791</meneame:user>
+		<meneame:clicks>740</meneame:clicks>
+		<meneame:votes>94</meneame:votes>
+		<meneame:negatives>1</meneame:negatives>
+		<meneame:karma>352</meneame:karma>
+		<meneame:comments>9</meneame:comments>
+		<meneame:url>https://www.meneame.net/story/adrian-goldsworthy-doctor-historia-sin-filipo-ii-no-habria-magno?utm_source=meneame_rss</meneame:url>
+		<title>Adrian Goldsworthy, doctor en Historia: &#34;Sin Filipo II no habría existido Alejandro Magno, y no solo en el sentido obvio de que era su padre&#34;</title>
+		<link>https://www.meneame.net/story/adrian-goldsworthy-doctor-historia-sin-filipo-ii-no-habria-magno</link>
+		<comments>https://www.meneame.net/story/adrian-goldsworthy-doctor-historia-sin-filipo-ii-no-habria-magno</comments>
+		<pubDate>Thu, 23 Mar 2023 04:10:09 +0000</pubDate>
+		<dc:creator>Skar2791</dc:creator>
+		<category><![CDATA[cultura]]></category>
+		<category><![CDATA[adrian goldsworthy]]></category>
+		<category><![CDATA[historia]]></category>
+		<category><![CDATA[alejandro magno]]></category>
+		<category><![CDATA[divulgación histórica]]></category>
+		<guid>https://www.meneame.net/story/adrian-goldsworthy-doctor-historia-sin-filipo-ii-no-habria-magno</guid>
+		<description><![CDATA[<img src='https://cdn.mnmstatic.net/cache/39/e4/media_thumb-link-3794173.jpeg?1679514246' width='155' height='155' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>Entrevista al historiador y famoso divulgador histórico Adrian Goldsworthy con motivo de la publicación de &quot;Filipo y Alejandro. Reyes y conquistadores&quot; por La Esfera de los libros</p><p><strong>etiquetas</strong>: adrian goldsworthy, historia, alejandro magno, divulgación histórica</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=3794173" >noticia original</a> (historiaeweb.com)</p>]]></description>
+		<media:thumbnail url="https://cdn.mnmstatic.net/cache/39/e4/media_thumb-link-3794173.jpeg?1679514246" width='155' height='155' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=3794173</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>3794175</meneame:link_id>
+		<meneame:sub>actualidad</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>tropezon</meneame:user>
+		<meneame:clicks>1078</meneame:clicks>
+		<meneame:votes>277</meneame:votes>
+		<meneame:negatives>2</meneame:negatives>
+		<meneame:karma>1883</meneame:karma>
+		<meneame:comments>52</meneame:comments>
+		<meneame:url>https://www.meneame.net/story/muere-alumno-plena-prueba-selectivad-francesa-instituto-lille?utm_source=meneame_rss</meneame:url>
+		<title>Muere un alumno en plena prueba de la selectivad francesa en un instituto de Lille</title>
+		<link>https://www.meneame.net/story/muere-alumno-plena-prueba-selectivad-francesa-instituto-lille</link>
+		<comments>https://www.meneame.net/story/muere-alumno-plena-prueba-selectivad-francesa-instituto-lille</comments>
+		<pubDate>Thu, 23 Mar 2023 03:15:37 +0000</pubDate>
+		<dc:creator>tropezon</dc:creator>
+		<category><![CDATA[actualidad]]></category>
+		<category><![CDATA[alumno]]></category>
+		<category><![CDATA[lille]]></category>
+		<category><![CDATA[francia]]></category>
+		<category><![CDATA[selectividad]]></category>
+		<category><![CDATA[muerte]]></category>
+		<guid>https://www.meneame.net/story/muere-alumno-plena-prueba-selectivad-francesa-instituto-lille</guid>
+		<description><![CDATA[<img src='https://cdn.mnmstatic.net/cache/39/e4/media_thumb-link-3794175.jpeg?1679514726' width='155' height='155' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>Un adolescente murió el martes en Lille al sufrir una crisis cardiaca mientras se examinaba de una de las especialidades del Baccaulauréat (Bac).Tras el incidente, los profesores quisieron seguir con el examen. Los alumnos se quejaron de que no podían seguir con la prueba cuando un compañero podía morir esa misma tarde.La supervisora les contestó que el Bac constituye «una etapa importante de la vida« y que si abandonaban la sala, ello implicaba renunciar a ese examen que da acceso a la universidad. Todos los alumnos abandonaron la prueba.</p><p><strong>etiquetas</strong>: alumno, lille, francia, selectividad, muerte</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=3794175" >noticia original</a> (www.naiz.eus)</p>]]></description>
+		<media:thumbnail url="https://cdn.mnmstatic.net/cache/39/e4/media_thumb-link-3794175.jpeg?1679514726" width='155' height='155' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=3794175</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>3794179</meneame:link_id>
+		<meneame:sub>actualidad</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>anasmoon</meneame:user>
+		<meneame:clicks>580</meneame:clicks>
+		<meneame:votes>568</meneame:votes>
+		<meneame:negatives>0</meneame:negatives>
+		<meneame:karma>3628</meneame:karma>
+		<meneame:comments>50</meneame:comments>
+		<meneame:url>https://www.meneame.net/story/pp-niega-apartar-albiol-como-fijan-estatutos-alega-prevaricacion?utm_source=meneame_rss</meneame:url>
+		<title>El PP se niega a apartar a Albiol como fijan sus estatutos y alega que la prevaricación no es corrupción</title>
+		<link>https://www.meneame.net/story/pp-niega-apartar-albiol-como-fijan-estatutos-alega-prevaricacion</link>
+		<comments>https://www.meneame.net/story/pp-niega-apartar-albiol-como-fijan-estatutos-alega-prevaricacion</comments>
+		<pubDate>Thu, 23 Mar 2023 02:25:36 +0000</pubDate>
+		<dc:creator>anasmoon</dc:creator>
+		<category><![CDATA[actualidad]]></category>
+		<category><![CDATA[pp]]></category>
+		<category><![CDATA[apartar]]></category>
+		<category><![CDATA[albiol]]></category>
+		<category><![CDATA[prevaricación]]></category>
+		<category><![CDATA[estatutos]]></category>
+		<category><![CDATA[corrupción]]></category>
+		<guid>https://www.meneame.net/story/pp-niega-apartar-albiol-como-fijan-estatutos-alega-prevaricacion</guid>
+		<description><![CDATA[<img src='https://cdn.mnmstatic.net/cache/39/e5/media_thumb-link-3794179.jpeg?1679514966' width='155' height='155' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>El juez dicta la apertura de juicio oral contra el candidato del PP en Badalona, y parte del equipo de campaña nacional del 28M, por tres delitos que el CGPJ considera &quot;corrupción&quot;, pero desde el partido defienden que no lo es y dejan la responsabilidad al partido en Catalunya. Rel: <a href="https://www.meneame.net/story/fiscalia-pide-2-anos-10-meses-carcel-exlider-pp-catalan-garcia" title="www.meneame.net/story/fiscalia-pide-2-anos-10-meses-carcel-exlider-pp-catalan-garcia" rel="nofollow">www.meneame.net/story/fiscalia-pide-2-anos-10-meses-carcel-exlider-pp-</a></p><p><strong>etiquetas</strong>: pp, apartar, albiol, prevaricación, estatutos, corrupción</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=3794179" >noticia original</a> (www.eldiario.es)</p>]]></description>
+		<media:thumbnail url="https://cdn.mnmstatic.net/cache/39/e5/media_thumb-link-3794179.jpeg?1679514966" width='155' height='155' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=3794179</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>3794104</meneame:link_id>
+		<meneame:sub>actualidad</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>SrYonkus</meneame:user>
+		<meneame:clicks>762</meneame:clicks>
+		<meneame:votes>422</meneame:votes>
+		<meneame:negatives>0</meneame:negatives>
+		<meneame:karma>2610</meneame:karma>
+		<meneame:comments>60</meneame:comments>
+		<meneame:url>https://www.meneame.net/story/trampa-ayudas-indiscriminadas-familias-numerosas-14-ingresan-mas?utm_source=meneame_rss</meneame:url>
+		<title>La trampa de las ayudas indiscriminadas a familias numerosas: el 14% ingresan más de 90.000 euros al año</title>
+		<link>https://www.meneame.net/story/trampa-ayudas-indiscriminadas-familias-numerosas-14-ingresan-mas</link>
+		<comments>https://www.meneame.net/story/trampa-ayudas-indiscriminadas-familias-numerosas-14-ingresan-mas</comments>
+		<pubDate>Thu, 23 Mar 2023 02:05:37 +0000</pubDate>
+		<dc:creator>SrYonkus</dc:creator>
+		<category><![CDATA[actualidad]]></category>
+		<category><![CDATA[familias numerosas]]></category>
+		<category><![CDATA[ayudas]]></category>
+		<guid>https://www.meneame.net/story/trampa-ayudas-indiscriminadas-familias-numerosas-14-ingresan-mas</guid>
+		<description><![CDATA[<img src='https://cdn.mnmstatic.net/cache/39/e4/media_thumb-link-3794104.jpeg?1679504347' width='155' height='155' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>Este tipo de familias recibe más ayudas que ninguna otra: el 45% cobró algún bono social energético en 2021 frente al 8% del total de hogares.</p><p><strong>etiquetas</strong>: familias numerosas, ayudas</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=3794104" >noticia original</a> (www.publico.es)</p>]]></description>
+		<media:thumbnail url="https://cdn.mnmstatic.net/cache/39/e4/media_thumb-link-3794104.jpeg?1679504347" width='155' height='155' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=3794104</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>3794204</meneame:link_id>
+		<meneame:sub>actualidad</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>LaSaBe</meneame:user>
+		<meneame:clicks>2576</meneame:clicks>
+		<meneame:votes>129</meneame:votes>
+		<meneame:negatives>1</meneame:negatives>
+		<meneame:karma>954</meneame:karma>
+		<meneame:comments>25</meneame:comments>
+		<meneame:url>https://www.meneame.net/story/echaremos-menos-roger-waters?utm_source=meneame_rss</meneame:url>
+		<title>Te echaremos de menos, Roger Waters</title>
+		<link>https://www.meneame.net/story/echaremos-menos-roger-waters</link>
+		<comments>https://www.meneame.net/story/echaremos-menos-roger-waters</comments>
+		<pubDate>Thu, 23 Mar 2023 01:10:37 +0000</pubDate>
+		<dc:creator>LaSaBe</dc:creator>
+		<category><![CDATA[actualidad]]></category>
+		<category><![CDATA[roger waters]]></category>
+		<category><![CDATA[pink floyd]]></category>
+		<guid>https://www.meneame.net/story/echaremos-menos-roger-waters</guid>
+		<description><![CDATA[<img src='https://cdn.mnmstatic.net/cache/39/e5/media_thumb-link-3794204.jpeg?1679517246' width='155' height='155' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>Crónica del concierto de Roger Waters en Barcelona el pasado 21 de marzo.</p><p><strong>etiquetas</strong>: roger waters, pink floyd</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=3794204" >noticia original</a> (www.scienceofnoise.net)</p>]]></description>
+		<media:thumbnail url="https://cdn.mnmstatic.net/cache/39/e5/media_thumb-link-3794204.jpeg?1679517246" width='155' height='155' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=3794204</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>3794162</meneame:link_id>
+		<meneame:sub>actualidad</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>doctoragridulce</meneame:user>
+		<meneame:clicks>835</meneame:clicks>
+		<meneame:votes>172</meneame:votes>
+		<meneame:negatives>0</meneame:negatives>
+		<meneame:karma>1202</meneame:karma>
+		<meneame:comments>10</meneame:comments>
+		<meneame:url>https://www.meneame.net/story/incendio-horno-alto-arcelor-obliga-evacuar-parte-planta-gijon?utm_source=meneame_rss</meneame:url>
+		<title>El incendio del horno alto 'A' en Arcelor obliga a evacuar parte de la planta de Gijón</title>
+		<link>https://www.meneame.net/story/incendio-horno-alto-arcelor-obliga-evacuar-parte-planta-gijon</link>
+		<comments>https://www.meneame.net/story/incendio-horno-alto-arcelor-obliga-evacuar-parte-planta-gijon</comments>
+		<pubDate>Thu, 23 Mar 2023 00:20:37 +0000</pubDate>
+		<dc:creator>doctoragridulce</dc:creator>
+		<category><![CDATA[actualidad]]></category>
+		<category><![CDATA[incendio]]></category>
+		<category><![CDATA[horno alto]]></category>
+		<category><![CDATA[arcelor]]></category>
+		<category><![CDATA[gijón]]></category>
+		<category><![CDATA[fuero]]></category>
+		<category><![CDATA[accidente]]></category>
+		<guid>https://www.meneame.net/story/incendio-horno-alto-arcelor-obliga-evacuar-parte-planta-gijon</guid>
+		<description><![CDATA[<img src='https://cdn.mnmstatic.net/cache/39/e4/media_thumb-link-3794162.jpeg?1679511426' width='155' height='155' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>Arcelor ha evacuado los hornos altos de su planta de Gijón, tras un accidente en el 'A', que ha provocado un incendio y una intensa humareda en la instalación. Según ha podido saber este periódico, se ha producido la perforación del crisol, la parte baja e interior del horno y clave en la producción de arrabio. Por precaución, se está deteniendo también el 'B'. Según la compañía, durante una parada de la instalación, a las 17.50 horas, tuvo lugar «una desestabilización del proceso», que ha derivado en un incendio.</p><p><strong>etiquetas</strong>: incendio, horno alto, arcelor, gijón, fuero, accidente</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=3794162" >noticia original</a> (www.elcomercio.es)</p>]]></description>
+		<media:thumbnail url="https://cdn.mnmstatic.net/cache/39/e4/media_thumb-link-3794162.jpeg?1679511426" width='155' height='155' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=3794162</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>3794216</meneame:link_id>
+		<meneame:sub>actualidad</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>Beltenebros</meneame:user>
+		<meneame:clicks>754</meneame:clicks>
+		<meneame:votes>474</meneame:votes>
+		<meneame:negatives>0</meneame:negatives>
+		<meneame:karma>2913</meneame:karma>
+		<meneame:comments>84</meneame:comments>
+		<meneame:url>https://www.meneame.net/story/vocal-progresista-concepcion-saez-dimite-insostenible-situacion?utm_source=meneame_rss</meneame:url>
+		<title>La vocal progresista Concepción Sáez dimite por la “insostenible” situación del Poder Judicial</title>
+		<link>https://www.meneame.net/story/vocal-progresista-concepcion-saez-dimite-insostenible-situacion</link>
+		<comments>https://www.meneame.net/story/vocal-progresista-concepcion-saez-dimite-insostenible-situacion</comments>
+		<pubDate>Wed, 22 Mar 2023 23:35:37 +0000</pubDate>
+		<dc:creator>Beltenebros</dc:creator>
+		<category><![CDATA[actualidad]]></category>
+		<category><![CDATA[concepción sáez]]></category>
+		<category><![CDATA[cgpj]]></category>
+		<category><![CDATA[poder judicial]]></category>
+		<guid>https://www.meneame.net/story/vocal-progresista-concepcion-saez-dimite-insostenible-situacion</guid>
+		<description><![CDATA[<img src='https://cdn.mnmstatic.net/cache/39/e5/media_thumb-link-3794216.jpeg?1679519706' width='155' height='155' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>La vocal considera “inútil” su continuidad en lo que considera un escenario de “radical y puede que ya irreversible degradación de la institución”. Y explica que la “incapacidad de tomar determinadas decisiones en el ejercicio ordinario de las competencias” del órgano “al tiempo que se clama por la recuperación de competencias impropias de un Consejo en funciones”,  han terminado por agotar su “paciencia”. La vocal se da de plazo hasta el final de marzo para cerrar su salida.</p><p><strong>etiquetas</strong>: concepción sáez, cgpj, poder judicial</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=3794216" >noticia original</a> (www.eldiario.es)</p>]]></description>
+		<media:thumbnail url="https://cdn.mnmstatic.net/cache/39/e5/media_thumb-link-3794216.jpeg?1679519706" width='155' height='155' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=3794216</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>3794115</meneame:link_id>
+		<meneame:sub>actualidad</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>doctoragridulce</meneame:user>
+		<meneame:clicks>1670</meneame:clicks>
+		<meneame:votes>253</meneame:votes>
+		<meneame:negatives>7</meneame:negatives>
+		<meneame:karma>1755</meneame:karma>
+		<meneame:comments>31</meneame:comments>
+		<meneame:url>https://www.meneame.net/story/urgencias-psiquiatricas-chuac-atados-como-bestias?utm_source=meneame_rss</meneame:url>
+		<title>Urgencias psiquiátricas en el CHUAC: atados como bestias</title>
+		<link>https://www.meneame.net/story/urgencias-psiquiatricas-chuac-atados-como-bestias</link>
+		<comments>https://www.meneame.net/story/urgencias-psiquiatricas-chuac-atados-como-bestias</comments>
+		<pubDate>Wed, 22 Mar 2023 23:15:36 +0000</pubDate>
+		<dc:creator>doctoragridulce</dc:creator>
+		<category><![CDATA[actualidad]]></category>
+		<category><![CDATA[urgencias psiquiátricas]]></category>
+		<category><![CDATA[chuac]]></category>
+		<category><![CDATA[bestias]]></category>
+		<category><![CDATA[la coruña]]></category>
+		<guid>https://www.meneame.net/story/urgencias-psiquiatricas-chuac-atados-como-bestias</guid>
+		<description><![CDATA[<img src='https://cdn.mnmstatic.net/cache/39/e4/media_thumb-link-3794115.jpeg?1679505906' width='155' height='155' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>A mi hijo lo tuvieron atado durante horas porque quería salir a fumar un pitillo. Ese fue su crimen. Querer calmar la ansiedad durante las 30 horas de espera por una cama. Le dieron golpes y puñetazos, le ataron, lo encerraron a oscuras en un cuarto sin ventanas. Gritó hasta desgañitarse. Fuera, a escasos cinco metros, había cuatro sanitarios charlando y riendo... sin hacer nada. Eso me encontré a las 8h30 de la mañana del miércoles 15 de marzo.</p><p><strong>etiquetas</strong>: urgencias psiquiátricas, chuac, bestias, la coruña</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=3794115" >noticia original</a> (www.elsaltodiario.com)</p>]]></description>
+		<media:thumbnail url="https://cdn.mnmstatic.net/cache/39/e4/media_thumb-link-3794115.jpeg?1679505906" width='155' height='155' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=3794115</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>3794214</meneame:link_id>
+		<meneame:sub>actualidad</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>XXguiriXX</meneame:user>
+		<meneame:clicks>752</meneame:clicks>
+		<meneame:votes>263</meneame:votes>
+		<meneame:negatives>1</meneame:negatives>
+		<meneame:karma>1860</meneame:karma>
+		<meneame:comments>82</meneame:comments>
+		<meneame:url>https://www.meneame.net/story/justin-roiland-absuelto-cargos-violencia-domestica-creador-rick?utm_source=meneame_rss</meneame:url>
+		<title>Justin Roiland absuelto de cargos de violencia doméstica, el creador de 'Rick and Morty' critica las 'mentiras horribles reportadas sobre mí' [ING]</title>
+		<link>https://www.meneame.net/story/justin-roiland-absuelto-cargos-violencia-domestica-creador-rick</link>
+		<comments>https://www.meneame.net/story/justin-roiland-absuelto-cargos-violencia-domestica-creador-rick</comments>
+		<pubDate>Wed, 22 Mar 2023 23:00:03 +0000</pubDate>
+		<dc:creator>XXguiriXX</dc:creator>
+		<category><![CDATA[actualidad]]></category>
+		<category><![CDATA[rick and morty]]></category>
+		<category><![CDATA[violencia doméstica]]></category>
+		<category><![CDATA[violencia machista]]></category>
+		<category><![CDATA[acusación falsa]]></category>
+		<guid>https://www.meneame.net/story/justin-roiland-absuelto-cargos-violencia-domestica-creador-rick</guid>
+		<description><![CDATA[<img src='https://cdn.mnmstatic.net/cache/39/e5/media_thumb-link-3794214.jpeg?1679519466' width='155' height='155' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>El creador de &quot;Rick and Morty&quot;, Justin Roiland, ha sido absuelto de los cargos de violencia doméstica, confirma Variety. Kimberly Edds, portavoz de la oficina del fiscal de distrito del condado de Orange, dijo en un comunicado: &quot;Desestimamos los cargos hoy como resultado de no tener pruebas suficientes para probar el caso más allá de una duda razonable&quot;.</p><p><strong>etiquetas</strong>: rick and morty, violencia doméstica, violencia machista, acusación falsa</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=3794214" >noticia original</a> (variety.com)</p>]]></description>
+		<media:thumbnail url="https://cdn.mnmstatic.net/cache/39/e5/media_thumb-link-3794214.jpeg?1679519466" width='155' height='155' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=3794214</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>3794226</meneame:link_id>
+		<meneame:sub>politica</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>HackerRuso</meneame:user>
+		<meneame:clicks>1441</meneame:clicks>
+		<meneame:votes>499</meneame:votes>
+		<meneame:negatives>2</meneame:negatives>
+		<meneame:karma>3228</meneame:karma>
+		<meneame:comments>129</meneame:comments>
+		<meneame:url>https://www.meneame.net/story/xi-jinping-invita-pedro-sanchez-visita-oficial-pekin?utm_source=meneame_rss</meneame:url>
+		<title>Xi Jinping invita a Pedro Sánchez a una visita oficial a Pekín</title>
+		<link>https://www.meneame.net/story/xi-jinping-invita-pedro-sanchez-visita-oficial-pekin</link>
+		<comments>https://www.meneame.net/story/xi-jinping-invita-pedro-sanchez-visita-oficial-pekin</comments>
+		<pubDate>Wed, 22 Mar 2023 22:40:03 +0000</pubDate>
+		<dc:creator>HackerRuso</dc:creator>
+		<category><![CDATA[politica]]></category>
+		<category><![CDATA[china]]></category>
+		<category><![CDATA[españa]]></category>
+		<category><![CDATA[]]></category>
+		<category><![CDATA[xi]]></category>
+		<category><![CDATA[ue]]></category>
+		<category><![CDATA[sánchez]]></category>
+		<guid>https://www.meneame.net/story/xi-jinping-invita-pedro-sanchez-visita-oficial-pekin</guid>
+		<description><![CDATA[<img src='https://cdn.mnmstatic.net/cache/39/e5/media_thumb-link-3794226.jpeg?1679521806' width='155' height='155' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>La invitación se produce en un momento clave en el contexto geopolítico, con China tratando de jugar un papel de mediador en el conflicto entre Rusia y Ucrania</p><p><strong>etiquetas</strong>: china, españa, , xi, ue, sánchez</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=3794226" >noticia original</a> (cadenaser.com)</p>]]></description>
+		<media:thumbnail url="https://cdn.mnmstatic.net/cache/39/e5/media_thumb-link-3794226.jpeg?1679521806" width='155' height='155' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=3794226</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>3793995</meneame:link_id>
+		<meneame:sub>actualidad</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>doctoragridulce</meneame:user>
+		<meneame:clicks>3714</meneame:clicks>
+		<meneame:votes>206</meneame:votes>
+		<meneame:negatives>1</meneame:negatives>
+		<meneame:karma>1395</meneame:karma>
+		<meneame:comments>40</meneame:comments>
+		<meneame:url>https://www.meneame.net/story/no-pais-jovenes-regiones-union-europea-donde-apenas-hay-gente?utm_source=meneame_rss</meneame:url>
+		<title>&#34;No es país para jóvenes&#34;: regiones de la Unión Europea donde apenas hay gente joven</title>
+		<link>https://www.meneame.net/story/no-pais-jovenes-regiones-union-europea-donde-apenas-hay-gente</link>
+		<comments>https://www.meneame.net/story/no-pais-jovenes-regiones-union-europea-donde-apenas-hay-gente</comments>
+		<pubDate>Wed, 22 Mar 2023 22:10:37 +0000</pubDate>
+		<dc:creator>doctoragridulce</dc:creator>
+		<category><![CDATA[actualidad]]></category>
+		<category><![CDATA[ue]]></category>
+		<category><![CDATA[unión europea]]></category>
+		<category><![CDATA[gente joven]]></category>
+		<category><![CDATA[galicia]]></category>
+		<category><![CDATA[españa]]></category>
+		<category><![CDATA[europa]]></category>
+		<category><![CDATA[demografía]]></category>
+		<guid>https://www.meneame.net/story/no-pais-jovenes-regiones-union-europea-donde-apenas-hay-gente</guid>
+		<description><![CDATA[<img src='https://cdn.mnmstatic.net/cache/39/e4/media_thumb-link-3793995.jpeg?1679488266' width='155' height='155' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>El noroeste de la Península Ibérica, incluyendo Galicia, parte de Castilla y León y el interior de Portugal es la zona de Europa con menor porcentaje de menores de 20 años, alcanzando el mínimo en Zamora, con sólo el 13% de la población. Cerdeña, el norte de Italia y la antigua RDA son las otras zonas más envejecidas del continente.</p><p><strong>etiquetas</strong>: ue, unión europea, gente joven, galicia, españa, europa, demografía</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=3793995" >noticia original</a> (www.reddit.com)</p>]]></description>
+		<media:thumbnail url="https://cdn.mnmstatic.net/cache/39/e4/media_thumb-link-3793995.jpeg?1679488266" width='155' height='155' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=3793995</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>3794198</meneame:link_id>
+		<meneame:sub>actualidad</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>cocolisto</meneame:user>
+		<meneame:clicks>2286</meneame:clicks>
+		<meneame:votes>686</meneame:votes>
+		<meneame:negatives>3</meneame:negatives>
+		<meneame:karma>4211</meneame:karma>
+		<meneame:comments>66</meneame:comments>
+		<meneame:url>https://www.meneame.net/story/hija-mujer-ingresada-residencia-ayuso-tu-comes-cinco-comidas-dia?utm_source=meneame_rss</meneame:url>
+		<title>La hija de una mujer ingresada en una residencia, a Ayuso: “¿Tú comes cinco comidas al día por 4,60 euros?”</title>
+		<link>https://www.meneame.net/story/hija-mujer-ingresada-residencia-ayuso-tu-comes-cinco-comidas-dia</link>
+		<comments>https://www.meneame.net/story/hija-mujer-ingresada-residencia-ayuso-tu-comes-cinco-comidas-dia</comments>
+		<pubDate>Wed, 22 Mar 2023 21:45:37 +0000</pubDate>
+		<dc:creator>cocolisto</dc:creator>
+		<category><![CDATA[actualidad]]></category>
+		<category><![CDATA[hija]]></category>
+		<category><![CDATA[ingresada]]></category>
+		<category><![CDATA[residencia]]></category>
+		<category><![CDATA[comidas]]></category>
+		<category><![CDATA[4]]></category>
+		<category><![CDATA[60€día]]></category>
+		<category><![CDATA[ayuso]]></category>
+		<guid>https://www.meneame.net/story/hija-mujer-ingresada-residencia-ayuso-tu-comes-cinco-comidas-dia</guid>
+		<description><![CDATA[<img src='https://cdn.mnmstatic.net/cache/39/e5/media_thumb-link-3794198.jpeg?1679516886' width='155' height='155' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>“Llegué a base de empujones, porque no me dejaba la seguridad de ella, pero llegué”. La que habla es Julia Martínez Rodríguez, la hija coraje de una residente de la Francisco de Vitoria de Alcalá de Henares (Madrid) que lleva meses y meses denunciado la mala situación de esta residencia pública a la que se le acumulan los problemas y que investiga ya la Fiscalía, desde denuncias por la mala alimentación de los mayores a la presencia de legionella pneumophila en el agua, y que no ha dudado en llevar su lucha hasta la mismísima Asamblea de Madrid</p><p><strong>etiquetas</strong>: hija, ingresada, residencia, comidas, 4, 60€día, ayuso</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=3794198" >noticia original</a> (elpais.com)</p>]]></description>
+		<media:thumbnail url="https://cdn.mnmstatic.net/cache/39/e5/media_thumb-link-3794198.jpeg?1679516886" width='155' height='155' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=3794198</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>3794160</meneame:link_id>
+		<meneame:sub>actualidad</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>bonobo</meneame:user>
+		<meneame:clicks>323</meneame:clicks>
+		<meneame:votes>259</meneame:votes>
+		<meneame:negatives>0</meneame:negatives>
+		<meneame:karma>1829</meneame:karma>
+		<meneame:comments>146</meneame:comments>
+		<meneame:url>https://www.meneame.net/story/parlamento-suecia-vota-favor-ingresar-otan?utm_source=meneame_rss</meneame:url>
+		<title>El Parlamento de Suecia vota a favor de ingresar en la OTAN</title>
+		<link>https://www.meneame.net/story/parlamento-suecia-vota-favor-ingresar-otan</link>
+		<comments>https://www.meneame.net/story/parlamento-suecia-vota-favor-ingresar-otan</comments>
+		<pubDate>Wed, 22 Mar 2023 21:35:36 +0000</pubDate>
+		<dc:creator>bonobo</dc:creator>
+		<category><![CDATA[actualidad]]></category>
+		<category><![CDATA[suecia]]></category>
+		<category><![CDATA[otan]]></category>
+		<category><![CDATA[anexión]]></category>
+		<category><![CDATA[parlamento]]></category>
+		<guid>https://www.meneame.net/story/parlamento-suecia-vota-favor-ingresar-otan</guid>
+		<description><![CDATA[<img src='https://cdn.mnmstatic.net/cache/39/e4/media_thumb-link-3794160.jpeg?1679511126' width='155' height='155' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>La votación final se ha saldado con 269 votos a favor, 43 abstenciones y tan solo 37 en contra, todos ellos de miembros del Partido de la Izquierda (V) y del Partido Verde (MP)</p><p><strong>etiquetas</strong>: suecia, otan, anexión, parlamento</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=3794160" >noticia original</a> (www.vozpopuli.com)</p>]]></description>
+		<media:thumbnail url="https://cdn.mnmstatic.net/cache/39/e4/media_thumb-link-3794160.jpeg?1679511126" width='155' height='155' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=3794160</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>3794212</meneame:link_id>
+		<meneame:sub>actualidad</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>HackerRuso</meneame:user>
+		<meneame:clicks>2670</meneame:clicks>
+		<meneame:votes>652</meneame:votes>
+		<meneame:negatives>1</meneame:negatives>
+		<meneame:karma>4275</meneame:karma>
+		<meneame:comments>79</meneame:comments>
+		<meneame:url>https://www.meneame.net/story/jim-carrey-explica-amabilidad-canadiense-defensa-sanidad-publica?utm_source=meneame_rss</meneame:url>
+		<title>Jim Carrey explica la &#34;amabilidad canadiense&#34; con una defensa de la sanidad pública: &#34;Pueden ser amables porque tienen atención médica&#34;</title>
+		<link>https://www.meneame.net/story/jim-carrey-explica-amabilidad-canadiense-defensa-sanidad-publica</link>
+		<comments>https://www.meneame.net/story/jim-carrey-explica-amabilidad-canadiense-defensa-sanidad-publica</comments>
+		<pubDate>Wed, 22 Mar 2023 21:15:36 +0000</pubDate>
+		<dc:creator>HackerRuso</dc:creator>
+		<category><![CDATA[actualidad]]></category>
+		<category><![CDATA[sanidad]]></category>
+		<category><![CDATA[eeuu]]></category>
+		<category><![CDATA[canadá]]></category>
+		<guid>https://www.meneame.net/story/jim-carrey-explica-amabilidad-canadiense-defensa-sanidad-publica</guid>
+		<description><![CDATA[<p>&quot;Pueden ser amables porque tienen sanidad, tienen un gobierno que les cuida&quot;. Enorme esto de Jim Carrey sobre la sanidad pública.</p><p><strong>etiquetas</strong>: sanidad, eeuu, canadá</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=3794212" >noticia original</a> (twitter.com)</p>]]></description>
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=3794212</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>3794056</meneame:link_id>
+		<meneame:sub>actualidad</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>efectogamonal</meneame:user>
+		<meneame:clicks>1780</meneame:clicks>
+		<meneame:votes>362</meneame:votes>
+		<meneame:negatives>8</meneame:negatives>
+		<meneame:karma>2088</meneame:karma>
+		<meneame:comments>34</meneame:comments>
+		<meneame:url>https://www.meneame.net/story/manifestante-fue-encontrado-bomberos-ensangrentado-maniatado?utm_source=meneame_rss</meneame:url>
+		<title>Un manifestante fue encontrado por los bomberos ensangrentado y maniatado en Francia</title>
+		<link>https://www.meneame.net/story/manifestante-fue-encontrado-bomberos-ensangrentado-maniatado</link>
+		<comments>https://www.meneame.net/story/manifestante-fue-encontrado-bomberos-ensangrentado-maniatado</comments>
+		<pubDate>Wed, 22 Mar 2023 20:50:04 +0000</pubDate>
+		<dc:creator>efectogamonal</dc:creator>
+		<category><![CDATA[actualidad]]></category>
+		<category><![CDATA[manifestante]]></category>
+		<category><![CDATA[policía]]></category>
+		<category><![CDATA[brutalidad]]></category>
+		<category><![CDATA[francia]]></category>
+		<category><![CDATA[rennes]]></category>
+		<guid>https://www.meneame.net/story/manifestante-fue-encontrado-bomberos-ensangrentado-maniatado</guid>
+		<description><![CDATA[<p>¡¡Ahora Francia, en Rennes la represión de la policía es brutal, un manifestante fue encontrado por los bomberos ensangrentado y maniatado ...seguramente en Bruselas esperan los primeros muertos para decir algo.</p><p><strong>etiquetas</strong>: manifestante, policía, brutalidad, francia, rennes</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=3794056" >noticia original</a> (twitter.com)</p>]]></description>
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=3794056</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>3794118</meneame:link_id>
+		<meneame:sub>tecnología</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>elgranmago</meneame:user>
+		<meneame:clicks>698</meneame:clicks>
+		<meneame:votes>281</meneame:votes>
+		<meneame:negatives>0</meneame:negatives>
+		<meneame:karma>1756</meneame:karma>
+		<meneame:comments>29</meneame:comments>
+		<meneame:url>https://www.meneame.net/story/mozilla-ai-nueva-startyp-creada-construir-ia-abierta-confiable?utm_source=meneame_rss</meneame:url>
+		<title>Mozilla.ai es una nueva startup creada para construir una IA abierta y confiable (EN)</title>
+		<link>https://www.meneame.net/story/mozilla-ai-nueva-startyp-creada-construir-ia-abierta-confiable</link>
+		<comments>https://www.meneame.net/story/mozilla-ai-nueva-startyp-creada-construir-ia-abierta-confiable</comments>
+		<pubDate>Wed, 22 Mar 2023 21:00:13 +0000</pubDate>
+		<dc:creator>elgranmago</dc:creator>
+		<category><![CDATA[tecnología]]></category>
+		<category><![CDATA[mozilla]]></category>
+		<category><![CDATA[ai]]></category>
+		<category><![CDATA[ia]]></category>
+		<guid>https://www.meneame.net/story/mozilla-ai-nueva-startyp-creada-construir-ia-abierta-confiable</guid>
+		<description><![CDATA[<img src='https://cdn.mnmstatic.net/cache/39/e4/media_thumb-link-3794118.jpeg?1679505846' width='155' height='155' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>Mozilla está creando una nueva startup llamada Mozilla.ai, la cual la compañía espera que “construirá un ecosistema IA confiable, independiente y de código abierto” Moez Draief, un investigador y científico de IA lidera la nueva startup, en la cual Mozilla invertirá $30 millones para iniciarla.</p><p><strong>etiquetas</strong>: mozilla, ai, ia</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=3794118" >noticia original</a> (www.theverge.com)</p>]]></description>
+		<media:thumbnail url="https://cdn.mnmstatic.net/cache/39/e4/media_thumb-link-3794118.jpeg?1679505846" width='155' height='155' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=3794118</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>3794172</meneame:link_id>
+		<meneame:sub>cultura</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>exexexexmeneante</meneame:user>
+		<meneame:clicks>6298</meneame:clicks>
+		<meneame:votes>255</meneame:votes>
+		<meneame:negatives>8</meneame:negatives>
+		<meneame:karma>2104</meneame:karma>
+		<meneame:comments>138</meneame:comments>
+		<meneame:url>https://www.meneame.net/story/consumo-chochos-beneficioso-pacientes-diabetes-tipo-2?utm_source=meneame_rss</meneame:url>
+		<title>El consumo de chochos es beneficioso para los pacientes con diabetes tipo 2</title>
+		<link>https://www.meneame.net/story/consumo-chochos-beneficioso-pacientes-diabetes-tipo-2</link>
+		<comments>https://www.meneame.net/story/consumo-chochos-beneficioso-pacientes-diabetes-tipo-2</comments>
+		<pubDate>Wed, 22 Mar 2023 20:05:11 +0000</pubDate>
+		<dc:creator>exexexexmeneante</dc:creator>
+		<category><![CDATA[cultura]]></category>
+		<category><![CDATA[chocho]]></category>
+		<category><![CDATA[salud]]></category>
+		<category><![CDATA[diabetes mellitus]]></category>
+		<guid>https://www.meneame.net/story/consumo-chochos-beneficioso-pacientes-diabetes-tipo-2</guid>
+		<description><![CDATA[<img src='https://cdn.mnmstatic.net/cache/39/e4/media_thumb-link-3794172.jpeg?1679513946' width='155' height='155' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>&quot;La adición de chochos en el tratamiento de la diabetes, ayuda a controlar mejor los niveles elevados de glucosa, y a disminuir la hemoglobina glicosilada”, ha manifestado Manuel Baldeón. Los chochos inhiben la enzima DPP-4, lo que favorece el control de la glucosa en los pacientes con diabetes tipo 2; aumentan la absorción de glucosa en las células dependientes de insulina; y también inhiben la gluconeogénesis (producción de glucosa a nivel del hígado), como lo hace la metformina.</p><p><strong>etiquetas</strong>: chocho, salud, diabetes mellitus</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=3794172" >noticia original</a> (www.edicionmedica.ec)</p>]]></description>
+		<media:thumbnail url="https://cdn.mnmstatic.net/cache/39/e4/media_thumb-link-3794172.jpeg?1679513946" width='155' height='155' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=3794172</wfw:commentRss>	</item>
+
+</channel>
+</rss>

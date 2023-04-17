@@ -1,0 +1,526 @@
+<!doctype html>
+<html>
+ <head>
+  <title>IntelliJ Markdown Preview</title>
+  <style>/* Reworked by IntelliJ Team The MIT License (MIT) Copyright (c) JetBrains Adapted from https://github.com/sindresorhus/github-markdown-css The MIT License (MIT) Copyright (c) Sindre Sorhus &lt;sindresorhus@gmail.com&gt; (sindresorhus.com) Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. */ @font-face { font-family: octicons-anchor; src: url(data:font/woff;charset=utf-8;base64,d09GRgABAAAAAAYcAA0AAAAACjQAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAAABMAAAABwAAAAca8vGTk9TLzIAAAFMAAAARAAAAFZG1VHVY21hcAAAAZAAAAA+AAABQgAP9AdjdnQgAAAB0AAAAAQAAAAEACICiGdhc3AAAAHUAAAACAAAAAj//wADZ2x5ZgAAAdwAAADRAAABEKyikaNoZWFkAAACsAAAAC0AAAA2AtXoA2hoZWEAAALgAAAAHAAAACQHngNFaG10eAAAAvwAAAAQAAAAEAwAACJsb2NhAAADDAAAAAoAAAAKALIAVG1heHAAAAMYAAAAHwAAACABEAB2bmFtZQAAAzgAAALBAAAFu3I9x/Nwb3N0AAAF/AAAAB0AAAAvaoFvbwAAAAEAAAAAzBdyYwAAAADP2IQvAAAAAM/bz7t4nGNgZGFgnMDAysDB1Ml0hoGBoR9CM75mMGLkYGBgYmBlZsAKAtJcUxgcPsR8iGF2+O/AEMPsznAYKMwIkgMA5REMOXicY2BgYGaAYBkGRgYQsAHyGMF8FgYFIM0ChED+h5j//yEk/3KoSgZGNgYYk4GRCUgwMaACRoZhDwCs7QgGAAAAIgKIAAAAAf//AAJ4nHWMMQrCQBBF/0zWrCCIKUQsTDCL2EXMohYGSSmorScInsRGL2DOYJe0Ntp7BK+gJ1BxF1stZvjz/v8DRghQzEc4kIgKwiAppcA9LtzKLSkdNhKFY3HF4lK69ExKslx7Xa+vPRVS43G98vG1DnkDMIBUgFN0MDXflU8tbaZOUkXUH0+U27RoRpOIyCKjbMCVejwypzJJG4jIwb43rfl6wbwanocrJm9XFYfskuVC5K/TPyczNU7b84CXcbxks1Un6H6tLH9vf2LRnn8Ax7A5WQAAAHicY2BkYGAA4teL1+yI57f5ysDNwgAC529f0kOmWRiYVgEpDgYmEA8AUzEKsQAAAHicY2BkYGB2+O/AEMPCAAJAkpEBFbAAADgKAe0EAAAiAAAAAAQAAAAEAAAAAAAAKgAqACoAiAAAeJxjYGRgYGBhsGFgYgABEMkFhAwM/xn0QAIAD6YBhwB4nI1Ty07cMBS9QwKlQapQW3VXySvEqDCZGbGaHULiIQ1FKgjWMxknMfLEke2A+IJu+wntrt/QbVf9gG75jK577Lg8K1qQPCfnnnt8fX1NRC/pmjrk/zprC+8D7tBy9DHgBXoWfQ44Av8t4Bj4Z8CLtBL9CniJluPXASf0Lm4CXqFX8Q84dOLnMB17N4c7tBo1AS/Qi+hTwBH4rwHHwN8DXqQ30XXAS7QaLwSc0Gn8NuAVWou/gFmnjLrEaEh9GmDdDGgL3B4JsrRPDU2hTOiMSuJUIdKQQayiAth69r6akSSFqIJuA19TrzCIaY8sIoxyrNIrL//pw7A2iMygkX5vDj+G+kuoLdX4GlGK/8Lnlz6/h9MpmoO9rafrz7ILXEHHaAx95s9lsI7AHNMBWEZHULnfAXwG9/ZqdzLI08iuwRloXE8kfhXYAvE23+23DU3t626rbs8/8adv+9DWknsHp3E17oCf+Z48rvEQNZ78paYM38qfk3v/u3l3u3GXN2Dmvmvpf1Srwk3pB/VSsp512bA/GG5i2WJ7wu430yQ5K3nFGiOqgtmSB5pJVSizwaacmUZzZhXLlZTq8qGGFY2YcSkqbth6aW1tRmlaCFs2016m5qn36SbJrqosG4uMV4aP2PHBmB3tjtmgN2izkGQyLWprekbIntJFing32a5rKWCN/SdSoga45EJykyQ7asZvHQ8PTm6cslIpwyeyjbVltNikc2HTR7YKh9LBl9DADC0U/jLcBZDKrMhUBfQBvXRzLtFtjU9eNHKin0x5InTqb8lNpfKv1s1xHzTXRqgKzek/mb7nB8RZTCDhGEX3kK/8Q75AmUM/eLkfA+0Hi908Kx4eNsMgudg5GLdRD7a84npi+YxNr5i5KIbW5izXas7cHXIMAau1OueZhfj+cOcP3P8MNIWLyYOBuxL6DRylJ4cAAAB4nGNgYoAALjDJyIAOWMCiTIxMLDmZedkABtIBygAAAA==) format('woff'); } body { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; line-height: 1.6; word-wrap: break-word; margin: 0 2em; } strong { font-weight: bold; } img { border: 0; } input { color: inherit; font: inherit; margin: 0; line-height: normal; } html input[disabled] { cursor: default; } input[type="checkbox"] { box-sizing: border-box; padding: 0; } body * { box-sizing: border-box; } input { font: 13px/1.4 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; } a { text-decoration: none; } a:hover, a:active { text-decoration: underline; } hr { height: 1px; padding: 0; margin: 20px 0; border: 0 none; } hr:before { display: table; content: ""; } hr:after { display: table; clear: both; content: ""; } blockquote { margin: 0; } ul, ol { padding: 0; margin-top: 0; margin-bottom: 0; } ol ol, ul ol { list-style-type: lower-roman; } ul ul ol, ul ol ol, ol ul ol, ol ol ol { list-style-type: lower-alpha; } dd { margin-left: 0; } .octicon { font: normal normal normal 16px/1 octicons-anchor; display: inline-block; text-decoration: none; text-rendering: auto; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; } .octicon-link:before { content: '\f05c'; } .markdown-body &gt; *:first-child { margin-top: 0 !important; } .markdown-body &gt; *:last-child { margin-bottom: 0 !important; } .anchor { position: absolute; top: 0; left: 0; display: block; padding-right: 6px; padding-left: 30px; margin-left: -30px; } .anchor:focus { outline: none; } h1, h2, h3, h4, h5, h6 { position: relative; margin-top: 1em; margin-bottom: 16px; font-weight: bold; line-height: 1.4; } h1 .octicon-link, h2 .octicon-link, h3 .octicon-link, h4 .octicon-link, h5 .octicon-link, h6 .octicon-link { display: none; color: #000; vertical-align: middle; } h1:hover .anchor, h2:hover .anchor, h3:hover .anchor, h4:hover .anchor, h5:hover .anchor, h6:hover .anchor { padding-left: 8px; margin-left: -30px; text-decoration: none; } h1:hover .anchor .octicon-link, h2:hover .anchor .octicon-link, h3:hover .anchor .octicon-link, h4:hover .anchor .octicon-link, h5:hover .anchor .octicon-link, h6:hover .anchor .octicon-link { display: inline-block; } h1 { font-size: 2.2em; padding-top: 0.6em; } h1 .anchor { line-height: 1; } h2 { font-size: 1.8em; line-height: 1.2; padding-top: 0.6em; } h2 .anchor { line-height: 1.2; } h3 { font-size: 1.3em; line-height: 1; padding-top: 0.6em; } h3 .anchor { line-height: 1.2; } h4 { font-size: 1em; } h4 .anchor { line-height: 1.2; } h5 { font-size: 1em; } h5 .anchor { line-height: 1.1; } h6 { font-size: 1em; } h6 .anchor { line-height: 1.1; } p, blockquote, ul, ol, dl, table, pre { margin-top: 16px; margin-bottom: 16px; } ul, ol { padding-left: 2em; } ul ul, ul ol, ol ol, ol ul { margin-top: 0; margin-bottom: 0; } li &gt; p { margin-top: 0; margin-bottom: 0; } dl { padding: 0; } dl dt { padding: 0; margin-top: 16px; font-size: 1em; font-style: italic; font-weight: bold; } dl dd { padding: 0 16px; margin-bottom: 16px; } blockquote { padding: 10px 10px 10px 16px; border-left: 2px solid; border-radius: 0 3px 3px 0; } blockquote &gt; :first-child { margin-top: 0; } blockquote &gt; :last-child { margin-bottom: 0; } table { display: block; width: 100%; overflow: auto; word-break: normal; border-collapse: collapse; border-spacing: 0; font-size: 1em; } table th { font-weight: bold; } table th, table td { padding: 6px 13px; background: transparent; } table tr { border-top: 1px solid; } img { max-width: 100%; box-sizing: border-box; } code { font: 0.9em "JetBrains Mono", Consolas, "Liberation Mono", Menlo, Courier, monospace; padding: 0.2em 0.4em; margin: 2px; border-radius: 3px; } pre &gt; code { padding: 0; margin: 0; font-size: 100%; word-break: normal; white-space: pre; background: transparent; border: 0; } .highlight { margin-bottom: 16px; } .highlight pre, pre { font: 0.85em "JetBrains Mono", Consolas, "Liberation Mono", Menlo, Courier, monospace; padding: 16px; overflow: auto; line-height: 1.45; border-radius: 3px; } pre code { display: inline; max-width: initial; padding: 0; margin: 0; overflow: initial; line-height: inherit; word-wrap: normal; background-color: transparent; border: 0; } pre code:before, pre code:after { content: normal; } kbd { font: 0.9em "JetBrains Mono", Consolas, "Liberation Mono", Menlo, Courier, monospace; padding: 0.2em 0.4em; margin: 2px; border-radius: 3px; } .task-list-item { list-style-type: none; } .task-list-item + .task-list-item { margin-top: 3px; } .task-list-item input { margin: 0 0.35em 0.25em -0.6em; vertical-align: middle; } :checked + .radio-label { z-index: 1; position: relative; } span.user-del { text-decoration: line-through; } ::-webkit-scrollbar { width: 6px; height: 6px; } ::-webkit-scrollbar-thumb { -webkit-border-radius: 10px; } ::-webkit-scrollbar-track:vertical { -webkit-box-shadow: -1px 0 0 #ededed; } ::-webkit-scrollbar-track { background-color: transparent; } ::-webkit-scrollbar { width: 6px; }</style>
+  <style>body { background-color: rgba(0, 11, 30, 255.0); font-size: 17px !important; } body, p, blockquote, ul, ol, dl, table, pre, code, tr { color: rgba(255, 255, 255, 255.0); } a { color: rgba(88, 157, 246, 255.0); } table td, table th { border: 1px solid rgba(81, 81, 81, 255.0); } hr { background-color: rgba(81, 81, 81, 255.0); } kbd, tr { border: 1px solid rgba(81, 81, 81, 255.0); } h6 { color: rgba(120, 120, 120, 255.0); } blockquote { border-left: 2px solid rgba(88, 157, 246, 0.4); } ::-webkit-scrollbar-thumb { background-color: java.awt.Color[r=166,g=166,b=166]; } blockquote, code, pre { background-color: rgba(212, 222, 231, 0.09803921568627451); }</style>
+  <style>/* Copyright 2000-2021 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license that can be found in the LICENSE file. */ .code-fence-highlighter-copy-button { display: flex; position: absolute; float: left; margin-left: -1em; margin-top: -1em; } .code-fence-highlighter-copy-button-icon { max-width: 1em; } .code-fence:hover .code-fence-highlighter-copy-button-icon { /*noinspection CssUnknownTarget*/ content: url("copy-button-copy-icon.png"); } .code-fence:hover .code-fence-highlighter-copy-button:hover .code-fence-highlighter-copy-button-icon { /*noinspection CssUnknownTarget*/ content: url("copy-button-copy-icon-hovered.png"); cursor: pointer; }</style>
+  <style>/* Copyright 2000-2020 JetBrains s.r.o. Use of this source code is governed by the Apache 2.0 license that can be found in the LICENSE file. */ .language-mermaid &gt; img, .language-mermaid &gt; svg { max-width: 100%; }</style>
+  <style>/* Copyright 2000-2021 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license that can be found in the LICENSE file. */ .run-icon &gt; img { max-width: 1em; vertical-align: text-top; margin-right: 0.3em; } .code-block { position: absolute; left: 1em; } .hidden { display: none; }</style>
+  <style>/* Copyright 2000-2020 JetBrains s.r.o. Use of this source code is governed by the Apache 2.0 license that can be found in the LICENSE file. */ .language-mermaid &gt; img { max-width: 100%; } .mermaid &gt; .error-text, #diagram-container &gt; .error-text { color: red; white-space: pre-wrap; font-family: monospace; }</style>
+ </head>
+ <body>
+  <div md-src-pos="0..21420">
+   <h1 id="enlaces" md-src-pos="0..9">Enlaces</h1>
+   <h2 id="crear-directorios-recursivamente" md-src-pos="11..46">Crear directorios recursivamente</h2>
+   <p md-src-pos="48..74"><code md-src-pos="48..74">$ mkdir -p ~/m01/enlaces</code></p>
+   <h2 id="ver-número-de-enlaces-de-un-directorio" md-src-pos="76..117">Ver número de enlaces de un directorio</h2>
+   <p md-src-pos="119..140"><code md-src-pos="119..140">$ stat directorio1/</code></p>
+   <h2 id="ver-número-de-inodo-de-un-directorio" md-src-pos="142..181">Ver número de inodo de un directorio</h2>
+   <p md-src-pos="183..194"><code md-src-pos="183..194">$ ls -i .</code></p>
+   <h3 id="que-es-un-inodo" md-src-pos="196..216">Que es un inodo?</h3>
+   <p md-src-pos="218..376"><span md-src-pos="218..376">Un inodo es una estructura de datos utilizada por los sistemas de archivos en los sistemas operativos tipo Unix para almacenar información sobre los archivos.</span></p>
+   <p md-src-pos="378..627"><span md-src-pos="378..503">Cada archivo en un sistema de archivos Unix tiene un inodo asociado que almacena información como el propietario del archivo,</span> <span md-src-pos="504..527">los permisos de acceso,</span> <span md-src-pos="528..571">la fecha y hora de creación y modificación,</span> <span md-src-pos="572..627">y los bloques de datos físicos que componen el archivo.</span></p>
+   <p md-src-pos="629..972"><span md-src-pos="629..767">El sistema de archivos utiliza los inodos para mantener un seguimiento de los archivos y para localizar y acceder a sus datos en el disco.</span> <span md-src-pos="768..797">Cuando un archivo se elimina,</span> <span md-src-pos="798..889">el sistema de archivos libera el inodo asociado y los bloques de datos físicos del archivo,</span> <span md-src-pos="890..972">lo que permite que el espacio en disco se reutilice para almacenar otros archivos.</span></p>
+   <h2 id="crear-enlace-simbólico" md-src-pos="974..999">Crear enlace simbólico</h2>
+   <p md-src-pos="1001..1065"><code md-src-pos="1001..1065">$ ln -s directorio1/passwd directorio1/subdirectorioA/espasswd</code></p>
+   <h3 id="que-es-un-enlace-simbolico" md-src-pos="1067..1098">Que es un enlace simbolico?</h3>
+   <p md-src-pos="1100..1291"><span md-src-pos="1100..1119">Un enlace simbólico</span> (<span md-src-pos="1121..1162">también conocido como symlink o soft link</span>) <span md-src-pos="1164..1291">en Linux es un tipo especial de archivo que actúa como un acceso directo a otro archivo o directorio en el sistema de archivos.</span></p>
+   <p md-src-pos="1293..1436"><span md-src-pos="1293..1327">En lugar de contener datos reales,</span> <span md-src-pos="1328..1436">un enlace simbólico contiene una referencia al nombre y la ubicación del archivo o directorio al que apunta.</span></p>
+   <p md-src-pos="1438..1875"><span md-src-pos="1438..1561">Una ventaja importante de los enlaces simbólicos es que pueden ser eliminados sin afectar al archivo o directorio original.</span> <span md-src-pos="1562..1596">Si se elimina un enlace simbólico,</span> <span md-src-pos="1597..1661">el archivo original seguirá existiendo en su ubicación original.</span> <span md-src-pos="1662..1669">Además,</span> <span md-src-pos="1670..1875">los enlaces simbólicos pueden ser utilizados para proporcionar acceso a archivos o directorios en ubicaciones que no son accesibles de otra manera debido a permisos de usuario o restricciones de ubicación.</span></p>
+   <h2 id="crear-enlace-duro" md-src-pos="1877..1897">Crear enlace duro</h2>
+   <p md-src-pos="1899..1936"><code md-src-pos="1899..1936">$ ls -l directorio1/subdirectorioB/</code></p>
+   <h3 id="que-es-un-enlace-duro" md-src-pos="1938..1964">Que es un enlace duro?</h3>
+   <p md-src-pos="1966..2183"><span md-src-pos="1966..1980">Un enlace duro</span> (<span md-src-pos="1982..2013">también conocido como hard link</span>) <span md-src-pos="2015..2100">en Linux es un tipo especial de enlace que permite crear múltiples nombres de archivo</span> (<span md-src-pos="2102..2126">o entradas de directorio</span>) <span md-src-pos="2128..2183">que apuntan al mismo archivo en el sistema de archivos.</span></p>
+   <p md-src-pos="2185..2445"><span md-src-pos="2185..2224">A diferencia de los enlaces simbólicos,</span> <span md-src-pos="2225..2308">los enlaces duros no son archivos separados con una referencia al archivo original,</span> <span md-src-pos="2309..2445">sino que son entradas adicionales en el sistema de archivos que apuntan directamente al mismo objeto de archivo que el archivo original.</span></p>
+   <p md-src-pos="2447..2688"><span md-src-pos="2447..2519">Esto significa que los enlaces duros comparten el mismo número de i-nodo</span> (<span md-src-pos="2521..2526">inodo</span>) <span md-src-pos="2528..2552">que el archivo original,</span> <span md-src-pos="2553..2688">lo que implica que los cambios realizados en cualquiera de los enlaces duros o en el archivo original se reflejarán en todos los demás.</span></p>
+   <p md-src-pos="2690..2934"><span md-src-pos="2690..2729">A diferencia de los enlaces simbólicos,</span> <span md-src-pos="2730..2818">los enlaces duros sólo pueden ser creados para archivos regulares y no para directorios.</span> <span md-src-pos="2819..2826">Además,</span> <span md-src-pos="2827..2934">los enlaces duros sólo pueden ser creados en el mismo sistema de archivos donde reside el archivo original.</span></p>
+   <p md-src-pos="2936..3293"><span md-src-pos="2936..3035">Los enlaces duros son útiles cuando se desea tener varios nombres de archivo para el mismo archivo,</span> <span md-src-pos="3036..3108">pero sin crear copias adicionales del archivo en el sistema de archivos.</span> <span md-src-pos="3109..3121">Por ejemplo,</span> <span md-src-pos="3122..3293">se puede crear un enlace duro a un archivo de registro para accederlo desde diferentes directorios sin tener que duplicar el archivo físicamente en el sistema de archivos.</span></p>
+   <h2 id="ver-permisos-de-un-archivo" md-src-pos="3295..3324">Ver permisos de un archivo</h2>
+   <p md-src-pos="3326..3354"><code md-src-pos="3326..3354">$ ls -l directorio1/passwd</code></p>
+   <h3 id="que-permisos-hay" md-src-pos="3356..3377">Que permisos hay?</h3>
+   <p md-src-pos="3379..3825"><span md-src-pos="3379..3388">En Linux,</span> <span md-src-pos="3389..3457">los permisos de un archivo se dividen en tres categorías principales</span>: <span md-src-pos="3459..3466">usuario</span> (<span md-src-pos="3468..3473">owner</span>)<span md-src-pos="3474..3475">,</span> <span md-src-pos="3476..3490">grupo y otros.</span> <span md-src-pos="3491..3511">Para cada categoría,</span> <span md-src-pos="3512..3538">hay tres permisos posibles</span>: <span md-src-pos="3540..3547">lectura</span> (<span md-src-pos="3549..3553">read</span>)<span md-src-pos="3554..3555">,</span> <span md-src-pos="3556..3565">escritura</span> (<span md-src-pos="3567..3572">write</span>) <span md-src-pos="3574..3585">y ejecución</span> (<span md-src-pos="3587..3594">execute</span>)<span md-src-pos="3595..3596">.</span> <span md-src-pos="3597..3707">Estos permisos se representan por medio de caracteres en las salidas de listado de archivos y en comandos como</span> "<span md-src-pos="3709..3711">ls</span> <span md-src-pos="3712..3714">-l</span>"<span md-src-pos="3715..3716">.</span> <span md-src-pos="3717..3824">Los permisos se muestran en ese orden y se utilizan los siguientes caracteres para representar cada permiso</span>:</p>
+   <p md-src-pos="3827..4040">"<span md-src-pos="3828..3829">r</span>" <span md-src-pos="3831..3854">para permiso de lectura</span> (<span md-src-pos="3856..3860">read</span>) "<span md-src-pos="3863..3864">w</span>" <span md-src-pos="3866..3891">para permiso de escritura</span> (<span md-src-pos="3893..3898">write</span>) "<span md-src-pos="3901..3902">x</span>" <span md-src-pos="3904..3929">para permiso de ejecución</span> (<span md-src-pos="3931..3938">execute</span>) "<span md-src-pos="3941..3942">-</span>" <span md-src-pos="3944..3982">para indicar la ausencia de un permiso</span> <span md-src-pos="3983..3996">Por lo tanto,</span> <span md-src-pos="3997..4039">las combinaciones posibles de permisos son</span>:</p>
+   <p md-src-pos="4042..4367"><span md-src-pos="4042..4045">rwx</span>: <span md-src-pos="4047..4065">permisos completos</span> (<span md-src-pos="4067..4075">lectura,</span> <span md-src-pos="4076..4097">escritura y ejecución</span>) <span md-src-pos="4099..4102">rw-</span>: <span md-src-pos="4104..4145">permisos de lectura y escritura solamente</span> <span md-src-pos="4146..4149">r-x</span>: <span md-src-pos="4151..4192">permisos de lectura y ejecución solamente</span> <span md-src-pos="4193..4196">r--</span>: <span md-src-pos="4198..4226">permiso de lectura solamente</span> <span md-src-pos="4227..4230">-wx</span>: <span md-src-pos="4232..4275">permisos de escritura y ejecución solamente</span> <span md-src-pos="4276..4279">-w-</span>: <span md-src-pos="4281..4311">permiso de escritura solamente</span> <span md-src-pos="4312..4315">--x</span>: <span md-src-pos="4317..4347">permiso de ejecución solamente</span> <span md-src-pos="4348..4351">---</span>: <span md-src-pos="4353..4367">ningún permiso</span></p>
+   <h1 id="alias" md-src-pos="4369..4376">Alias</h1>
+   <h2 id="que-es-un-alias-en-linux" md-src-pos="4378..4406">Que es un alias en linux?</h2>
+   <p md-src-pos="4408..4709"><span md-src-pos="4408..4417">En Linux,</span> <span md-src-pos="4418..4579">un alias es un comando personalizado que se utiliza para reemplazar otro comando existente o para crear un nuevo comando que combine varios comandos en uno solo.</span> <span md-src-pos="4580..4618">Un alias se define mediante el comando</span> "<span md-src-pos="4620..4625">alias</span>" <span md-src-pos="4627..4709">seguido del nombre del alias y la cadena de comando que se desea asignar al alias.</span></p>
+   <h2 id="para-que-se-utiliza-un-alias" md-src-pos="4711..4743">Para que se utiliza un alias?</h2>
+   <p md-src-pos="4745..4909"><span md-src-pos="4745..4813">Los aliases son útiles para simplificar comandos largos y complejos,</span> <span md-src-pos="4814..4908">o para crear comandos personalizados que se ajusten a las necesidades específicas del usuario.</span></p>
+   <h2 id="donde-se-definen-los-alias" md-src-pos="4911..4940">Donde se definen los alias</h2>
+   <p md-src-pos="4942..5136"><span md-src-pos="4942..5010">Los aliases pueden ser definidos en el archivo de inicio del usuario</span> (<span md-src-pos="5012..5024">por ejemplo,</span> <span md-src-pos="5025..5051">.bashrc para la shell bash</span>)<span md-src-pos="5052..5053">,</span> <span md-src-pos="5054..5136">de modo que estén disponibles cada vez que se inicie una nueva sesión de terminal.</span></p>
+   <h2 id="donde-se-aplican-los-alias" md-src-pos="5138..5168">Donde se aplican los alias?</h2>
+   <p md-src-pos="5170..5333"><span md-src-pos="5170..5239">los aliases sólo se aplican en la terminal en la que se han definido,</span> <span md-src-pos="5240..5303">por lo que si se desea utilizar un alias en una nueva terminal,</span> <span md-src-pos="5304..5333">debe ser definido nuevamente.</span></p>
+   <h2 id="mostrar-todos-los-alias-definidos" md-src-pos="5335..5371">Mostrar todos los alias definidos</h2>
+   <p md-src-pos="5373..5382"><code md-src-pos="5373..5382">$ alias</code></p>
+   <h2 id="crear-un-alias" md-src-pos="5384..5401">Crear un alias</h2>
+   <p md-src-pos="5403..5434"><code md-src-pos="5403..5434">$ alias datecal='date &amp;&amp; cal'</code></p>
+   <h2 id="definir-un-alias-permanente" md-src-pos="5436..5466">Definir un alias permanente</h2>
+   <p md-src-pos="5468..5531"><code md-src-pos="5468..5531">$ echo "alias quisoc='id -u &amp;&amp; id -g &amp;&amp; whoami'" &gt;&gt; ~/.bashrc</code></p>
+   <h1 id="path" md-src-pos="5533..5539">Path</h1>
+   <h2 id="mostrar-el-path-actualmente-definido" md-src-pos="5541..5580">Mostrar el path actualmente definido</h2>
+   <p md-src-pos="5582..5596"><code md-src-pos="5582..5596">$ echo $PATH</code></p>
+   <h2 id="hacer-una-copia-del-path" md-src-pos="5598..5625">Hacer una copia del path</h2>
+   <p md-src-pos="5627..5644"><code md-src-pos="5627..5644">$ OLDPATH=$PATH</code></p>
+   <h2 id="listar-las-ordenes-internas" md-src-pos="5646..5676">Listar las ordenes internas</h2>
+   <p md-src-pos="5678..5690"><code md-src-pos="5678..5690">$ printenv</code></p>
+   <h2 id="mostrar-la-ayuda-de-una-orden-interna" md-src-pos="5692..5732">Mostrar la ayuda de una orden interna</h2>
+   <p md-src-pos="5734..5747"><code md-src-pos="5734..5747">$ fg --help</code></p>
+   <h1 id="valores-de-retorno" md-src-pos="5749..5769">Valores de retorno</h1>
+   <h2 id="ver-el-valor-de-retorno-de-ejecución" md-src-pos="5771..5810">Ver el valor de retorno de ejecución</h2>
+   <pre class="code-fence" md-src-pos="5812..6045">
+    <div class="code-fence-highlighter-copy-button" data-fence-content="JCBmcmVlCiAgICAgICAgICAgICAgIHRvdGFsICAgICAgICB1c2VkICAgICAgICBmcmVlICAgICAgc2hhcmVkICBidWZmL2NhY2hlICAgYXZhaWxhYmxlCk1lbTogICAgICAgIDE2MTAyMDgwICAgICAzMTI3ODY4ICAgICA0MTExNTMyICAgICAgNTA1ODIwICAgICA4ODYyNjgwICAgIDEyMTIxMTc2ClN3YXA6ICAgICAgIDEwMTQ4MTg0ICAgICAgICA1ODg4ICAgIDEwMTQyMjk2CiQgZWNobyAkPwow">
+  <img class="code-fence-highlighter-copy-button-icon">
+
+    </div><code md-src-pos="5812..6045"><span md-src-pos="5812..5816"></span><span md-src-pos="5816..5822">$ free</span>
+<span md-src-pos="5823..5903">               total        used        free      shared  buff/cache   available</span>
+<span md-src-pos="5904..5984">Mem:        16102080     3127868     4111532      505820     8862680    12121176</span>
+<span md-src-pos="5985..6029">Swap:       10148184        5888    10142296</span>
+<span md-src-pos="6030..6039">$ echo $?</span>
+<span md-src-pos="6040..6041">0</span>
+<span md-src-pos="6042..6042"></span><span md-src-pos="6042..6045"></span></code></pre>
+   <h2 id="significado-de-cada-valor-de-retorno" md-src-pos="6047..6086">Significado de cada valor de retorno</h2>
+   <pre class="code-fence" md-src-pos="6088..6233">
+    <div class="code-fence-highlighter-copy-button" data-fence-content="VmFsb3IgMDogRWwgY29tYW5kbyBzZSBoYSBlamVjdXRhZG8gY29ycmVjdGFtZW50ZS4KVmFsb3IgMTogVmFsb3IgcGFyYSBlcnJvcmVzIGdlbmVyYWxlcy4KVmFsb3IgMTI3OiBFbCBjb21hbmRvIG5vIHNlIGhhIHBvZGlkbyBlamVjdXRhci4=">
+  <img class="code-fence-highlighter-copy-button-icon">
+
+    </div><code md-src-pos="6088..6233"><span md-src-pos="6088..6092"></span><span md-src-pos="6092..6142">Valor 0: El comando se ha ejecutado correctamente.</span>
+<span md-src-pos="6143..6181">Valor 1: Valor para errores generales.</span>
+<span md-src-pos="6182..6229">Valor 127: El comando no se ha podido ejecutar.</span>
+<span md-src-pos="6230..6230"></span><span md-src-pos="6230..6233"></span></code></pre>
+   <h2 id="ejecutar-una-orden-únicamente-si-la-anterior-no-falla" md-src-pos="6235..6291">Ejecutar una orden únicamente si la anterior no falla</h2>
+   <pre class="code-fence" md-src-pos="6293..6390">
+    <div class="code-fence-highlighter-copy-button" data-fence-content="JCBta2RpciAvdG1wL3Rlc3QgJiYgZWNobyAiRGlyZWN0b3J5IGNyZWF0ZWQgc3VjY2Vzc2Z1bGx5IgpEaXJlY3RvcnkgY3JlYXRlZCBzdWNjZXNzZnVsbHk=">
+  <img class="code-fence-highlighter-copy-button-icon">
+
+    </div><code md-src-pos="6293..6390"><span md-src-pos="6293..6297"></span><span md-src-pos="6297..6373">$ mkdir /tmp/test &amp;&amp; echo "Directory created successfully"</span>
+<span md-src-pos="6374..6404">Directory created successfully</span>
+<span md-src-pos="6405..6405"></span><span md-src-pos="6387..6390"></span></code></pre>
+   <h2 id="ejecutar-una-orden-únicamente-si-la-anterior-falla" md-src-pos="6392..6445">Ejecutar una orden únicamente si la anterior falla</h2>
+   <pre class="code-fence" md-src-pos="6447..6531">
+    <div class="code-fence-highlighter-copy-button" data-fence-content="JCBta2RpciAvdG1wL3Rlc3QgMj4vZGV2L251bGwgfHwgZWNobyAiJD8sIHlhIGV4aXN0ZSBjcnVjIgoxLCB5YSBleGlzdGUgY3J1Yw==">
+  <img class="code-fence-highlighter-copy-button-icon">
+
+    </div><code md-src-pos="6447..6531"><span md-src-pos="6447..6451"></span><span md-src-pos="6451..6522">$ mkdir /tmp/test 2&gt;/dev/null || echo "$?, ya existe cruc"</span>
+<span md-src-pos="6523..6540">1, ya existe cruc</span>
+<span md-src-pos="6541..6541"></span><span md-src-pos="6528..6531"></span></code></pre>
+   <h1 id="expansions" md-src-pos="6533..6545">Expansions</h1>
+   <h2 id="operaciones-en-bash" md-src-pos="6547..6569">Operaciones en bash</h2>
+   <pre class="code-fence" md-src-pos="6571..6604">
+    <div class="code-fence-highlighter-copy-button" data-fence-content="JCBlY2hvICQoKCgxMCoxNSktNSkpCjE0NQ==">
+  <img class="code-fence-highlighter-copy-button-icon">
+
+    </div><code md-src-pos="6571..6604"><span md-src-pos="6571..6575"></span><span md-src-pos="6575..6596">$ echo $(((10*15)-5))</span>
+<span md-src-pos="6597..6600">145</span>
+<span md-src-pos="6601..6601"></span><span md-src-pos="6601..6604"></span></code></pre>
+   <h1 id="repaso" md-src-pos="6606..6614">Repaso</h1>
+   <h2 id="mostrar-las-localizaciones-de-un-comando" md-src-pos="6616..6659">Mostrar las localizaciones de un comando</h2>
+   <p md-src-pos="6661..6673"><code md-src-pos="6661..6673">$ which ls</code></p>
+   <h2 id="mostrar-la-localización-del-binario-fuente-y-manual-de-un-comando" md-src-pos="6675..6744">Mostrar la localización del binario, fuente y manual de un comando</h2>
+   <p md-src-pos="6746..6760"><code md-src-pos="6746..6760">$ whereis ls</code></p>
+   <h2 id="localización-de-la-base-de-datos-de-locate" md-src-pos="6762..6807">Localización de la base de datos de locate</h2>
+   <p md-src-pos="6809..6871"><code md-src-pos="6809..6871">La base de datos se localiza en: /var/lib/mlocate/mlocate.db</code></p>
+   <h2 id="ejecutar-un-comando-sin-ver-los-errores-por-pantalla" md-src-pos="6873..6928">Ejecutar un comando sin ver los errores por pantalla</h2>
+   <pre class="code-fence" md-src-pos="6930..7005">
+    <div class="code-fence-highlighter-copy-button" data-fence-content="JCBmaW5kIC9ldGMgLW5hbWUgcGFzc3dkIDI+IC9kZXYvbnVsbAovZXRjL3BhbS5kL3Bhc3N3ZAovZXRjL3Bhc3N3ZA==">
+  <img class="code-fence-highlighter-copy-button-icon">
+
+    </div><code md-src-pos="6930..7005"><span md-src-pos="6930..6934"></span><span md-src-pos="6934..6974">$ find /etc -name passwd 2&gt; /dev/null</span>
+<span md-src-pos="6975..6992">/etc/pam.d/passwd</span>
+<span md-src-pos="6993..7004">/etc/passwd</span>
+<span md-src-pos="7005..7005"></span><span md-src-pos="7002..7005"></span></code></pre>
+   <h2 id="buscar-más-de-un-fichero-con-find" md-src-pos="7007..7043">Buscar más de un fichero con find</h2>
+   <pre class="code-fence" md-src-pos="7045..7090">
+    <div class="code-fence-highlighter-copy-button" data-fence-content="ZmluZCAuIC1uYW1lICIqLnhtbCIgLW8gLW5hbWUgIioueHNsIg==">
+  <img class="code-fence-highlighter-copy-button-icon">
+
+    </div><code md-src-pos="7045..7090"><span md-src-pos="7045..7049"></span><span md-src-pos="7049..7106">find . -name "*.xml" -o -name "*.xsl"</span>
+<span md-src-pos="7107..7107"></span><span md-src-pos="7087..7090"></span></code></pre>
+   <h2 id="contar-saltos-de-línea-de-la-salida-de-un-comando" md-src-pos="7092..7144">Contar saltos de línea de la salida de un comando</h2>
+   <pre class="code-fence" md-src-pos="7146..7195">
+    <div class="code-fence-highlighter-copy-button" data-fence-content="JCBmaW5kIC8gLW5hbWUgcG5nIDI+IC9kZXYvbnVsbCB8IHdjIC1sCjI=">
+  <img class="code-fence-highlighter-copy-button-icon">
+
+    </div><code md-src-pos="7146..7195"><span md-src-pos="7146..7150"></span><span md-src-pos="7150..7192">$ find / -name png 2&gt; /dev/null | wc -l</span>
+<span md-src-pos="7193..7194">2</span>
+<span md-src-pos="7195..7195"></span><span md-src-pos="7192..7195"></span></code></pre>
+   <h2 id="buscar-todos-los-archivos-ocultos-de-un-directorio" md-src-pos="7197..7250">Buscar todos los archivos ocultos de un directorio</h2>
+   <p md-src-pos="7252..7294"><code md-src-pos="7252..7294">$ find /tmp/ -type f 2&gt; /dev/null | head</code></p>
+   <h2 id="buscar-ficheros-por-un-tamaño-exacto" md-src-pos="7296..7335">Buscar ficheros por un tamaño exacto</h2>
+   <p md-src-pos="7337..7361"><code md-src-pos="7337..7361">$ find /var/ -size 24c</code></p>
+   <h2 id="buscar-ficheros-por-un-tamaño-menor-que" md-src-pos="7363..7405">Buscar ficheros por un tamaño menor que</h2>
+   <p md-src-pos="7407..7432"><code md-src-pos="7407..7432">$ find /var/ -size -24M</code></p>
+   <h2 id="buscar-ficheros-por-un-tamaño-mayor-que" md-src-pos="7434..7476">Buscar ficheros por un tamaño mayor que</h2>
+   <p md-src-pos="7478..7503"><code md-src-pos="7478..7503">$ find /var/ -size +46k</code></p>
+   <h2 id="buscar-ficheros-entre-2-tamaños" md-src-pos="7505..7539">Buscar ficheros entre 2 tamaños</h2>
+   <p md-src-pos="7541..7575"><code md-src-pos="7541..7575">$ find /var/ -size +2M -size -5M</code></p>
+   <h2 id="buscar-y-eliminar-ficheros-a-la-vez" md-src-pos="7577..7615">Buscar y eliminar ficheros a la vez</h2>
+   <p md-src-pos="7617..7654"><code md-src-pos="7617..7654">$ find / -size +100M -exec rm {} \;</code></p>
+   <h1 id="sistemas-de-archivos" md-src-pos="7656..7678">Sistemas de archivos</h1>
+   <pre class="code-fence" md-src-pos="7680..9029">
+    <div class="code-fence-highlighter-copy-button" data-fence-content="fCAgICAgICAgIFNpc3RlbWEgZGUgYXJjaGl2b3MgICAgICAgIHwgICAgICAgICAgICAgVGFtYcOxbyBtw6F4aW1vICAgICAgICAgICAgfCAgICAgICAgICAgIFNpc3RlbWFzIGNvbXBhdGlibGVzICAgICAgICAgICB8Cnw6LS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLTp8Oi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLTp8Oi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tOnwKfCAgICBGQVQgIChGaWxlIEFsbG9jYXRpb24gVGFibGUpICAgIHwgRkFUMTI6IDE2IE1CIEZBVDE2OiAyIEdCIEZBVDMyOiAyIFRCIHwgTVMtRE9TIHkgV2luZG93cyA5NSAgICAgICAgICAgICAgICAgICAgICAgfAp8IE5URlMgIChOZXcgVGVjaG5vbG9neSBGaWxlIFN5c3RlbSkgfCAgICAgICAgICAgICAgICAgMTYgRUIgICAgICAgICAgICAgICAgfCBXaW5kb3dzIE5UIHkgcG9zdGVyaW9yZXMgaGFzdGEgV2luZG93cyAxMSB8CnwgICBIRlMgIChIaWVyYXJjaGljYWwgRmlsZSBTeXN0ZW0pICB8ICAgICAgICAgICAgICAgICAyIFRCICAgICAgICAgICAgICAgICB8IEFwcGxlIE1hcmNPUyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwKfCAgICAgICAgICAgRXh0MiBFeHQzIEV4dDQgICAgICAgICAgIHwgICAgICAgICAyLTMyVGlCIDQtMzJUaWIgMUVpYiAgICAgICAgIHwgTGludXggICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfAp8ICAgICBCdHJmcyAgKEItdHJlZSBmaWxlIHN5c3RlbSkgICAgfCAgICAgICAgICAgICAgICAxNiBFaUIgICAgICAgICAgICAgICAgfCBMaW51eCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8CnwgICAgIFhGUyAgKGVYdGVuZGVkIEZpbGUgU3lzdGVtKSAgICB8ICAgICAgICAgICAgICA4IGV4YmlieXRlcyAgICAgICAgICAgICB8IExpbnV4ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwKfCAgICAgICBVRlMgIChVbml4IEZpbGUgU3lzdGVtKSAgICAgIHwgICAgICAgICAgICAgICAgIDggWmlCICAgICAgICAgICAgICAgIHwgQmFzYWRvcyBlbiBVbml4IChTb2xhcmlzIHkgRnJlZUJTRCkgICAgICAgfAp8ICAgICAgICAgICAgICBSZWlzZXJGUyAgICAgICAgICAgICAgfCAgICAgICAgICAgICAgICAxNiBUaUIgICAgICAgICAgICAgICAgfCBMaW51eCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8CnwgICAgIEpGUyAgKEpvdXJuYWxlZCBGaWxlU3lzdGVtKSAgICB8ICAgICAgICAgICAgICAgICAzMiBQQiAgICAgICAgICAgICAgICB8IExpbnV4IHkgQUlYICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHw=">
+  <img class="code-fence-highlighter-copy-button-icon">
+
+    </div><code md-src-pos="7680..9029"><span md-src-pos="7680..7684"></span><span md-src-pos="7684..7805">|         Sistema de archivos        |             Tamaño máximo            |            Sistemas compatibles           |</span>
+<span md-src-pos="7806..7927">|:----------------------------------:|:------------------------------------:|:-----------------------------------------:|</span>
+<span md-src-pos="7928..8049">|    FAT  (File Allocation Table)    | FAT12: 16 MB FAT16: 2 GB FAT32: 2 TB | MS-DOS y Windows 95                       |</span>
+<span md-src-pos="8050..8171">| NTFS  (New Technology File System) |                 16 EB                | Windows NT y posteriores hasta Windows 11 |</span>
+<span md-src-pos="8172..8293">|   HFS  (Hierarchical File System)  |                 2 TB                 | Apple MarcOS                              |</span>
+<span md-src-pos="8294..8415">|           Ext2 Ext3 Ext4           |         2-32TiB 4-32Tib 1Eib         | Linux                                     |</span>
+<span md-src-pos="8416..8537">|     Btrfs  (B-tree file system)    |                16 EiB                | Linux                                     |</span>
+<span md-src-pos="8538..8659">|     XFS  (eXtended File System)    |              8 exbibytes             | Linux                                     |</span>
+<span md-src-pos="8660..8781">|       UFS  (Unix File System)      |                 8 ZiB                | Basados en Unix (Solaris y FreeBSD)       |</span>
+<span md-src-pos="8782..8903">|              ReiserFS              |                16 TiB                | Linux                                     |</span>
+<span md-src-pos="8904..9025">|     JFS  (Journaled FileSystem)    |                 32 PB                | Linux y AIX                               |</span>
+<span md-src-pos="9026..9026"></span><span md-src-pos="9026..9029"></span></code></pre>
+   <h1 id="particiones" md-src-pos="9031..9044">Particiones</h1>
+   <p md-src-pos="9046..9222"><em md-src-pos="9046..9222"><strong md-src-pos="9047..9221">Para crear una partición lógica es necesario tener una partición extendida, pues ésta es una partición primaria especial que puede contener una o más particiones lógicas.</strong></em></p>
+   <ul md-src-pos="9224..9339">
+    <li md-src-pos="9224..9281"><p md-src-pos="9226..9281"><em md-src-pos="9226..9281">Para particionar en <strong md-src-pos="9247..9256">msdos</strong> se recomienda <strong md-src-pos="9271..9280">fdisk</strong></em></p></li>
+    <li md-src-pos="9283..9339"><p md-src-pos="9285..9339"><em md-src-pos="9285..9339">Para particionar en <strong md-src-pos="9306..9313">gpt</strong> se recomienda <strong md-src-pos="9328..9338">parted</strong></em></p></li>
+   </ul>
+   <h2 id="parted" md-src-pos="9341..9350">Parted</h2>
+   <h3 id="listar-discos-y-particiones" md-src-pos="9352..9383">Listar discos y particiones</h3>
+   <p md-src-pos="9385..9431"><code md-src-pos="9385..9431">usuario@usuario-VirtualBox:~$ sudo parted -l</code></p>
+   <h3 id="entrar-en-la-interfaz" md-src-pos="9433..9458">Entrar en la interfaz</h3>
+   <p md-src-pos="9460..9482"><code md-src-pos="9460..9482">sudo parted /dev/sdb</code></p>
+   <h3 id="añadir-un-formato-de-tabla" md-src-pos="9484..9514">Añadir un formato de tabla</h3>
+   <p md-src-pos="9516..9538"><code md-src-pos="9516..9538">(parted) mklabel gpt</code></p>
+   <h3 id="mostrar-información-del-disco-antes-de-grabar" md-src-pos="9540..9589">Mostrar información del disco antes de grabar</h3>
+   <p md-src-pos="9591..9608"><code md-src-pos="9591..9608">(parted) p free</code></p>
+   <h3 id="crear-una-partición" md-src-pos="9610..9633">Crear una partición</h3>
+   <p md-src-pos="9635..9671"><code md-src-pos="9635..9671">(parted) mkpart primary ext4 0% 7G</code></p>
+   <h3 id="crear-varias-particiones" md-src-pos="9673..9701">Crear varias particiones</h3>
+   <pre class="code-fence" md-src-pos="9703..9845">
+    <div class="code-fence-highlighter-copy-button" data-fence-content="KHBhcnRlZCkgbWtwYXJ0IHByaW1hcnkgZXh0NCAwJSA3RwoocGFydGVkKSBta3BhcnQgcHJpbWFyeSBsaW51eC1zd2FwIDcwMDEgMTFHICAgICAgICAgICAgICAgICAKKHBhcnRlZCkgbWtwYXJ0IHByaW1hcnkgZXh0NCAxMTAwMSAxNUc=">
+  <img class="code-fence-highlighter-copy-button-icon">
+
+    </div><code md-src-pos="9703..9845"><span md-src-pos="9703..9707"></span><span md-src-pos="9707..9741">(parted) mkpart primary ext4 0% 7G</span>
+<span md-src-pos="9742..9802">(parted) mkpart primary linux-swap 7001 11G                 </span>
+<span md-src-pos="9803..9841">(parted) mkpart primary ext4 11001 15G</span>
+<span md-src-pos="9842..9842"></span><span md-src-pos="9842..9845"></span></code></pre>
+   <h3 id="añadir-banderas" md-src-pos="9847..9866">Añadir banderas</h3>
+   <p md-src-pos="9868..9892"><code md-src-pos="9868..9892">(parted) set 2 boot on</code></p>
+   <h3 id="cambiar-las-unidades-de-parted-a-bytes" md-src-pos="9894..9936">Cambiar las unidades de parted a Bytes</h3>
+   <p md-src-pos="9938..9955"><code md-src-pos="9938..9955">(parted) unit B</code></p>
+   <h3 id="borrar-una-partición" md-src-pos="9957..9981">Borrar una partición</h3>
+   <p md-src-pos="9983..9998"><code md-src-pos="9983..9998">(parted) rm 2</code></p>
+   <h3 id="crear-una-partición-swap" md-src-pos="10000..10028">Crear una partición swap</h3>
+   <p md-src-pos="10030..10032">``</p>
+   <h2 id="fdisk" md-src-pos="10034..10042">Fdisk</h2>
+   <h3 id="listar-discos-y-particiones" md-src-pos="10044..10075">Listar discos y particiones</h3>
+   <p md-src-pos="10077..10122"><code md-src-pos="10077..10122">usuario@usuario-VirtualBox:~$ sudo fdisk -l</code></p>
+   <h3 id="entrar-en-la-interfaz" md-src-pos="10124..10149">Entrar en la interfaz</h3>
+   <p md-src-pos="10151..10188"><code md-src-pos="10151..10188">usuario@neva:~$ sudo fdisk /dev/sdb</code></p>
+   <h3 id="formatear-un-disco-con-msdos-o-dos" md-src-pos="10190..10228">Formatear un disco con msdos o dos</h3>
+   <pre class="code-fence" md-src-pos="10230..10356">
+    <div class="code-fence-highlighter-copy-button" data-fence-content="T3JkZW4gKG0gcGFyYSBvYnRlbmVyIGF5dWRhKTogbwpTZSBoYSBjcmVhZG8gdW5hIG51ZXZhIGV0aXF1ZXRhIGRlIGRpc2NvIERPUyBjb24gZWwgaWRlbnRpZmljYWRvciBkZSBkaXNjbyAweDI1ZTBiNWZiLg==">
+  <img class="code-fence-highlighter-copy-button-icon">
+
+    </div><code md-src-pos="10230..10356"><span md-src-pos="10230..10234"></span><span md-src-pos="10234..10265">Orden (m para obtener ayuda): o</span>
+<span md-src-pos="10266..10352">Se ha creado una nueva etiqueta de disco DOS con el identificador de disco 0x25e0b5fb.</span>
+<span md-src-pos="10353..10353"></span><span md-src-pos="10353..10356"></span></code></pre>
+   <h3 id="mostrar-el-resultado" md-src-pos="10358..10382">Mostrar el resultado</h3>
+   <pre class="code-fence" md-src-pos="10384..10731">
+    <div class="code-fence-highlighter-copy-button" data-fence-content="T3JkZW4gKG0gcGFyYSBvYnRlbmVyIGF5dWRhKTogcApEaXNjbyAvZGV2L3NkYjogMTAgR2lCLCAxMDczNzQxODI0MCBieXRlcywgMjA5NzE1MjAgc2VjdG9yZXMKRGlzayBtb2RlbDogSEFSRERJU0sgICAgICAgIApVbmlkYWRlczogc2VjdG9yZXMgZGUgMSAqIDUxMiA9IDUxMiBieXRlcwpUYW1hw7FvIGRlIHNlY3RvciAobMOzZ2ljby9mw61zaWNvKTogNTEyIGJ5dGVzIC8gNTEyIGJ5dGVzClRhbWHDsW8gZGUgRS9TIChtw61uaW1vL8OzcHRpbW8pOiA1MTIgYnl0ZXMgLyA1MTIgYnl0ZXMKVGlwbyBkZSBldGlxdWV0YSBkZSBkaXNjbzogZG9zCklkZW50aWZpY2Fkb3IgZGVsIGRpc2NvOiAweDI1ZTBiNWZi">
+  <img class="code-fence-highlighter-copy-button-icon">
+
+    </div><code md-src-pos="10384..10731"><span md-src-pos="10384..10388"></span><span md-src-pos="10388..10419">Orden (m para obtener ayuda): p</span>
+<span md-src-pos="10420..10480">Disco /dev/sdb: 10 GiB, 10737418240 bytes, 20971520 sectores</span>
+<span md-src-pos="10481..10509">Disk model: HARDDISK        </span>
+<span md-src-pos="10510..10551">Unidades: sectores de 1 * 512 = 512 bytes</span>
+<span md-src-pos="10552..10607">Tamaño de sector (lógico/físico): 512 bytes / 512 bytes</span>
+<span md-src-pos="10608..10660">Tamaño de E/S (mínimo/óptimo): 512 bytes / 512 bytes</span>
+<span md-src-pos="10661..10691">Tipo de etiqueta de disco: dos</span>
+<span md-src-pos="10692..10727">Identificador del disco: 0x25e0b5fb</span>
+<span md-src-pos="10728..10728"></span><span md-src-pos="10728..10731"></span></code></pre>
+   <h3 id="crear-una-partición" md-src-pos="10733..10756">Crear una partición</h3>
+   <pre class="code-fence" md-src-pos="10758..11182">
+    <div class="code-fence-highlighter-copy-button" data-fence-content="T3JkZW4gKG0gcGFyYSBvYnRlbmVyIGF5dWRhKTogbgpUaXBvIGRlIHBhcnRpY2nDs24KICAgcCAgIHByaW1hcmlhICgwIHByaW1hcmlhKHMpLCAwIGV4dGVuZGlkYShzKSwgNCBsaWJyZShzKSkKICAgZSAgIGV4dGVuZGlkYSAoY29udGVuZWRvciBwYXJhIHBhcnRpY2lvbmVzIGzDs2dpY2FzKQpTZWxlY2Npb25hciAodmFsb3IgcHJlZGV0ZXJtaW5hZG8gcCk6IHAKTsO6bWVybyBkZSBwYXJ0aWNpw7NuICgxLTQsIHZhbG9yIHByZWRldGVybWluYWRvIDEpOiAxClByaW1lciBzZWN0b3IgKDIwNDgtMjA5NzE1MTksIHZhbG9yIHByZWRldGVybWluYWRvIDIwNDgpOiAKTGFzdCBzZWN0b3IsICsvLXNlY3RvcnMgb3IgKy8tc2l6ZXtLLE0sRyxULFB9ICgyMDQ4LTIwOTcxNTE5LCB2YWxvciBwcmVkZXRlcm1pbmFkbyAyMDk3MTUxOSk6ICsxLDVH">
+  <img class="code-fence-highlighter-copy-button-icon">
+
+    </div><code md-src-pos="10758..11182"><span md-src-pos="10758..10762"></span><span md-src-pos="10762..10793">Orden (m para obtener ayuda): n</span>
+<span md-src-pos="10794..10811">Tipo de partición</span>
+<span md-src-pos="10812..10871">   p   primaria (0 primaria(s), 0 extendida(s), 4 libre(s))</span>
+<span md-src-pos="10872..10926">   e   extendida (contenedor para particiones lógicas)</span>
+<span md-src-pos="10927..10966">Seleccionar (valor predeterminado p): p</span>
+<span md-src-pos="10967..11019">Número de partición (1-4, valor predeterminado 1): 1</span>
+<span md-src-pos="11020..11078">Primer sector (2048-20971519, valor predeterminado 2048): </span>
+<span md-src-pos="11079..11178">Last sector, +/-sectors or +/-size{K,M,G,T,P} (2048-20971519, valor predeterminado 20971519): +1,5G</span>
+<span md-src-pos="11179..11179"></span><span md-src-pos="11179..11182"></span></code></pre>
+   <h3 id="eliminar-una-partición" md-src-pos="11184..11210">Eliminar una partición</h3>
+   <pre class="code-fence" md-src-pos="11212..11339">
+    <div class="code-fence-highlighter-copy-button" data-fence-content="T3JkZW4gKG0gcGFyYSBvYnRlbmVyIGF5dWRhKTogZApOw7ptZXJvIGRlIHBhcnRpY2nDs24gKDEtMyw1LTcsIHZhbG9yIHByZWRldGVybWluYWRvIDcpOiAyCgpTZSBoYSBib3JyYWRvIGxhIHBhcnRpY2nDs24gMi4=">
+  <img class="code-fence-highlighter-copy-button-icon">
+
+    </div><code md-src-pos="11212..11339"><span md-src-pos="11212..11216"></span><span md-src-pos="11216..11247">Orden (m para obtener ayuda): d</span>
+<span md-src-pos="11248..11304">Número de partición (1-3,5-7, valor predeterminado 7): 2</span>
+<span md-src-pos="11305..11305"></span>
+<span md-src-pos="11306..11335">Se ha borrado la partición 2.</span>
+<span md-src-pos="11336..11336"></span><span md-src-pos="11336..11339"></span></code></pre>
+   <h3 id="aplicar-cambios-al-disco" md-src-pos="11341..11369">Aplicar cambios al disco</h3>
+   <pre class="code-fence" md-src-pos="11371..11550">
+    <div class="code-fence-highlighter-copy-button" data-fence-content="T3JkZW4gKG0gcGFyYSBvYnRlbmVyIGF5dWRhKTogdwpTZSBoYSBtb2RpZmljYWRvIGxhIHRhYmxhIGRlIHBhcnRpY2lvbmVzLgpMbGFtYW5kbyBhIGlvY3RsKCkgcGFyYSB2b2x2ZXIgYSBsZWVyIGxhIHRhYmxhIGRlIHBhcnRpY2lvbmVzLgpTZSBlc3TDoW4gc2luY3Jvbml6YW5kbyBsb3MgZGlzY29zLg==">
+  <img class="code-fence-highlighter-copy-button-icon">
+
+    </div><code md-src-pos="11371..11550"><span md-src-pos="11371..11375"></span><span md-src-pos="11375..11406">Orden (m para obtener ayuda): w</span>
+<span md-src-pos="11407..11448">Se ha modificado la tabla de particiones.</span>
+<span md-src-pos="11449..11511">Llamando a ioctl() para volver a leer la tabla de particiones.</span>
+<span md-src-pos="11512..11546">Se están sincronizando los discos.</span>
+<span md-src-pos="11547..11547"></span><span md-src-pos="11547..11550"></span></code></pre>
+   <h1 id="lvm" md-src-pos="11552..11557">LVM</h1>
+   <p md-src-pos="11559..11683"><em md-src-pos="11559..11683">Cuando configuras un nuevo servidor a través del instalador de Ubuntu, se da la opción de usar LVM durante la instalación.</em></p>
+   <h2 id="grupo-de-volumenes" md-src-pos="11685..11706">Grupo de volumenes</h2>
+   <p md-src-pos="11708..11852"><em md-src-pos="11708..11852">Un grupo de volúmenes es un espacio de nombres dado a todos los volúmenes físicos y lógicos que deseas utilizar con esa implementación de LVM.</em></p>
+   <h3 id="crear-un-grupo-de-volumenes" md-src-pos="11854..11885">Crear un grupo de volumenes</h3>
+   <p md-src-pos="11887..11930"><code md-src-pos="11887..11930">vgcreate NOMBRE_GRUPO /dev/sdX1 /dev/sdX2</code></p>
+   <h3 id="eliminar-un-grupo-de-volumenes" md-src-pos="11932..11966">Eliminar un grupo de volumenes</h3>
+   <p md-src-pos="11968..11991"><code md-src-pos="11968..11991">vgremove NOMBRE_GRUPO</code></p>
+   <h3 id="ver-detalles-de-un-grupo-de-volumenes" md-src-pos="11993..12034">Ver detalles de un grupo de volumenes</h3>
+   <p md-src-pos="12036..12047"><code md-src-pos="12036..12047">vgdisplay</code></p>
+   <h3 id="añadir-volumenes-físicos-a-un-grupo-de-volumenes" md-src-pos="12049..12101">Añadir volumenes físicos a un grupo de volumenes</h3>
+   <p md-src-pos="12103..12135"><code md-src-pos="12103..12135">sudo vgextend vg-test /dev/sdc</code></p>
+   <h2 id="volumen-físico" md-src-pos="12137..12154">Volumen físico</h2>
+   <p md-src-pos="12156..12250"><em md-src-pos="12156..12250">Un volumen físico es un disco duro físico o virtual que es miembro de un grupo de volúmenes.</em></p>
+   <h3 id="crear-un-volumen-físico" md-src-pos="12252..12279">Crear un volumen físico</h3>
+   <p md-src-pos="12281..12301"><code md-src-pos="12281..12301">pvcreate /dev/sdX1</code></p>
+   <h3 id="eliminar-un-volumen-físico" md-src-pos="12303..12333">Eliminar un volumen físico</h3>
+   <p md-src-pos="12335..12360"><code md-src-pos="12335..12360">sudo pvremove /dev/sdX1</code></p>
+   <h2 id="volumen-lógico" md-src-pos="12362..12379">Volumen lógico</h2>
+   <p md-src-pos="12381..12615"><em md-src-pos="12381..12615">Los volúmenes lógicos son similares en concepto a las particiones. Los volúmenes lógicos pueden ocupar una porción, o la totalidad, de un disco, pero a diferencia de las particiones estándar, también pueden abarcar múltiples discos.</em></p>
+   <h3 id="crear-un-volumen-lógico" md-src-pos="12617..12644">Crear un volumen lógico</h3>
+   <p md-src-pos="12646..12695"><code md-src-pos="12646..12695">lvcreate -L TAMANY -n NOMBRE_VOLUM NOMBRE_GRUPO</code></p>
+   <h3 id="aumentar-el-tamaño-de-un-volumen-lógico" md-src-pos="12697..12740">Aumentar el tamaño de un volumen lógico</h3>
+   <p md-src-pos="12742..12794"><code md-src-pos="12742..12794">lvextend -L +TAMANY /dev/NOMBRE_GRUPO/NOMBRE_VOLUM</code></p>
+   <h3 id="reducir-el-tamaño-de-un-volumen-lógico" md-src-pos="12796..12838">Reducir el tamaño de un volumen lógico</h3>
+   <p md-src-pos="12840..12892"><code md-src-pos="12840..12892">lvreduce -L -TAMANY /dev/NOMBRE_GRUPO/NOMBRE_VOLUM</code></p>
+   <h3 id="redimensionar-el-volumen-lógico" md-src-pos="12894..12929">Redimensionar el volumen lógico</h3>
+   <p md-src-pos="12931..13022"><code md-src-pos="12931..12977">lvextend -n /dev/vg-test/myvol1 -l +100%FREE</code> <code md-src-pos="12978..13022">sudo resize2fs /dev/mapper/vg--test-myvol1</code></p>
+   <h3 id="eliminar-un-volumen-lógico" md-src-pos="13024..13054">Eliminar un volumen lógico</h3>
+   <p md-src-pos="13056..13097"><code md-src-pos="13056..13097">lvremove /dev/NOMBRE_GRUPO/NOMBRE_VOLUM</code></p>
+   <h3 id="ver-detalles-de-un-volumen-lógico" md-src-pos="13099..13136">Ver detalles de un volumen lógico</h3>
+   <p md-src-pos="13138..13149"><code md-src-pos="13138..13149">lvdisplay</code></p>
+   <h2 id="pasos" md-src-pos="13151..13159">Pasos</h2>
+   <ol md-src-pos="13161..13484">
+    <li md-src-pos="13161..13205"><p md-src-pos="13164..13176">Instalar LVM</p><p md-src-pos="13181..13205"><code md-src-pos="13182..13205">sudo apt install lvm2</code></p></li>
+    <li md-src-pos="13206..13251"><p md-src-pos="13209..13251">Configurar un disco como un volumen físico</p></li>
+    <li md-src-pos="13252..13282"><p md-src-pos="13255..13282">Crear un grupo de volúmenes</p></li>
+    <li md-src-pos="13283..13309"><p md-src-pos="13286..13309">Crear un volumen lógico</p></li>
+    <li md-src-pos="13310..13382"><p md-src-pos="13313..13340">Formatear un volumen lógico</p><p md-src-pos="13345..13382"><code md-src-pos="13346..13382">sudo mkfs.ext4 /dev/vg-test/myvol1</code></p></li>
+    <li md-src-pos="13383..13484"><p md-src-pos="13386..13430">Montar el volumen lógico como un nuevo disco</p><p md-src-pos="13435..13484"><code md-src-pos="13436..13484">sudo mount /dev/vg-test/myvol1 /mnt/lvm/myvol1</code></p></li>
+   </ol>
+   <h2 id="instantáneas" md-src-pos="13486..13501">Instantáneas</h2>
+   <p md-src-pos="13503..13674"><span md-src-pos="13503..13562">Una snapshot es una copia puntual del estado de un sistema,</span> <span md-src-pos="13563..13607">como el contenido de un sistema de archivos,</span> <span md-src-pos="13608..13674">el estado de una máquina virtual o el estado de una base de datos.</span></p>
+   <p md-src-pos="13676..13831"><span md-src-pos="13676..13761">Las snapshots se utilizan normalmente con fines de copia de seguridad y recuperación,</span> <span md-src-pos="13762..13831">permitiendo restaurar el sistema a un estado conocido si algo va mal.</span></p>
+   <p md-src-pos="13833..14012"><span md-src-pos="13833..13928">Una snapshot es una instantánea del estado del disco de una máquina virtual en un momento dado,</span> <span md-src-pos="13929..14012">que puede utilizarse posteriormente para restaurar la máquina virtual a ese estado.</span></p>
+   <p md-src-pos="14014..14214"><span md-src-pos="14014..14109">Una snapshot o vista en base de datos puede referirse a una copia de sólo lectura de los datos,</span> <span md-src-pos="14110..14141">que puede usarse para informes,</span> <span md-src-pos="14142..14214">análisis de datos u otros propósitos sin afectar a los datos originales.</span></p>
+   <h3 id="comando" md-src-pos="14216..14227">Comando</h3>
+   <p md-src-pos="14229..14271"><code md-src-pos="14229..14271">lvcreate -s -n mysnapshot /dev/myvg/mylv</code></p>
+   <h2 id="ldap" md-src-pos="14273..14280">LDAP</h2>
+   <h3 id="atributos" md-src-pos="14282..14295">Atributos</h3>
+   <table md-src-pos="14296..20181">
+    <thead>
+     <tr md-src-pos="14296..14421">
+      <th md-src-pos="14297..14331">Atributo</th>
+      <th md-src-pos="14332..14420">Descripción</th>
+     </tr>
+    </thead>
+    <tbody>
+     <tr md-src-pos="14542..14661">
+      <td md-src-pos="14543..14571">cn</td>
+      <td md-src-pos="14572..14660">Nombre común del objeto</td>
+     </tr>
+     <tr class="intellij-row-even" md-src-pos="14662..14781">
+      <td md-src-pos="14663..14691">sn</td>
+      <td md-src-pos="14692..14780">Apellido o apellido del objeto</td>
+     </tr>
+     <tr md-src-pos="14782..14901">
+      <td md-src-pos="14783..14811">uid</td>
+      <td md-src-pos="14812..14900">Identificador único del objeto</td>
+     </tr>
+     <tr class="intellij-row-even" md-src-pos="14902..15021">
+      <td md-src-pos="14903..14931">userPassword</td>
+      <td md-src-pos="14932..15020">Contraseña del objeto</td>
+     </tr>
+     <tr md-src-pos="15022..15141">
+      <td md-src-pos="15023..15051">description</td>
+      <td md-src-pos="15052..15140">Descripción del objeto</td>
+     </tr>
+     <tr class="intellij-row-even" md-src-pos="15142..15261">
+      <td md-src-pos="15143..15171">mail</td>
+      <td md-src-pos="15172..15260">Dirección de correo electrónico del objeto</td>
+     </tr>
+     <tr md-src-pos="15262..15381">
+      <td md-src-pos="15263..15291">telephoneNumber</td>
+      <td md-src-pos="15292..15380">Número de teléfono del objeto</td>
+     </tr>
+     <tr class="intellij-row-even" md-src-pos="15382..15501">
+      <td md-src-pos="15383..15411">title</td>
+      <td md-src-pos="15412..15500">Título del objeto</td>
+     </tr>
+     <tr md-src-pos="15502..15621">
+      <td md-src-pos="15503..15531">department</td>
+      <td md-src-pos="15532..15620">Departamento al que pertenece el objeto</td>
+     </tr>
+     <tr class="intellij-row-even" md-src-pos="15622..15741">
+      <td md-src-pos="15623..15651">ou</td>
+      <td md-src-pos="15652..15740">Unidad organizativa del objeto</td>
+     </tr>
+     <tr md-src-pos="15742..15861">
+      <td md-src-pos="15743..15771">dc</td>
+      <td md-src-pos="15772..15860">Componente de dominio del objeto</td>
+     </tr>
+     <tr class="intellij-row-even" md-src-pos="15862..15981">
+      <td md-src-pos="15863..15891">memberOf</td>
+      <td md-src-pos="15892..15980">Lista de grupos a los que pertenece el objeto</td>
+     </tr>
+     <tr md-src-pos="15982..16101">
+      <td md-src-pos="15983..16011">objectClass</td>
+      <td md-src-pos="16012..16100">Clase de objeto</td>
+     </tr>
+     <tr class="intellij-row-even" md-src-pos="16102..16221">
+      <td md-src-pos="16103..16131">displayName</td>
+      <td md-src-pos="16132..16220">Nombre que se mostrará del objeto</td>
+     </tr>
+     <tr md-src-pos="16222..16341">
+      <td md-src-pos="16223..16251">givenName</td>
+      <td md-src-pos="16252..16340">Nombre de pila del objeto</td>
+     </tr>
+     <tr class="intellij-row-even" md-src-pos="16342..16461">
+      <td md-src-pos="16343..16371">initials</td>
+      <td md-src-pos="16372..16460">Iniciales del objeto</td>
+     </tr>
+     <tr md-src-pos="16462..16581">
+      <td md-src-pos="16463..16491">jpegPhoto</td>
+      <td md-src-pos="16492..16580">Fotografía del objeto en formato JPEG</td>
+     </tr>
+     <tr class="intellij-row-even" md-src-pos="16582..16701">
+      <td md-src-pos="16583..16611">street</td>
+      <td md-src-pos="16612..16700">Dirección del objeto</td>
+     </tr>
+     <tr md-src-pos="16702..16821">
+      <td md-src-pos="16703..16731">l</td>
+      <td md-src-pos="16732..16820">Localidad del objeto</td>
+     </tr>
+     <tr class="intellij-row-even" md-src-pos="16822..16941">
+      <td md-src-pos="16823..16851">st</td>
+      <td md-src-pos="16852..16940">Estado o provincia del objeto</td>
+     </tr>
+     <tr md-src-pos="16942..17061">
+      <td md-src-pos="16943..16971">postalCode</td>
+      <td md-src-pos="16972..17060">Código postal del objeto</td>
+     </tr>
+     <tr class="intellij-row-even" md-src-pos="17062..17181">
+      <td md-src-pos="17063..17091">employeeNumber</td>
+      <td md-src-pos="17092..17180">Número de empleado del objeto</td>
+     </tr>
+     <tr md-src-pos="17182..17301">
+      <td md-src-pos="17183..17211">employeeType</td>
+      <td md-src-pos="17212..17300">Tipo de empleado del objeto</td>
+     </tr>
+     <tr class="intellij-row-even" md-src-pos="17302..17421">
+      <td md-src-pos="17303..17331">streetAddress</td>
+      <td md-src-pos="17332..17420">Dirección del objeto</td>
+     </tr>
+     <tr md-src-pos="17422..17541">
+      <td md-src-pos="17423..17451">postOfficeBox</td>
+      <td md-src-pos="17452..17540">Apartado postal del objeto</td>
+     </tr>
+     <tr class="intellij-row-even" md-src-pos="17542..17661">
+      <td md-src-pos="17543..17571">physicalDeliveryOfficeName</td>
+      <td md-src-pos="17572..17660">Ubicación física del objeto</td>
+     </tr>
+     <tr md-src-pos="17662..17781">
+      <td md-src-pos="17663..17691">facsimileTelephoneNumber</td>
+      <td md-src-pos="17692..17780">Número de fax del objeto</td>
+     </tr>
+     <tr class="intellij-row-even" md-src-pos="17782..17901">
+      <td md-src-pos="17783..17811">mobile</td>
+      <td md-src-pos="17812..17900">Número de teléfono móvil del objeto</td>
+     </tr>
+     <tr md-src-pos="17902..18021">
+      <td md-src-pos="17903..17931">pager</td>
+      <td md-src-pos="17932..18020">Número de pager del objeto</td>
+     </tr>
+     <tr class="intellij-row-even" md-src-pos="18022..18141">
+      <td md-src-pos="18023..18051">roomNumber</td>
+      <td md-src-pos="18052..18140">Número de habitación del objeto</td>
+     </tr>
+     <tr md-src-pos="18142..18261">
+      <td md-src-pos="18143..18171">seeAlso</td>
+      <td md-src-pos="18172..18260">Otras entradas relacionadas con el objeto</td>
+     </tr>
+     <tr class="intellij-row-even" md-src-pos="18262..18381">
+      <td md-src-pos="18263..18291">manager</td>
+      <td md-src-pos="18292..18380">Identificador del objeto de su supervisor</td>
+     </tr>
+     <tr md-src-pos="18382..18501">
+      <td md-src-pos="18383..18411">member</td>
+      <td md-src-pos="18412..18500">Lista de miembros de un grupo</td>
+     </tr>
+     <tr class="intellij-row-even" md-src-pos="18502..18621">
+      <td md-src-pos="18503..18531">owner</td>
+      <td md-src-pos="18532..18620">Propietario del objeto</td>
+     </tr>
+     <tr md-src-pos="18622..18741">
+      <td md-src-pos="18623..18651">secretary</td>
+      <td md-src-pos="18652..18740">Asistente administrativo del objeto</td>
+     </tr>
+     <tr class="intellij-row-even" md-src-pos="18742..18861">
+      <td md-src-pos="18743..18771">preferredLanguage</td>
+      <td md-src-pos="18772..18860">Idioma preferido del objeto</td>
+     </tr>
+     <tr md-src-pos="18862..18981">
+      <td md-src-pos="18863..18891">userCertificate</td>
+      <td md-src-pos="18892..18980">Certificado de usuario del objeto</td>
+     </tr>
+     <tr class="intellij-row-even" md-src-pos="18982..19101">
+      <td md-src-pos="18983..19011">userPKCS12</td>
+      <td md-src-pos="19012..19100">PKCS12 del usuario</td>
+     </tr>
+     <tr md-src-pos="19102..19221">
+      <td md-src-pos="19103..19131">userSMIMECertificate</td>
+      <td md-src-pos="19132..19220">Certificado S/MIME del usuario</td>
+     </tr>
+     <tr class="intellij-row-even" md-src-pos="19222..19341">
+      <td md-src-pos="19223..19251">audio</td>
+      <td md-src-pos="19252..19340">Archivo de audio asociado al objeto</td>
+     </tr>
+     <tr md-src-pos="19342..19461">
+      <td md-src-pos="19343..19371">documentAuthor</td>
+      <td md-src-pos="19372..19460">Autor del documento asociado al objeto</td>
+     </tr>
+     <tr class="intellij-row-even" md-src-pos="19462..19581">
+      <td md-src-pos="19463..19491">documentTitle</td>
+      <td md-src-pos="19492..19580">Título del documento asociado al objeto</td>
+     </tr>
+     <tr md-src-pos="19582..19701">
+      <td md-src-pos="19583..19611">documentVersion</td>
+      <td md-src-pos="19612..19700">Versión del documento asociado al objeto</td>
+     </tr>
+     <tr class="intellij-row-even" md-src-pos="19702..19821">
+      <td md-src-pos="19703..19731">homeDirectory</td>
+      <td md-src-pos="19732..19820">Directorio de inicio del objeto</td>
+     </tr>
+     <tr md-src-pos="19822..19941">
+      <td md-src-pos="19823..19851">loginShell</td>
+      <td md-src-pos="19852..19940">Shell de inicio de sesión del objeto</td>
+     </tr>
+     <tr class="intellij-row-even" md-src-pos="19942..20061">
+      <td md-src-pos="19943..19971">gidNumber</td>
+      <td md-src-pos="19972..20060">Identificador de grupo del objeto</td>
+     </tr>
+     <tr md-src-pos="20062..20181">
+      <td md-src-pos="20063..20091">memberUid</td>
+      <td md-src-pos="20092..20180">Lista de miembros del grupo identificados por el identificador único del usuario (UID)</td>
+     </tr>
+    </tbody>
+   </table>
+   <h2 id="que-es-kerberos" md-src-pos="20183..20202">Que es Kerberos?</h2>
+   <p md-src-pos="20204..20548"><span md-src-pos="20204..20338">Kerberos es un protocolo de autenticación de red utilizado para autenticar la identidad de un usuario o servicio en un entorno de red.</span> <span md-src-pos="20339..20366">Fue desarrollado por el MIT</span> (<span md-src-pos="20368..20405">Massachusetts Institute of Technology</span>) <span md-src-pos="20407..20548">y se basa en la idea de que las entidades en una red confiable puedan verificar su identidad mutuamente para evitar ataques malintencionados.</span></p>
+   <p md-src-pos="20550..20925"><span md-src-pos="20550..20586">Kerberos es un protocolo muy seguro,</span> <span md-src-pos="20587..20704">ya que utiliza técnicas de cifrado fuertes y de autenticación mutua para proteger la comunicación entre los clientes,</span> <span md-src-pos="20705..20728">los servicios y el KDC.</span> <span md-src-pos="20729..20736">Además,</span> <span md-src-pos="20737..20925">también se puede utilizar para controlar el acceso a recursos específicos de la red y para generar registros de auditoría detallados que permiten rastrear el uso de los recursos de la red.</span></p>
+   <h2 id="donde-se-utiliza-kerberos" md-src-pos="20927..20956">Donde se utiliza Kerberos?</h2>
+   <p md-src-pos="20958..21418"><span md-src-pos="20958..21010">Kerberos se utiliza en sistemas operativos modernos,</span> <span md-src-pos="21011..21034">como Microsoft Windows,</span> <span md-src-pos="21035..21049">Linux y macOS,</span> <span md-src-pos="21050..21130">para proporcionar una autenticación segura en redes empresariales y de gobierno.</span> <span md-src-pos="21131..21201">Funciona mediante el uso de un servidor de autenticación centralizado,</span> <span md-src-pos="21202..21219">conocido como KDC</span> (<span md-src-pos="21221..21253">Centro de distribución de claves</span>)<span md-src-pos="21254..21255">,</span> <span md-src-pos="21256..21418">que se comunica con los clientes y los servicios de red para verificar su identidad y proporcionar un token de autenticación para el acceso a los recursos de red.</span></p>
+  </div>
+ </body>
+</html>

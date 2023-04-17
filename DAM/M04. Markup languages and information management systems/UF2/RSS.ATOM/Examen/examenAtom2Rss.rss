@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- He cambiado la etiqueta feed for rss y channel, que son las que pertenecen a un rss -->
+<rss version="2.0">
+    <channel>
+        <title>Sample Feed - Favorite RSS Related Software &amp; Resources</title>
+        <!-- En rss utilizamos description y no subtitle como en atom -->
+        <description>Take a look at some of FeedForAll&apos;s favorite software and resources for learning more about RSS.</description>
+        <!-- He cambiado el formato de introducir el enlace para el correcto en rss -->
+        <link>http://www.feedforall.com</link>
+        <!-- Esto quizá es un poco colada, pero el compilador compila, así que contento estoy -->
+        <!-- He dividido todas las categorias de atom en varias independientes de rss -->
+        <category>Computers</category>
+        <category>Software</category>
+        <category>Internet</category>
+        <category>Site Management</category>
+        <category>Content Management</category>
+        <!-- En rss no existe la etiqueta logo, por lo que hay que usar la etiqueta image con 3 subetiquetas -->
+        <image>
+            <!-- Me recomendaba que pusiera el mismo título que había puesto en channel -->
+            <title>Sample Feed - Favorite RSS Related Software &amp; Resources</title>
+            <!-- En enlace a la imagen -->
+            <url>http://www.feedforall.com</url>
+            <!-- El enlace al que te debe de llevar la imagen -->
+            <link>http://www.feedforall.com</link>
+        </image>
+        <!-- He adaptado tanto el nombre de la etiqueta, como el formato de la fecha a rss -->
+        <pubDate>Wed, 2 Oct 2002 00:00:05 +0000</pubDate>
+        <!-- Lo mismo que la anterior -->
+        <lastBuildDate>Wed, 2 Oct 2002 00:00:05 +0000</lastBuildDate>
+        <!-- La etiqueta rights de atom equivale a copyright en rss -->
+        <copyright>Copyright 2004 NotePage, Inc.</copyright>  
+        
+        <!-- En vez de entry son item -->
+        <item>
+            <title>RSS Resources</title>
+            <description>Be sure to take a look at some of our favorite RSS Resources&lt;br&gt;
+                &lt;a href=&quot;http://www.rss-specifications.com&quot;&gt;RSS Specifications&lt;/a&gt;&lt;br&gt;
+                &lt;a href=&quot;http://www.blog-connection.com&quot;&gt;Blog Connection&lt;/a&gt;&lt;br&gt;
+                &lt;br&gt;</description>
+            <link>http://www.feedforall.com</link>
+            <!-- He cambiado el id a guid y aplicado el permalink false, para que se defina mediante un identificador único y no mediante un enlace -->
+            <!-- No estoy seguro de que sea correcto usar exactamente el mismo id que en atom, pero el compilador valida, así que pa lante como los de Alicante -->
+            <guid isPermaLink="false">urn:uuid:1225c695-cfb8-4ebb-aaaa-80da344efa6a</guid>
+            <!-- Aquí no puedo poner la última fecha de modificación (lastBuildDate), ya que en rss se debe de indicar una única vez y en la raíz -->
+            <pubDate>Wed, 2 Oct 2002 15:00:05 +0000</pubDate>
+            <!-- En esta, pues cambia un poco ya que no hay que poner 2 etiquetas dentro, si no directamente los valores -->
+            <author>johndoe@example.com (John Doe)</author>
+        </item>
+
+        <item>
+            <title>Recommended Desktop Feed Reader Software</title>
+            <description>&lt;b&gt;FeedDemon&lt;/b&gt; enables you to quickly read and gather information from hundreds of web sites - without having to visit them. Don&apos;t waste any more time checking your favorite web sites for updates. Instead, use FeedDemon and make them come to you. &lt;br&gt;
+                More &lt;a href=&quot;http://store.esellerate.net/a.asp?c=1_SKU5139890208_AFL403073819&quot;&gt;FeedDemon Information&lt;/a&gt;</description>
+            <link>http://www.feedforall.com/feedforall-partners.htm</link>
+            <guid isPermaLink="false">urn:uuid:1225c695-cfb8-4ebb-aaaa-80da344efafa</guid>
+            <pubDate>Wed, 2 Oct 2002 15:00:05 +0000</pubDate>
+            <author>johndoe@example.com (John Doe)</author>
+        </item>
+        <!-- Poco más que comentar mi pana, todo fino pues compila bien -->
+    </channel>
+</rss>

@@ -1,0 +1,10 @@
+# Tags 
+<channel>: This tag contains information about the feed itself, including the title, description, and link to the website.
+<item>: This tag represents a single item or post in the feed.
+<title>: This tag contains the title of the feed item.
+<link>: This tag contains the URL for the item.
+<description>: This tag contains a brief summary or description of the item.
+<pubDate>: This tag indicates the date and time the item was published.
+<author>: This tag specifies the author of the item.
+<category>: This tag categorizes the item into one or more specific topics.
+<guid>: This tag provides a unique identifier for the item.

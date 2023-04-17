@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculadora</title>
+    </head>
+    <body>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contacte.html">Contacte</a></li>
+            <li><a href="calculadora.html">Calculadora</a></li>
+        </ul>
+        <form action="/nose.php">
+            <table>
+                <tr>
+                    <td><label for="fnselector">Selecciona el primer nombre:</label></td>
+                    <td>
+                        <select name="fn" id="fnselector" onchange="rmv()">
+                            <option value="none">n</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select>
+                    </td>
+                    <td><label for="snselector">Selecciona el segon nombre:</label></td>
+                    <td>
+                        <select name="sn" id="snselector" onchange="rmv()">
+                            <option value="none">m</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr><td>
+                    <input type="radio" id="suma" name="operation" value="1" onchange="rmv()" checked>
+                    <label for="suma">suma</label>
+                </td></tr>
+                <tr><td>
+                    <input type="radio" id="resta" name="operation" value="2" onchange="rmv()">
+                    <label for="resta">resta</label>
+                </td></tr>
+                <tr><td>
+                    <input type="radio" id="multiplicacio" name="operation" value="3" onchange="rmv()">
+                    <label for="multiplicacio">multiplicacio</label>
+                </td></tr>
+                <tr><td>
+                    <input type="radio" id="divisio" name="operation" value="4" onchange="rmv()">
+                    <label for="divisio">divisió</label>
+                </td></tr>
+            </table>
+        </form>
+        <button id="calculate" onclick="calc()">Calcula</button>
+        <strong><p>Resultat: <a id="resultat"></a></p></strong>
+        <img src="http://33.media.tumblr.com/398a7f0d65f3e801f3919759db1a1b2c/tumblr_ndplmg4dcF1s21c3eo1_400.gif" height="500" width="700" style="opacity: 0%;" id="cmon">
+        <script>
+            function rmv() {document.getElementById("resultat").innerHTML ="";}
+            function calc() {
+                if (document.getElementById("fnselector").value > 0 && document.getElementById("snselector").value > 0 ) {
+                    document.getElementById("cmon").style.opacity = 0;
+                    let num1 = Number.parseFloat(document.getElementById("fnselector").value);
+                    let num2 = Number.parseFloat(document.getElementById("snselector").value);
+                    switch (document.querySelector('input[name="operation"]:checked').value) {
+                        case "1": 
+                            document.getElementById("resultat").innerHTML=num1+"+"+num2+"="+(num1+num2); 
+                            break;
+                        case "2":
+                            document.getElementById("resultat").innerHTML=num1+"-"+num2+"="+(num1-num2); 
+                            break;
+                        case "3":
+                            document.getElementById("resultat").innerHTML=num1+"*"+num2+"="+(num1*num2); 
+                            break;
+                        case "4":
+                            document.getElementById("resultat").innerHTML=num1+"/"+num2+"="+(Math.round((num1/num2)*1000)/100); 
+                            break;
+                    }
+                }
+                else {
+                    alert("has de seleccionar números");
+                    console.log("has de seleccionar números");
+                    document.getElementById("cmon").style.opacity = 100;
+                }
+            }
+        </script>
+    </body>
+</html>

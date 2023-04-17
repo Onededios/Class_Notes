@@ -1,0 +1,37 @@
+<rdf:RDF
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:admin="http://webns.net/mvcb/">
+<foaf:PersonalProfileDocument rdf:about="">
+  <foaf:maker rdf:resource="#me"/>
+  <foaf:primaryTopic rdf:resource="#me"/>
+  <admin:generatorAgent rdf:resource="http://www.ldodds.com/foaf/foaf-a-matic"/>
+  <admin:errorReportsTo rdf:resource="mailto:leigh@ldodds.com"/>
+</foaf:PersonalProfileDocument>
+<foaf:Person rdf:ID="me">
+<foaf:name>JOSE GARCIA</foaf:name>
+<foaf:title>UF1M03</foaf:title>
+<foaf:givenname>JOSE</foaf:givenname>
+<foaf:family_name>GARCIA</foaf:family_name>
+<foaf:nick>JUNIO</foaf:nick>
+<foaf:mbox_sha1sum>f63b7bc89426333eafff7f8d4d7359e93947896f</foaf:mbox_sha1sum>
+<foaf:homepage rdf:resource="Ojitolarecu"/>
+<foaf:depiction rdf:resource="recus"/>
+<foaf:phone rdf:resource="tel:8475049874"/>
+<foaf:workplaceHomepage rdf:resource="extraordinaria"/>
+<foaf:workInfoHomepage rdf:resource="buscarnamespace"/>
+<foaf:schoolHomepage rdf:resource="puigcastellar"/>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>a</foaf:name>
+<foaf:mbox_sha1sum>97c3bf8b582d252303934b0c6b0ae889dfbc8805</foaf:mbox_sha1sum></foaf:Person></foaf:knows>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>robert</foaf:name>
+<foaf:mbox_sha1sum>95b6292d4c42df8f453eb9e60fe185e5a24bbe0b</foaf:mbox_sha1sum></foaf:Person></foaf:knows>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>drhuevoslargos</foaf:name>
+<foaf:mbox_sha1sum>3f8ed584759aaa6a6263c9e197d7c2b0acdcb999</foaf:mbox_sha1sum></foaf:Person></foaf:knows></foaf:Person>
+</rdf:RDF>

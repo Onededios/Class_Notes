@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+		<!--	created with www.mysitemapgenerator.com	-->
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+	<channel>
+		<title>Museu de la ciència</title>
+		<link><![CDATA[https://cosmocaixa.org]]></link>
+		<description>Museu de la Ciència | CosmoCaixa Barcelona | Fundació “la Caixa”</description>
+		<language>es</language>
+		<pubDate>Thu, 02 Feb 2023 10:02:11 +0000</pubDate>
+		<generator>MySitemapGenerator (www.mysitemapgenerator.com)</generator>
+
+		<item> 
+			<guid isPermaLink="false">1946294900</guid>
+			<title>Arts del Moviment i Ciència | Cicles | Museu de la ciència, CosmoCaixa Barcelona</title>
+			<link>https://cosmocaixa.org/ca/p/arts-del-moviment-i-ciencia_c49093183</link>
+			<dc:creator>Administrator</dc:creator>
+			<category>Site News</category>
+			<description>Consulta la informació, programació i compra d'entrades per al cicle Arts del Moviment i Ciència al recinte Museu de la ciència, CosmoCaixa Barcelona</description>
+			<pubDate>Thu, 02 Feb 2023 12:02:10 +0200</pubDate>
+		</item>
+		<item>
+			<guid isPermaLink="false">604297103</guid>
+			<title>Caçadors de planetes | Altres | Museu de la Ciència CosmoCaixa</title>
+			<link>https://cosmocaixa.org/ca/p/cacadors-de-planetes_a13651529</link>
+			<dc:creator>Administrator</dc:creator>
+			<category>Site News</category>
+			<description>Consulta la informació, programació i compra d'entrades per a l'activitat Caçadors de planetes al recinte Museu de la ciència, CosmoCaixa Barcelona</description>
+			<pubDate>Thu, 02 Feb 2023 12:02:09 +0200</pubDate>
+		</item>
+		<item>
+			<guid isPermaLink="false">2454425117</guid>
+			<title>Planetari bombolla | Tallers | Museu de la Ciència CosmoCaixa</title>
+			<link>https://cosmocaixa.org/ca/p/planetari-bombolla_a25988347</link>
+			<dc:creator>Administrator</dc:creator>
+			<category>Site News</category>
+			<description>Consulta la informació, programació i compra d'entrades per a l'activitat Planetari bombolla al recinte Museu de la ciència, CosmoCaixa Barcelona</description>
+			<pubDate>Thu, 02 Feb 2023 12:02:08 +0200</pubDate>
+		</item>
+	</channel> 
+</rss>

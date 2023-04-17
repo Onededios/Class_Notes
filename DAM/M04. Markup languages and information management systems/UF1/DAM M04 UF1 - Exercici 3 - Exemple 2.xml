@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE arrel SYSTEM "UF1Exercici3Exemple2.dtd"> 
+<arrel xmlns="http://www.elpuig.xeill.net/default" xmlns:c="http://www.elpuig.xeill.net/concerts" xmlns:t="http://www.elpuig.xeill.net/teatre">
+	<c:esdeveniments>
+		<c:esdeveniment>
+			<c:grup>Oques Grasses</c:grup>
+			<c:lloc>El moll de la fusta</c:lloc>
+			<c:data>2017-09-12 22:30</c:data>
+			<c:entrada gratuita="si"/>
+		</c:esdeveniment>
+		<c:esdeveniment>
+			<c:grup>Zoo</c:grup>
+			<c:lloc>Sala Apolo</c:lloc>
+			<c:data>2018-01-03 02:45</c:data>
+			<c:entrada gratuita="no">25</c:entrada>
+		</c:esdeveniment>
+		<c:esdeveniment>
+			<c:grup>Txarango</c:grup>
+			<c:lloc>El Poble Espanyol</c:lloc>
+			<c:data>2018-06-24</c:data>
+			<c:entrada gratuita="no">17.5</c:entrada>
+		</c:esdeveniment>
+	</c:esdeveniments>
+
+	<t:esdeveniments>
+		<t:esdeveniment>
+			<t:companyia>La Cubana</t:companyia>
+			<t:lloc>Teatre Colisseum</t:lloc>
+			<t:data>2017-11-26 20:30</t:data>
+			<t:entrada>Lliure</t:entrada>
+		</t:esdeveniment>
+		<t:esdeveniment>
+			<t:companyia>El Tricicle</t:companyia>
+			<t:lloc>Teatre Poliorama</t:lloc>
+			<t:data>2018-12-01 21:00</t:data>
+			<t:entrada>22€ per a majors de 18 anys; 5€ per a menors de 18 anys i majors de 65 anys.</t:entrada>
+		</t:esdeveniment>	
+	</t:esdeveniments>
+</arrel>

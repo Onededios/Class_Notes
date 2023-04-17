@@ -1,0 +1,45 @@
+<rss version="2.0">
+    <!-- Le faltaba la etiqueta channel -->
+    <channel>
+        <!-- Perdona, pero esto lo he tenido que ordenar un poco -->
+        <title>RSS Title</title>
+        <link>http://www.example.com/main.html</link>
+        <description>This is an example of an RSS feed</description>
+        <lastBuildDate>Mon, 06 Sep 2010 00:01:00 +0000 </lastBuildDate>
+        <!-- Aquí le he tenido que cambiar el formato de fecha -->
+        <pubDate>Sun, 06 Sep 2009 16:20:00 +0000</pubDate>
+        <ttl>1800</ttl>
+
+        <!-- He reemplazado las etiquetas post por item, ya que no eran correctas -->
+        <item>
+            <title>Example entry</title>
+            <description>Here is some text containing an interesting description.</description>
+            <link>http://www.example.com/blog/post/1</link>
+            <!-- No existe un elemento id en rss, por ello lo he cambiado a guid -->
+            <guid isPermaLink="false">7bd204c6-1655-4c27-aeee-53f933c5395f</guid>
+            <pubDate>Sun, 06 Sep 2009 16:20:00 +0000</pubDate>
+            <category>category1</category>
+            <category>category2</category>
+        </item>
+        
+        <!-- Aquí es donde he añadido la nueva entrada del feed -->
+        <item> 
+            <!-- Identificador para la entrada -->
+            <!-- Si quitamos el isPermaLink="" tenemos que introducir un enlace diferente al de arriba -->
+			<guid isPermaLink="false">1946294900</guid>
+            <!-- Título del artículo -->
+			<title>Arts del Moviment i Ciència | Cicles | Museu de la ciència, CosmoCaixa Barcelona</title>
+            <!-- Enlace del destino -->
+			<link>https://cosmocaixa.org/ca/p/arts-del-moviment-i-ciencia_c49093183</link>
+            <!-- Descripción del artículo Podemos incluir el artículo completo o un pequeño resumen -->
+			<description>Consulta la informació, programació i compra d'entrades per al cicle Arts del Moviment i Ciència al recinte Museu de la ciència, CosmoCaixa Barcelona</description>
+            <!-- Categoría/s de la entrada -->
+            <category>Site News</category>
+            <!-- Fecha de publicación de la entrada (para ordenar nuestras entradas dentro del feed) -->
+            <pubDate>Thu, 02 Feb 2023 12:02:10 +0200</pubDate>
+            <!-- La nueva etiqueta que antes no ha aparecido en el documento -->
+            <!-- Especifica el autor y su forma de contacto (email) -->
+            <author>manolo@manolito.manolo (Manolito, Manolo)</author>
+		</item>
+    </channel>
+</rss>

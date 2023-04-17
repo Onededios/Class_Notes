@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Sample Feed - Favorite RSS Related Software &amp; Resources</title>
+    <subtitle>Take a look at some of FeedForAll&apos;s favorite software and resources for learning more about RSS.</subtitle>
+    <link href="http://www.feedforall.com"></link>
+    <category term="Computers/Software/Internet/Site Management/Content Management"></category>
+    <rights>Copyright 2004 NotePage, Inc.</rights>  
+    <updated>2002-10-02T15:00:00.05Z</updated> 
+    <logo>http://www.feedforall.com</logo>
+	 <id>urn:uuid:1225c695-cfb8-4ebb-baaa-80da344efa6a</id>
+    <entry>
+      <title>RSS Resources</title>
+      <content>Be sure to take a look at some of our favorite RSS Resources&lt;br&gt;
+&lt;a href=&quot;http://www.rss-specifications.com&quot;&gt;RSS Specifications&lt;/a&gt;&lt;br&gt;
+&lt;a href=&quot;http://www.blog-connection.com&quot;&gt;Blog Connection&lt;/a&gt;&lt;br&gt;
+&lt;br&gt;</content>
+      <link href="http://www.feedforall.com"></link>
+	  <id>urn:uuid:1225c695-cfb8-4ebb-aaaa-80da344efa6a</id>
+      <published >2002-10-02T15:00:00.05Z</published >
+	  <updated>2002-10-02T15:00:00.05Z</updated> 
+	  <author>
+			<name>John Doe</name>
+			<email>johndoe@example.com</email>
+		</author>
+    </entry>
+    <entry>
+      <title>Recommended Desktop Feed Reader Software</title>
+      <content>&lt;b&gt;FeedDemon&lt;/b&gt; enables you to quickly read and gather information from hundreds of web sites - without having to visit them. Don&apos;t waste any more time checking your favorite web sites for updates. Instead, use FeedDemon and make them come to you. &lt;br&gt;
+More &lt;a href=&quot;http://store.esellerate.net/a.asp?c=1_SKU5139890208_AFL403073819&quot;&gt;FeedDemon Information&lt;/a&gt;</content>
+      <link href="http://www.feedforall.com/feedforall-partners.htm"></link>
+	  <id>urn:uuid:1225c695-cfb8-4ebb-aaaa-80da344efafa</id>
+      <published >2002-10-02T15:00:00.05Z</published >
+	  <updated>2002-10-02T15:00:00.06Z</updated> 
+	  <author>
+			<name>John Doe</name>
+			<email>johndoe@example.com</email>
+		</author>
+    </entry>    
+</feed>

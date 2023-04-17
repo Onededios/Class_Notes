@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <!-- Titulo de la web o sección -->
+    <title>John is dead</title>
+    <!-- Identifica una página web relacionada -->
+    <link href="https://johnisdead.fandom.com/wiki/Johnisdead.com" />
+    <!-- La útlima fecha en la que se generó el RSS -->
+    <updated>2023-12-13T18:30:02Z</updated>
+    <!-- El autor del feed -->
+    <author>
+        <!-- Necesita tener por lo menos un autor -->
+        <name>John</name>
+    </author>
+    <!-- Identifica una entrada usando una URI única y permanente -->
+    <id>urn:uuid:60a76c80-d399-11d9-b93C-0003939e0af6</id>
+
+    <!-- Entrada -->
+    <entry>
+        <!-- Contiene el titulo de la entrada -->
+        <title>5/14/15</title>
+        <!-- Identifica una página web relacionada -->
+        <link href="https://johnisdead.fandom.com/wiki/Johnisdead.com#5/14/15" />
+        <!-- Identifica una entrada usando una URI única y permanente -->
+        <id>urn:uuid:1225c695-cfb8-4ebb-aaaa-80da344efa6a</id>
+        <!-- La útlima vez en la que se modificó la entrada -->
+        <updated>2023-12-13T18:30:02Z</updated>
+        <!-- Una pequeña descripción de la entrada -->
+        <summary>Page - johnisdead.com Title of page - "WAKE UP" Audio - "background.mp3" -
+            A slow, distorted song. Loudly corrupts at a few points. Images -
+            "Foggyworld248.jpg" - A foggy street at night.</summary>
+        <!-- El autor del feed -->
+        <author>
+            <!-- Necesita tener por lo menos un autor -->
+            <name>John</name>
+        </author>
+    </entry>
+
+</feed>

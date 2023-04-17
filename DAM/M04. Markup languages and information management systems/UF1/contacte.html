@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacte</title>
+    <style>
+        table, td, th {border: 1px solid black; text-align: center;} input,textarea {width: 96.5%; padding: 1%; border-radius: 10px;}
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contacte.html">Contacte</a></li>
+        <li><a href="calculadora.html">Calculadora</a></li>
+    </ul>
+    <h1>Contacte</h1>
+    <p>Si us plau, ompliu el següent formulari si voleu posar-vos en contacte amb nosaltres.</p>
+    <form target="_blank" action="formResult.html" method="get">
+        <table>
+            <tr> <!-- fila 1 -->
+                <td> <!-- columna 1 -->
+                    <label for="nom">Nom:</label>
+                </td> 
+                <td> <!-- columna 2 -->
+                    <input type="text" id="nom" name="nom" placeholder="Juanra">
+                </td>
+                <td><label for="cognom">Cognom:</label></td>
+                <td><input type="text" id="cognom" name="cognom" placeholder="Botieso"></td>
+            </tr>
+            <tr> <!-- fila 2 -->
+                <td><label for="edad">Edad:</label></td> 
+                <td><input type="number" id="edad" name="edad" placeholder="69"></td>
+                <td><label for="correo">Correo:</label></td> 
+                <td><input type="email" id="correo" name="correo" placeholder="juanrabotieso10@gmail.com"></td>
+                
+            </tr>
+            <tr>
+                <td colspan="2"><a>Gènere:</a></td>
+                <td colspan="2"><a>Idioma:</a></td>
+            </tr>
+            <tr>
+                <td><label for="home">Home</label></td>
+                <td><input type="radio" id="home" name="genere" value="home"></td>
+                <td><label for="catala">Català</label></td>
+                <td><input type="checkbox" id="catala" name="idioma" value="catala" checked></td>
+            </tr>
+            <tr>
+                <td><label for="dona">Dona</label></td>
+                <td><input type="radio" id="dona" name="genere" value="dona"></td>
+                <td><label for="castella">Castellà</label></td>
+                <td><input type="checkbox" id="castella" name="idioma" value="castella"></td>
+            </tr>
+            <tr>
+                <td><label for="altres">Altres</label></td>
+                <td><input type="radio" id="altres" name="genere" value="altres" checked></td>
+                <td><label for="angles">Anglès</label></td>
+                <td><input type="checkbox" id="angles" name="idioma" value="angles"></td>
+            </tr>
+            <tr>                 
+                <td><label for="contacte">Tipus de contacte:</label></td> 
+                <td colspan="3">
+                    <select name="contacte" id="contacte">
+                        <option value="cont_suggeriment">Suggeriment</option>
+                        <option value="cont_reclamacio">Reclamació</option>
+                        <option value="cont_altres" selected>Altres</option>
+                    </select>
+                </td> 
+            </tr>
+            <tr>
+                <td><label for="comentaris">Comentaris:</label></td>
+                <td colspan="3"><textarea id="comentaris" name="comentaris" rows="4" cols="10" placeholder="Dime todo lo que tu quieras papi..."></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="reset"></td>
+                <td colspan="2"><input type="submit" onclick="window.location.href='contacte.html'"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
