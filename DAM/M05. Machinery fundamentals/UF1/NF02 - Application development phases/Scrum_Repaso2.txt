@@ -1,0 +1,60 @@
+Scrum
+Scrum es una metodología de gestión de proyectos orientada a desarrollos en continua evolución.
+Es decir, en el trascurso del desarrollo se pueden alterar, añadir o cambiar tareas en función
+de la demanda de mercado.
+
+Esta metodología permite un continuo desarrollo a la vez que entregas periódicas para tener
+enganchados a los stakeholders y seguidores del proyecto.
+
+Equipo de trabajo
+- Stakeholders:
+
+- Product Owner:
+El product owner es el que se encarga de gestionar el backlog, añadiéndo o sacando tareas.
+Éste mismo tiene que estar al tanto de las tendencias del mercado, para añadir o sustraer tareas del backlog.
+
+- Scrum Master:
+Es un guía o gurú que servirá de apoyo en las reuniones.
+Ésta persona únicamente debe asesorar al equipo sobre scrum y participará en todas las reuniones para
+asegurarse de que se cumplen las normas de scrum.
+
+- Development Team:
+
+
+Artefactos
+- Product Backlog:
+El product backlog es el baúl de los recuerdos en el que se guardan tareas a implementar, funcionalidades o bugs.
+Es administrado por el product owner, que añadirá o eliminará las tareas.
+
+- Sprint:
+El sprint es una unidad de tiempo que define la duración del mismo.
+Debe de ser mínimo de una semana y como máximo de 4 semanas, aunque la duración por defecto es dos semanas.
+Durante el sprint el development team se encargará de desarrollar las tareas encomendadas.
+
+    - Sprint planning & goal
+    Un sprint planning & goal es una reunion, de 8h como máximo para un sprint de 1 mes, en la que se planifican
+    las tareas a realizar durante el sprint.
+    En esta reunion también se planifica el objetivo a conseguir a final del mismo.
+
+    - Sprint retrospective
+    La sprint retrospective es otra reunión, de no más de 3h para un sprint de 1 mes,
+    en la que participa el equipo al completo y se evalua el trabajo entre el mismo
+    y como mejorarlo para incrementar la productividad.
+
+    - Sprint review
+    El sprint review es una reunion informal periódica, de no más de 3h para un sprint de 1 mes,
+    en la que se comenta como ha ido el transcurso del mismo.
+    En ella se dictamina si hace falta un cambio de versión o si se debe de dropear alguna funcionalidad
+    ya desarrollada.
+
+    - Daily scrum
+    El daily scrum es una reunión diária que se realiza entre el development team para planificar las tareas,
+    evaluar el progreso y comentar los problemas, inconvenientes o errores a la hora del desarrollo.
+
+- Sprint backlog:
+El sprint backlog es un subfondo en el product backlog, en el que se guardan las tareas a implementar en el
+próximo scrum.
+El development team es el que coge las tareas a implementar en el próximo sprint.
+
+- Increment:
+Increment es la agrupación de tareas finalizadas durante un sprint.

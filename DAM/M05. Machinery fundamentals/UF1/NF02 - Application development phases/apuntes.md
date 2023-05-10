@@ -1,6 +1,11 @@
 # Fases de desarrollo de una aplicación
 
+Metodologías de gestión de proyectos
+
 ## Métrica 3.0
+
+Es una metodología tradicional en cascada, que se divide en una serie de fases secuenciales, en las cuales cada
+fase debe de ser completada antes de continuar con la siguiente.
 
 Este tipo de metodología define o detalla los pasos a seguir desde que se nos presenta una oportunidad de negocio
 hasta que conseguimos desarrollar la aplicación y entregarla al cliente. 
@@ -136,14 +141,17 @@ Un recurso puede estar sobrecargado o no aprovechado.
 
 ## SCRUM
 
-Scrum es lo opuesto a la **Metrica 3.0**, ya que es una tecnología ágil, enfocada a proyectos que están evolucionando constantemente. 
+Scrum es lo opuesto a la **Metrica 3.0**, ya que es una tecnología ágil, 
+enfocada a proyectos que están evolucionando constantemente. 
 
 Se plantea un desarrollo constante con entregas periódicas.
 
 La ventaja respecto a la anterior, es que permite realizar entregas mostrando el transcurso de la aplicación.
 Así como enseñando las funcionalidades creadas mediante los sprints.
 
-Los objetivos del proyecto se revisan cada vez que acaba un sprint, permitiendo estar pendiente a las tendencias del mercado y así, en el caso de que se produzca un cambio, poder actualizar el proyecto sin mayor problema.
+Los objetivos del proyecto se revisan cada vez que acaba un sprint, 
+permitiendo estar pendiente a las tendencias del mercado y así, en el caso de que se produzca un cambio, 
+poder actualizar el proyecto sin mayor problema.
 
 ### Equipo de trabajo
 
@@ -231,4 +239,3 @@ En esta reunión también participa el scrum master, asegurando que la reunión 
 ## Kanban
 
 Una pizarra de Kanban son básicamente columnas que definen un estado y dentro de las mismas, tarjetas de tareas.
-

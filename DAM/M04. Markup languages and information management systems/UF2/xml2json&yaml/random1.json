@@ -1,0 +1,5 @@
+{ "client": [
+ {"clientID":1,"clientName":"ANTONIO","clientRegDate":{"year":2023,"month":"MAY","chronology":{"calendarType":"iso8601","id":"ISO"},"monthValue":5,"dayOfMonth":3,"dayOfWeek":"WEDNESDAY","era":"CE","dayOfYear":123,"leapYear":false},"clientActive":false},
+{"clientID":1,"clientName":"ANTONIO","clientRegDate":{"year":2023,"month":"MAY","chronology":{"calendarType":"iso8601","id":"ISO"},"monthValue":5,"dayOfMonth":3,"dayOfWeek":"WEDNESDAY","era":"CE","dayOfYear":123,"leapYear":false},"clientActive":false}
+]
+  }

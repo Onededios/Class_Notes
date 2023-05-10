@@ -1,0 +1,66 @@
+Metodologías de gestión de proyectos
+
+Metrica v3.0
+Metrica v3.0 es una metodologia tradicional estilo waterfall que se emplea para gestionar proyectos y todas sus fases.
+Nos permite desde conocer si un proyecto puede ser interesante para llevarlo a cabo,
+hasta el desarrollo e implantación final.
+
+Como todas las metodologías tradicionales, no es susceptible a cambios en el proceso de desarrollo,
+ya que si se diera el caso, al estar planificado el proyecto de inicio a final, habría que
+realizar muchas modificaciones, que pueden llevar consigo errores en la planificación.
+
+Equipo de desarrollo
+En el equipo de desarrollo encontramos:
+
+- Stakeholders
+Los stakeholders son las partes interesadas en que el proyecto siga a delante.
+
+- Jefes de proyecto
+Los jefes de proyecto tienen un cargo directivo y son los que se encargan de pasar información entre departamentos
+y de coordinar al equipo de desarrollo.
+
+- Analistas
+Los analistas son los encargados de recopilar toda la información requerida por el cliente para
+desarrollar la aplicación. Es la tarea más importante, pues debe de conseguir cualquier mínima especificación o necesidad
+para trasladarla al equipo.
+
+- Consultores
+Los consultores son maestros en una materia y dan soporte al equipo, brindando información y asesoramiento.
+
+- Programadores o desarrolladores
+Los desarrolladores son los encargados de desarrollar el producto o aplicación en función de la información
+recopilada por los analistas.
+
+Fases de desarrollo
+- Estudio de viabilidad
+En el estudio de viabilidad se realizan las fórmulas pertinentes para comprobar que el proyecto
+es rentable para nuestra empresa, tanto por el tiempo de desarrollo y gastos como por la remuneración.
+En esta primera fase se decide si el proyecto continúa.
+
+- Requisitos funcionales
+Son los requisitos orientados más a los usuarios, a la gestión de los mismos y a las funcionalidades de la aplicación.
+
+- Requisitos no funcionales
+Son los requisitos orientados a que la aplicación no se cuelgue y no tenga errores a la hora de ejecutarse.
+
+- Scope
+En el scope se dictamina el alcance del proyecto, ya que en el caso de que fuera demasiado ambicioso,
+habría que centrarse en desarrollar ciertas funcionalidades antes.
+
+- Diagramas UML
+En eset paso se diseñan los diagramas de casos de uso y de clases,
+en los que se detalla la estructura del programa y lo que los usuarios pueden hacer en él.
+
+- Diseño
+Se realiza la estructura del programa y el diseño de migración de datos.
+También se realiza el programa de testeo de nuestro programa.
+
+- Construcción
+En la fase de construcción los desarrolladores se ponen manos a la obra a desarrollar el código del programa.
+Ya se empieza la migración de datos y con el testeo de la aplicación.
+
+- Implantación y aceptación
+En la implantación y aceptación el programa se prueba directamente en el cliente para asegurarse de que cumple con
+todos los requerimientos.
+Se realiza la migración de datos final, paulatinamente.
+Se prepara un plan de mantenimiento o de atención al cliente.

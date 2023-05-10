@@ -1,0 +1,34 @@
+{
+  "cotxe": [
+    {
+      "matricula": "ABC123",
+      "color": "Verde",
+      "model": "UV",
+      "preus": {
+        "cost": 10000,
+        "preu_sortida": 20000,
+        "oferta": 1231
+      }
+    },
+    {
+      "matricula": "ABC124",
+      "color": "Azul",
+      "model": "AV",
+      "preus": {
+        "cost": 30000,
+        "preu_sortida": 50000,
+        "oferta": 4124
+      }
+    },
+    {
+      "matricula": "ABC125",
+      "color": "Amarillo",
+      "model": "TV",
+      "preus": {
+        "cost": 10000,
+        "preu_sortida": 20000,
+        "oferta": 9874
+      }
+    }
+  ]
+}

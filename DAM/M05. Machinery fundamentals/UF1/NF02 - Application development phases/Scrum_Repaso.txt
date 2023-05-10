@@ -1,0 +1,64 @@
+Scrum
+Scrum es una metodologia agil de gestion de proyectos que permite llevar a cabo un proyecto
+mediante un desarrollo en constante evolución, es decir, scrum permite alterar o modificar partes
+del desarrollo del proyecto en función de las tendencias de mercado.
+
+Scrum permite realizar un desarrollo continuo a la vez que se realizan entregas periodicas del estado
+actual del desarrollo del proyecto, manteniendo así las expectativas de los stakeholders y seguidores.
+
+Equipo de desarrollo
+- Product Owner
+El product owner es el que se encarga de recoger y asignar que funcionalidades se van a realizar en cada sprint.
+Se encarga de recoger y analizar funcionalidades en función de las tendencias del mercado o de los requerimientos
+del cliente, para meterlos en el backlog o sacarlas del mismo y ponerlas en producción.
+
+- Stakeholders
+Los stakeholders son aquellos interesados en que el proyecto llegue a buen puerto.
+
+- Scrum Master
+El scrum master es el guía o gurú de scrum, únicamente formado en esta metodología.
+Es el que imparte orden en las reuniones y se asegura de que se cumplan todas las normas de la metolodogia.
+
+- Development team
+El development team es el encargado de llevar a cabo el proyecto.
+Se autogestiona, ya que cada miembro del grupo selecciona en que tarea del sprint
+backlog realizar durante el próximo sprint.
+
+Artefactos
+- Product Backlog
+El product backlog es como una baúl de los recuerdos, en el que se almacenan las tareas a realizar.
+El product owner es el encargado de gestionarlo, sacando y metiendo del mismo las tareas a realizar.
+
+- Sprint Backlog
+Es un subconjunto del product backlog, en el que se definen las tareas a realizar en el siguiente sprint.
+Cada persona del development team sacará de aquí las tareas para ponerlas en producción.
+
+- Sprint
+Un sprint es una unidad mínima de tiempo, que es definida una única vez en el proyecto para decidir así
+cuanto duran los sprints.
+Esta decisión es inamovible durante el transcurso del proyecto.
+Los sprints no pueden durar más de 4 semanas ni menos de una, aunque la medida por defecto son 2 semanas.
+
+    - Sprint planning and sprint goal
+    El sprint planning es una reunión (de 1 o 2h por semana) que se realiza para planificar las tareas a realizar
+    durante un sprint.
+
+    En esta reunión también se define el objetivo que se planea conseguir en el sprint.
+
+    - Sprint review
+    Es una reunión informal que se lleva a cabo una vez se acaba el sprint, para comentar la retrospectiva
+    de lo que se ha realizado durante el mismo. Sirve para dictaminar si hace falta desarrollar una nueva
+    versión o si se tiene que dropear alguna funcionalidad ya desarrollada.
+
+    - Daily scrum
+    Reuniones diarias de como mucho 15min que se hace con el equipo de desarrollo.
+    Sirven para planificar las tareas que se van a realizar durante el día y evaluar así el progreso.
+    En ella también se comentan errores o problemas a la hora del desarrollo.
+
+    - Sprint retrospective
+    Mediante la reunión de sprint retrospective hacemos una autoevaluación del equipo de trabajo.
+    En ella se comentan cosas a mejorar como equipo para llegar a ser más productivos.
+    No puede durar más de 3h en el caso de un sprint de un mes de duración.
+
+- Increment
+Incremento es una agrupación de las tareas que se han finalizado durante un sprint.

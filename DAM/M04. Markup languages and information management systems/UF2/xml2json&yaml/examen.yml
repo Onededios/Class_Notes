@@ -1,0 +1,21 @@
+professors:
+  - professor:
+      nom: "Miguel: el oso panda"
+      cognom: Alvarado, cuñado
+      assignatures:
+        - assignatura:
+            nombre: Informática
+            duracion: "1"
+        - assignatura:
+            nombre: Matemáticas
+            duracion: 2
+  - professor:
+      nom: Benito
+      cognom: Camela
+      assignatures:
+        - assignatura:
+            nombre: Álgebra
+            duracion: 1
+        - assignatura:
+            nombre: Filosofía
+            duracion: 2
